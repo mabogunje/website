@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Juicebox Lite Gallery"
+>
+  <image imageURL="images/karale-site.jpeg"
+	thumbURL="thumbs/karale-site.png"
+	linkURL="images/karale-site.jpeg"
+	linkTarget="_blank">
+	<title>WordPress Customization for Karale.org.ng</title>
+  </image>
+  <image imageURL="images/dasa-site.jpeg"
+	thumbURL="thumbs/tall.jpeg"
+	linkURL="images/dasa-site.jpeg"
+	linkTarget="_blank">
+	<title>PHP Website for Drexel African Students Association</title>
+  </image>
+  <image imageURL="images/sekai-site.jpeg"
+	thumbURL="thumbs/sekai-site.jpeg"
+	linkURL="images/sekai-site.jpeg"
+	linkTarget="_blank">
+  <title>HTML/CSS Site for Project Sekai</title>
+  </image>
+  <image imageURL="images/website-2011.jpeg"
+	thumbURL="thumbs/tall.jpeg"
+	linkURL="images/website-2011.jpeg"
+	linkTarget="_blank">
+	<title>My Old Django Website</title>
+  </image>
+  <image imageURL="images/acm-site.jpeg"
+	thumbURL="thumbs/acm-website.jpeg"
+	linkURL="images/acm-site.jpeg"
+	linkTarget="_blank">
+  <title>HTML/CSS Website for Apostolus Campus Ministries</title>
+  </image>
+  <image imageURL="images/redstring-site.jpeg"
+	thumbURL="thumbs/redstring-site.jpeg"
+	linkURL="images/redstring-site.jpeg"
+	linkTarget="_blank">
+	<title>WordPress Customization for The Red String blog</title>
+  </image>
+</juiceboxgallery>

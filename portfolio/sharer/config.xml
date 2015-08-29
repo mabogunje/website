@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+	galleryTitle="Juicebox Lite Gallery"
+>
+  <image imageURL="images/2nigeria-blog.jpeg"
+	thumbURL="thumbs/2nigeria-blog.jpeg"
+	linkURL="images/2nigeria-blog.jpeg"
+	linkTarget="_blank">
+	<caption><![CDATA[<u><a href="http://2nigeria.wordpress.com" target="_blank">Visit my blog</a></u> about Nigeria.]]></caption>
+  </image>
+  <image imageURL="images/theredstring-blog.jpeg"
+	thumbURL="thumbs/theredstring-blog.jpeg"
+	linkURL="images/theredstring-blog.jpeg"
+	linkTarget="_blank">
+	<caption><![CDATA[<u><a href="http://www.theredstringblog.com" target="_blank">Visit my blog</a></u>]]></caption>
+  </image>
+</juiceboxgallery>

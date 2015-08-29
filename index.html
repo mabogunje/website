@@ -1,0 +1,313 @@
+<html>
+<head>
+    <title> I am Damola Mabogunje </title>
+    <link rel="icon" href="/~damola/tia/img/favicon.ico" type="image/x-icon" />
+    <!-- CSS -->
+    <link href="css/base.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/timeline.css" rel="stylesheet" type="text/css" />
+
+    <!-- JS -->
+    <script src="js/jquery-1.10.2.js"></script>
+	  <script src="js/jbcore/juicebox.js"></script>
+	  <script src="js/ChartJS/Chart.js"></script>
+    <script src="js/lib.js" type="text/javascript"></script>
+
+    <meta name="description" content="The Personal Website of Damola Mabogunje" />
+    <meta name="keywords" content="Damola Mabogunje,Portfolio,Resume" />
+    <meta name="author" content="Damola Mabogunje" />
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+</head>
+
+<body onload="initPortfolios(); setProfile('CODER');">
+  <header>
+    <h1>Hello! I am <a class="red" href="#" onclick="setProfile('SHARER');">Damola Mabogunje</a>, and this is <a style="color:#acbae1;" href="#" onclick="setProfile('CODER')">what I do</a>.</h1>
+  </header>
+  <ul class="menu">
+    <li class="third">
+      <div id="button-writer" class="button writer">
+        <span class="icon writer"></span>
+        <h2>I Write</h2>
+        <p>I started creatively writing at the young age of 10: short poems about the fascinations of a young child. By the time I was 21, I had amassed quite the collection, and I made my debut on the writing scene.</p>
+        <br/>
+        <span class="read-more" onclick="setProfile('WRITER')">Click to Learn More</span>
+      </div>
+    </li>
+    <li class="third">
+    <div id="button-coder" class="button coder selected">
+        <span class="icon coder"></span>
+        <h2>I Code</h2>
+        <p>My foray into computer science began with dreams of video games. But once I started to study the discipline in university, I became enamored with the web. I haven't stopped developing since.</p>
+        <br/><br/>
+        <span class="read-more" onclick="setProfile('CODER')">See Below</span>
+      </div>
+    </li>
+    <li class="third">
+      <div id="button-sharer" class="button sharer">
+        <span class="icon sharer"></span>
+        <h2>I Share</h2>
+        <p>People call me a torn soul because I can't seem to decide whether I am an artist or a scientist first. I say, I am a man of many talents, and I believe that sharing is caring.</p>
+        <br/><br/>
+        <span class="read-more" onclick="setProfile('SHARER')">Click to Learn More</span>
+      </div>
+    </li>
+  </ul>
+  <div id="container">
+    <section id="col1" class="third">
+      <article class="writer hidden">
+        <h3>History</h3>
+        <div class="timeline">
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Published <a class="brown" href="http://www.konga.com/a-season-for-all-things-damola-mabogunje-1357154" target="_blank">A Season for All Things</a></h4>
+              <p>A Season for All Things is my second collection of poetry, inspired by the ups and downs of love and life.</p>
+              <span class="date">December 2014</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Blogger at <a class="brown" href="http://2nigeria.wordpress.com/" target="_blank">To Nigeria, My Country</a></h4>
+              <p>To Nigeria, My Country is my second blog where I write about the going-ons in Nigeria.</p>
+              <span class="date">January 2014</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Blogger at <a class="brown" href="http://theredstringblog.com/" target="_blank">The Red String</a> </h4>
+              <p>The Red String is my personal blog where I make stories out of the happenings in my life.</p>
+              <span class="date">September 2010</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Debut</h4>
+              <p>Co-Author of <a class="brown" href="http://www.amazon.com/The-Duet-An-Anthology-Poems/dp/0976694115" target="_blank">The Duet</a>.</p>
+              <span class="date"> Before </span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="coder">
+        <h3>History</h3>
+        <div class="timeline">
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Chief Technology Officer at <a class="blue" href="http://tmc.com.ng/" target="_blank">TMC</a></h4>
+              <p>I head the Communications & Technology division</p>
+              <span class="date">June 2015</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Software Engineer at <a class="blue" href="http://mathforum.org/" target="_blank">The Math Forum</a></h4>
+              <p>Jasvascript development on the $2M NSF funded EnCoMPASS grant.</p>
+              <span class="date">October 2013</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Web Developer at <a class="blue" href="http://drexel.edu/" target="_blank">Drexel University</a></h4>
+              <p>Developed features for the Computer Science Department's Drupal website</p>
+              <span class="date">April 2009</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Past</h4>
+              <p>Application Developer at JPMorganChase. Application Tester at PJM Interconnections. Junior Developer at Henkels & McCoy.</p>
+              <span class="date"> Before </span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="sharer hidden">
+        <h3>History</h3>
+        <div class="timeline">
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Graduated from <a class="red" href="http://drexel.edu/" target="_blank">Drexel University</a></h4>
+              <p>Graduated with a B.S. in Computer Science.</p>
+              <span class="date">June 2013</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Graduated from <a class="red" href="http://atlantic-hall.net/" target="_blank">Atlantic Hall</a></h4>
+              <p>I studied Literature and the Sciences at Atlantic Hall secondary school and graduated with one of the best results in my IGCSEs.</p>
+              <span class="date">June 2004</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Began Writing Poetry</h4>
+              <p>I started writing poetry at the young age of ten while in middle school.</p>
+              <span class="date">January 1997</span>
+            </div>
+          </div>
+          <div class="timeline-entry">
+            <span class="timeline-point"></span>
+            <div class="timeline-content">
+              <h4>Born</h4>
+              <p>Born in Lagos Nigeria to Mr. & Mrs. Mabogunje.</p>
+              <span class="date"> Before </span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    <section id="col2" class="third">
+      <article class="coder portfolio">
+        <h3>Portfolio</h3>
+        <div id="coder-portfolio">
+          <!-- JUICEBOX EMBED -->
+        </div>
+      </article>
+      <article class="writer portfolio hidden">
+        <h3>Portfolio</h3>
+        <div id="writer-portfolio">
+	        <!-- JUICEBOX EMBED-->
+        </div>
+      </article>
+      <article class="sharer portfolio hidden">
+        <h3>Portfolio</h3>
+        <div id="sharer-portfolio">
+	        <!-- JUICEBOX EMBED-->
+        </div>
+      </article>
+
+      <article class="coder skillChart">
+        <h3>Programming Preferences</h3>
+        <canvas id="coderSkillChart" height="75px" width="100%">
+          <!-- CHART JS EMBED -->
+        </canvas>
+      </article>
+      <article class="writer skillChart hidden">
+        <h3>Literature</h3>
+        <canvas id="writerSkillChart" height="75px" width="100%">
+          <!-- CHART JS EMBED -->
+        </canvas>
+        <ul class="legend">
+          <li>
+            <span style="background-color:#96b5b4;"></span>
+            Poetry
+          </li>
+          <li>
+            <span style="background-color:#d08770;"></span>
+            Prose
+          </li>
+          <li>
+            <span style="background-color:#a3be8c;"></span>
+            Drama
+          </li>
+        </ul>
+      </article>
+      <article class="sharer skillChart hidden">
+        <h3>Hobbies</h3>
+        <canvas id="sharerSkillChart" height="75px" width="100%">
+          <!-- CHART JS EMBED -->
+        </canvas>
+      </article>
+    </section>
+    <section id="col3" class="third">
+      <article class="coder">
+        <h3>Around the Web</h3>
+        <ul class="links">
+          <li>
+            <a href="http://linkedin.com/in/damolamabogunje" target="_blank">
+              <img src="img/logo/linkedin"/><br/>
+              linkedin.com/in/damolamabogunje
+            </a>
+          </li>
+          <li>
+            <a href="http://github.com/mabogunje" target="_blank">
+              <img src="img/logo/github"/><br/>
+              github.com/mabogunje
+            </a>
+          </li>
+          <li>
+            <a href="http://behance.net/mabogunje" target="_blank">
+              <img src="img/logo/behance"/><br/>
+              behance.net/mabogunje
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="writer hidden">
+        <h3>Around the Web</h3>
+        <ul class="links">
+          <li>
+            <a href="http://writings.mabogunje.net" target="_blank">
+              <img src="img/logo/briefcase.png"/><br/>
+              writings.mabogunje.net
+            </a>
+          </li>
+          <li>
+            <a href="http://mabogunje.deviantart.com" target="_blank">
+              <img src="img/logo/deviantart.png"/><br/>
+              mabogunje.deviantart.com
+            </a>
+          </li>
+          <li>
+            <a href="http://gravatar.com/mabogunje" target="_blank">
+              <img src="img/logo/wordpress.png"/><br/>
+              gravatar.com/mabogunje
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article class="sharer hidden">
+        <h3>Around the Web</h3>
+        <ul class="links">
+          <li>
+            <a href="http://facebook.com/damola.mabogunje" target="_blank">
+              <img src="img/logo/facebook.png"/><br/>
+              facebook.com/damola.mabogunje
+            </a>
+          </li>
+          <li>
+            <a href="http://twitter.com/d4mola" target="_blank">
+              <img src="img/logo/twitter.png"/><br/>
+              twitter.com/d4mola
+            </a>
+          </li>
+          <li>
+            <a href="http://pinterest.com/d4mola" target="_blank">
+              <img src="img/logo/pinterest.png"/><br/>
+              pinterest.com/d4mola
+            </a>
+          </li>
+        </ul>
+      </article>
+      <article>
+        <h3>Contact</h3>
+        <ul class="links">
+          <li>
+            <a href="mailto:damola@mabogunje.net?Subject=[Mabogunje.net] Enquiry">
+              <img src="img/logo/email.png"/><br/>
+              damola@mabogunje.net
+            </a>
+          </li>
+          <li>
+            <img src="img/logo/phone.png"/><br/>
+            +234 806 504 1374
+          </li>
+          <li>
+            <img src="img/logo/skype.png"/><br/>
+            adedamola.mabogunje
+          </li>
+      </article>
+    </section>
+  </div>
+</body>
+</html>

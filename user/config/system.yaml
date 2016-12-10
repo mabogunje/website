@@ -1,8 +1,13 @@
 absolute_urls: false
+timezone: ''
+default_locale: null
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
+force_ssl: false
+custom_base_url: ''
 languages:
+  supported: {  }
   include_default_lang: true
   translations: true
   translations_fallback: true
@@ -13,13 +18,14 @@ home:
   alias: /home
   hide_in_urls: false
 pages:
-  theme: developer
+  theme: developer-me
   order:
     by: default
     dir: asc
   list:
     count: 20
   dateformat:
+    default: null
     short: 'jS M Y'
     long: 'F jS \a\t g:ia'
   publish_dates: true
@@ -46,6 +52,7 @@ pages:
     - json
     - rss
     - atom
+  append_url_extension: ''
   expires: 604800
   last_modified: false
   etag: false
@@ -60,6 +67,11 @@ pages:
     - .idea
   ignore_hidden: true
   url_taxonomy_filters: true
+  frontmatter:
+    process_twig: false
+    ignore_fields:
+      - form
+      - forms
   markdown_extra: false
 cache:
   enabled: false
@@ -69,6 +81,8 @@ cache:
   prefix: g
   lifetime: 604800
   gzip: false
+  redis:
+    socket: false
 twig:
   cache: false
   debug: false
@@ -79,10 +93,14 @@ twig:
   umask_fix: false
 assets:
   css_pipeline: false
+  css_pipeline_include_externals: true
+  css_pipeline_before_excludes: true
   css_minify: false
   css_minify_windows: false
   css_rewrite: false
   js_pipeline: false
+  js_pipeline_include_externals: true
+  js_pipeline_before_excludes: true
   js_minify: false
   enable_asset_timestamp: false
   collections:
@@ -100,12 +118,22 @@ images:
   cache_all: true
   cache_perms: '0755'
   debug: false
+  auto_fix_orientation: false
 media:
   enable_media_timestamp: true
   upload_limit: 0
+  unsupported_inline_types: {  }
+  allowed_fallback_types: {  }
 session:
   enabled: true
   timeout: 1800
   name: grav-site
   secure: false
   httponly: true
+  split: true
+  path: null
+gpm:
+  releases: stable
+  proxy_url: null
+  method: auto
+  verify_peer: true

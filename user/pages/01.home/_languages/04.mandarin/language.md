@@ -1,5 +1,5 @@
 ---
-title: "English"
+title: "Mandarin"
 
 # 1 = Novice
 # 2 = Advanced Beginner
@@ -7,7 +7,7 @@ title: "English"
 # 4 = Proficient
 # 5 = Expert 
 level:
-  comprehension: 5
-  literacy: 5
+  comprehension: 2
+  literacy: 2
 
 ---

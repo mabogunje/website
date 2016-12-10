@@ -1,5 +1,5 @@
 ---
-title: "English"
+title: "Yoruba"
 
 # 1 = Novice
 # 2 = Advanced Beginner
@@ -7,7 +7,7 @@ title: "English"
 # 4 = Proficient
 # 5 = Expert 
 level:
-  comprehension: 5
-  literacy: 5
+  comprehension: 1
+  literacy: 1
 
 ---

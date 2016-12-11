@@ -19,7 +19,7 @@ content:
       - _education
       - _languages
       - _blog
-      - _listen_music
+      - _fav_anime
       - _conferences
 
       - _credits

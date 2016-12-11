@@ -1,9 +1,11 @@
 ---
-title: "Current Anime List"
+
+title: "Anime Watchlist"
 
 section_position: "sidebar"
 section_class: "list anime"
 
 content:
-  items: @self.children 
+  items: @self.children
+
 ---

@@ -17,10 +17,10 @@ content:
       - _skills
       - _testimonials
       - _education
+      - _trainings
       - _languages
       - _blog
       - _fav_anime
-      - _conferences
 
       - _credits
 ---

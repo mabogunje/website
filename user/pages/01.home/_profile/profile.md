@@ -1,5 +1,5 @@
 ---
-title: "Basic Informations"
+title: "Basic Information"
 
 section_position: "sidebar"
 section_class: "info"

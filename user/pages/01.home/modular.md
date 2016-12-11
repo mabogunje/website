@@ -13,7 +13,7 @@ content:
       - _experience
       - _github
 
-      - _basic_informations
+      - _profile
       - _skills
       - _testimonials
       - _education

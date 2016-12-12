@@ -1,6 +1,14 @@
 ---
+
 title: "Software Engineer"
-place: "Google"
-year: "2013 - 2014"
+place: "The Math Forum"
+year: "2013 - 2015"
+link: "http://mathforum.org/"
+
 ---
-Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+My time at the Math Forum was spent creating tools for Pedagogic teaching and learning at the high school level. In particular, my responsibilities revolved around one all-encompasing tool, aptly named [EnComPass](http://mathforum.org/encompass/).
+
+* JavaScript Front & Backend Development (Node JS, Ember JS)
+* NoSQL Database Design (Mongo DB)
+* TDD (regression, integration, code quality, and unit tests)
+* Development of Best Practices

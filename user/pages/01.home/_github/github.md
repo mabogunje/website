@@ -1,5 +1,8 @@
 ---
+
 title: "My Github"
-chart: "http://themes.3rdwavemedia.com/demo/developer/assets/images/github-chart.png"
+chart: "http://mabogunje.net/static/random/github-chart_12-12-2016.png"
+
 ---
-You can embed your GitHub activities using Casey Scarborough's [GitHub Activity Stream](http://caseyscarborough.com/projects/github-activity/) widget. You can also take a screenshot of your GitHub chart and put it here for fun.
+I'm not very active on GitHub, but I do have an account, and once in a while I do *something*. I hope to improve on this in 2017.
+<hr />

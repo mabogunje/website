@@ -3,5 +3,12 @@ title: "Latest Blog Posts"
 
 section_position: "sidebar"
 section_class: "blog"
+
 ---
-You can use Sascha Depold's [jQuery RSS plugin](https://github.com/sdepold/jquery-rss) to pull in your blog post feeds.
+<hr />
+<p>
+    <a class="more-link" href="http://theredstringblog.com" target="_blank">
+        <i class="fa fa-external-link"></i>
+        Go to Blog
+    </a>
+</p>

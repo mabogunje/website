@@ -2,7 +2,7 @@
 title: "The Duet"
 label: "Poetry"
 
-cover: "http://mabogunje.net/portfolio/writer/images/duet-book.jpeg"
+cover: "images/books/duet-book.jpeg"
 
 link:
   follow:

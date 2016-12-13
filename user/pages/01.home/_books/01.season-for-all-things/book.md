@@ -2,7 +2,7 @@
 title: "A Season for All Things"
 label: "Poetry"
 
-cover: "http://mabogunje.net/portfolio/writer/images/season4all-book.jpeg"
+cover: "images/books/season4all-book.jpeg"
 
 link:
   follow: 

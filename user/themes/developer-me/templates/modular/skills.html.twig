@@ -1,0 +1,41 @@
+{% set collection = page.collection() %}
+
+{% if collection | length %}
+  <p class="intro">{{ page.summary | striptags }}</p>
+
+  <div class="skillset">
+    {% for item in collection %}
+      {% set score = item.header.level.value %}
+      <div class="item">
+        <h3 class="level-title">{{ item.title }} 
+        {% if score <= 20 %}
+        <span class="level-label" {% if item.header.tooltip %}data-toggle="tooltip" data-placement="left" data-animation="true" title="{{ item.header.tooltip | e('html_attr') }}"{% endif %}>
+        Novice {% if item.header.tooltip %} <i class="fa fa-info-circle"></i> {% endif %}
+        </span>
+        {% elseif score > 20 and score <= 40 %}
+        <span class="level-label" {% if item.header.tooltip %}data-toggle="tooltip" data-placement="left" data-animation="true" title="{{ item.header.tooltip | e('html_attr') }}"{% endif %}>
+        Advanced Beginner {% if item.header.tooltip %} <i class="fa fa-info-circle"></i> {% endif %}
+        </span>
+        {% elseif score > 40 and score <= 60 %}
+        <span class="level-label" {% if item.header.tooltip %}data-toggle="tooltip" data-placement="left" data-animation="true" title="{{ item.header.tooltip | e('html_attr') }}"{% endif %}>
+        Competent {% if item.header.tooltip %} <i class="fa fa-info-circle"></i> {% endif %}
+        </span>
+        {% elseif score > 60 and score <= 80 %}
+        <span class="level-label" {% if item.header.tooltip %}data-toggle="tooltip" data-placement="left" data-animation="true" title="{{ item.header.tooltip | e('html_attr') }}"{% endif %}>
+        Pro {% if item.header.tooltip %} <i class="fa fa-info-circle"></i> {% endif %}
+        </span>
+        {% else %}
+        <small class="level-label">
+        Expert {% if item.header.tooltip %} <i class="fa fa-info-circle"></i> {% endif %}
+        </small>
+        {% endif %}
+        </span>
+        </h3>
+        <div class="level-bar">
+          <div class="level-bar-inner" data-level="{{ item.header.level.value }}%"></div>
+        </div>
+        {% if item.header.applications %}<div><small class="text-muted">{{ array(item.header.applications)|join(', ') }}</small></div>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

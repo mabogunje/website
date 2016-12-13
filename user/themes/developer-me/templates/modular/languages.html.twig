@@ -1,0 +1,36 @@
+{% set collection = page.collection() %}
+
+{% if collection | length %}
+  <ul class="list-unstyled">
+    {% for item in collection %}
+      {% set score = item.header.level.comprehension + item.header.level.literacy %}
+      <li class="item">
+        <span class="title"><strong>{{ item.title }}</strong></span> 
+        {% if score <= 2 %}
+        <span class="label label-danger">Novice</span>
+        {% elseif score > 2 and score <= 4 %}
+        <span class="label label-warning">Advanced Beginner</span>
+        {% elseif score > 4 and score <= 6 %}
+        <span class="label label-info">Competent</span>
+        {% elseif score > 6 and score <= 8 %}
+        <span class="label label-primary">Proficient</span>
+        {% else %}
+        <span class="label label-success">Expert</span>
+        {% endif %}
+        <br />
+        <span class="level">
+          Comprehension: {{ item.header.level.text }} <br class="visible-xs"/>
+          {% for star in 1..item.header.level.comprehension %}
+            <i class="fa fa-star"></i>
+          {% endfor %}
+        </span><br />
+        <span class="level">
+          Literacy: {{ item.header.literacy.text }} <br class="visible-xs"/>
+          {% for star in 1..item.header.level.literacy %}
+            <i class="fa fa-star"></i>
+          {% endfor %}
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

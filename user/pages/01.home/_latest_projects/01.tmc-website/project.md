@@ -12,11 +12,11 @@ We help Businesses of all types, to Start, Grow, and Excel
 
 ===
 
-My first duty when I was hired by TMC, was to revamp the existing company website. This involved:
+My first duty when I joined TMC, was to revamp the company website. This involved:
 
 * Simplifying our Messaging
 * Establishing Version Control
-* Enabling Automated Testing, and
+* Setting Up Automated Testing, and
 * Configuring Web Analytics
 
 In addition to a complete overhaul/redesign of the front and back ends.

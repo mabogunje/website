@@ -1,6 +1,6 @@
 ---
 title: "TMC Company Website"
-cover: "user/themes/developer-me/images/projects/tmc-website.png"
+cover: "user/themes/developer-me/assets/images/projects/tmc-website.png"
 ribbon: "Website"
 link:
   url: "http://tmc.com.ng/contact"

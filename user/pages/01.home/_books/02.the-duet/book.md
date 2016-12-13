@@ -2,7 +2,7 @@
 title: "The Duet"
 label: "Poetry"
 
-cover: "user/themes/developer-me/images/books/duet-book.jpeg"
+cover: "user/themes/developer-me/assets/images/books/duet-book.jpeg"
 
 link:
   follow:

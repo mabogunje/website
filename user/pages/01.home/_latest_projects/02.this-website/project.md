@@ -1,6 +1,6 @@
 ---
 title: "Personal Site"
-cover: "user/themes/developer-me/images/projects/my-website.png"
+cover: "user/themes/developer-me/assets/images/projects/my-website.png"
 label: "Website"
 link:
   url: "#"

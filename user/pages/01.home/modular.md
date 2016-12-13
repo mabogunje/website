@@ -9,7 +9,7 @@ content:
     custom:
       - _about
       - _latest_projects
-      - _projects
+      - _books
       - _experience
       - _github
 

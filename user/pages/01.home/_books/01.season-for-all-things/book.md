@@ -2,7 +2,7 @@
 title: "A Season for All Things"
 label: "Poetry"
 
-cover: "images/books/season4all-book.jpeg"
+cover: "user/themes/developer-me/images/books/season4all-book.jpeg"
 
 link:
   follow: 

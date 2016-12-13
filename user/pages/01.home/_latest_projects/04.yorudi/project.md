@@ -1,6 +1,6 @@
 ---
 title: "Yòrúdì - A Yoruba-English Dictionary"
-cover: "images/projects/prototype.png"
+cover: "user/themes/developer-me/images/projects/prototype.png"
 label: "Prototype"
 link:
   url: "https://github.com/mabogunje/yorudi"

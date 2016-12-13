@@ -1,6 +1,6 @@
 ---
 title: "FreeCodeCamp Lagos"
-cover: "images/projects/fccl-website.png"
+cover: "user/themes/developer-me/images/projects/fccl-website.png"
 link:
   url: "https://web.facebook.com/groups/free.code.camp.lagos/"
   title: "Join Us on Facebook"

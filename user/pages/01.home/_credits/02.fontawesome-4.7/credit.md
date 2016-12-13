@@ -1,6 +1,6 @@
 ---
 
-title: "FontAwesome 4.7"
+title: "FontAwesome"
 link: "http://fortawesome.github.io/Font-Awesome/"
 
 ---

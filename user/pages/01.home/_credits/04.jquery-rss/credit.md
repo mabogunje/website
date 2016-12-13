@@ -1,4 +1,4 @@
 ---
-title: "jQuery RSS 3.2.1"
+title: "jQuery RSS"
 link: "https://github.com/sdepold/jquery-rss"
 ---

@@ -5,7 +5,7 @@
     {% for item in collection %}
       <li>
         <i class="fa fa-tv"></i>
-        <a href="{{ item.header.link }}">{{ item.title }}</a>
+        <a href="{{ item.header.link }}" target="_blank">{{ item.title }}</a>
         <span class="badge" style="background:#479cf8;">{% if item.header.season %} S{{ item.header.season }} {% else %}S1{% endif %}</span>
       </li>
     {% endfor %}

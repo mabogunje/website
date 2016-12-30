@@ -1,0 +1,13 @@
+{% set collection = page.collection() %}
+
+{% if collection | length %}
+  <ul class="list-unstyled">
+    {% for item in collection %}
+      <li class="item">
+        <i class="fa fa-bookmark text-primary"></i>
+        <a href="{{ item.header.link }}" target="_blank">{{ item.title }}</a><br />
+        <small>{{ array(item.header.authors)|join(', ') }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}

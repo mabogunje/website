@@ -10,4 +10,9 @@
       </li>
     {% endfor %}
   </ul>
+
+  {% if theme_config.animedb %}
+    <p><a class="more-link" href="{{ theme_config.animedb }}"><i class="fa fa-external-link"></i> More on AniDB</a></p>
+  {% endif %}
 {% endif %}
+

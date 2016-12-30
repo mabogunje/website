@@ -4,6 +4,6 @@ title: "Winning with Data"
 authors:
     - "Tomasz Tunguz"
     - "Frank Bien"
-link: "#" 
+link: "http://a.co/bH5mIwR" 
  
 ---

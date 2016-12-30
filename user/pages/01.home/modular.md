@@ -20,8 +20,8 @@ content:
       - _trainings
       - _languages
       - _blog
-      - _anime
       - _reading
+      - _anime
 
       - _credits
 ---

@@ -1,9 +1,9 @@
 ---
 
-title: "Nudge: Improving Decisions about Health, Wealth, and Happiness"
+title: "Nudge"
 authors: 
-    - "Richard H. Thaler
+    - "Richard H. Thaler"
     - "Cass R. Sunstein"
-link: "#"
+link: "http://a.co/iYHtgnO"
  
 ---

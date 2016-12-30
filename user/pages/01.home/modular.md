@@ -20,7 +20,7 @@ content:
       - _trainings
       - _languages
       - _blog
-      - _fav_anime
+      - _anime
 
       - _credits
 ---

@@ -3,10 +3,15 @@ profile:
   name: "Damola Mabogunje"
   desc: "I Write. I Code. I Share."
   avatar_url: "https://www.gravatar.com/avatar/f3e9cf7882f1eaa6da23a6553f4e2128?s=180"
-  informations:
+  information:
+    - icon: "male"
+      label: "Personality"
+      url: "https://www.16personalities.com/intp-personality"
+      text: "INTP"
+
     - icon: "map-marker"
       label: "Location"
-      url: ""
+      url: "https://en.wikipedia.org/wiki/Lagos"
       text: "Lagos, Nigeria"
 
     - icon: "envelope-o"

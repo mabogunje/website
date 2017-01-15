@@ -40,7 +40,7 @@ github: "mabogunje"
 rss_feed:
     url: "http://theredstringblog.com/feed/"
     limit: 2
-    date_fmt: "do MMM[,] YYYY"
+    date_fmt: "Do MMM[,] YYYY"
     effect: "show"
 
 # Linkedin

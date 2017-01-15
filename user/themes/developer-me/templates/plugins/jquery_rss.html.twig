@@ -34,12 +34,12 @@
 	    // if you don't use moment.js and don't define a dateFormatFunction, the dates will
 	    // not be formatted; they will appear exactly as the RSS feed gives them to you.
 	    dateFormatFunction: function(date) {
-			return moment([date]).fromNow();
+            return moment(date).fromNow();
 		},
 		
 		// localizes the date with moment.js (optional)
 		// default: 'en'
-		dateLocale: 'ng',
+		dateLocale: 'en-gb',
 
         // inner template for each entry
         // default: '<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>'

@@ -8,6 +8,6 @@ applications:
   - Node
 
 level:
-  value: 90
+  value: 75
 
 ---

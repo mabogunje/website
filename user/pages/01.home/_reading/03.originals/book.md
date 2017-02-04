@@ -3,6 +3,6 @@
 title: "Originals"
 authors:
     - "Adam, Grant"
-link: "http://a.co/g7jhkKs"
+link: "https://www.goodreads.com/book/show/25614523-originals"
 
 ---

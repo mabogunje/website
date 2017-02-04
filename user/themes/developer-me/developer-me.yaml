@@ -33,6 +33,9 @@ resume: "user/themes/developer-me/assets/files/resume.pdf"
 # Anime DB
 animedb: "https://anidb.net/perl-bin/animedb.pl?web=1&watchedpartial=1&watchedcomplete=1&watchedallihave=1&unwatched=1&unknown=1&uid=733277&tvspecial=1&tvseries=1&showunknown=1&showonserver=1&showonhdd=1&showoncd=1&showmixed=1&showdeleted=1&show=mylist&ova=1&other=1&musicvideo=1&movie=1&liststate.watching=1&liststate.unknown=1&liststate.stalled=1&liststate.dropped=1&liststate.completed=1&liststate.collecting=1&filestate.streamed=1&filestate.selfripped=1&filestate.other=1&filestate.onvhs=1&filestate.ontv=1&filestate.ondvd=1&filestate.onbluray=1&filestate.normal=1&filestate.mixed=1&filestate.intheaters=1&filestate.edited=1&filestate.corrupted=1&filemode=1&do.update=update&airing=1"
 
+# Book DB
+bookdb: "https://www.goodreads.com/review/list/64620959?shelf=to-read"
+
 # Github
 github: "mabogunje"
 

@@ -21,7 +21,7 @@ Some of what I do includes, but is not limited to:
 
 **Accomplishments**
 
-* Established a newsletter following of 1K+ with an open rate 10 - 20% above the industry average.
+* Established a newsletter following of 1K+ with an open rate consistently 10 - 25% above the industry average.
 * More than doubled website traffic *without* paid advertisements.
 * Gained new leads and clients through our new/improved channels.
 * Analyzed &amp; Identified key areas for further growth &amp; improvement.

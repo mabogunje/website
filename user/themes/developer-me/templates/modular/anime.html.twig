@@ -1,18 +1,5 @@
-{% set collection = page.collection() %}
-
-{% if collection | length %}
-  <ul class="list-unstyled">
-    {% for item in collection %}
-      <li>
-        <i class="fa fa-tv"></i>
-        <a href="{{ item.header.link }}" target="_blank">{{ item.title }}</a>
-        <span class="badge" style="background:#479cf8;">{% if item.header.season %} S{{ item.header.season }} {% else %}S1{% endif %}</span>
-      </li>
-    {% endfor %}
-  </ul>
-
-  {% if theme_config.animedb %}
-    <p><a class="more-link" href="{{ theme_config.animedb }}" target="_blank"><i class="fa fa-external-link"></i> More on AniDB</a></p>
-  {% endif %}
+{% if theme_config.anime_feed %}
+    <div id="anime-feed"></div>
+    <p><a class="more-link" href="{{ theme_config.anime_feed.url }}" target="_blank"><i class="fa fa-external-link"></i> More on MyAnimeList</a></p>
 {% endif %}
 

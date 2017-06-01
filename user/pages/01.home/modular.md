@@ -22,6 +22,6 @@ content:
       - _blog
       - _reading
       - _anime
-
       - _credits
+
 ---

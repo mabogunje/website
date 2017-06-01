@@ -109,6 +109,10 @@
         {% do assets.add('theme://assets/plugins/jquery-rss/dist/jquery.rss.min.js', 103) %}
       {% endif %}
 
+      {% if theme_config.anime_feed.feed %}
+        {% do assets.add('theme://assets/plugins/jquery-yql/dist/jquery.yql.min.js', 103) %}
+      {% endif %}
+
       {% if theme_config.github %}
         {% do assets.add('http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js', 102) %}
         {% do assets.add('theme://assets/plugins/github-activity/js/github-activity.min.js', 101) %}

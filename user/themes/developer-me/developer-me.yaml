@@ -38,13 +38,12 @@ yql:
             list: "anime"
             sort: "anime.series_title"
             limit: "5"
-            effect: "slide"
+            offset: "4"
         books_feed: # GoodReads
             url: "https://www.goodreads.com/review/list/64620959.xml"
             list: "reviews.review.book.title,reviews.review.book.link,reviews.review.book.authors.author.name"
             sort: "position"
-            limit: "5"
-            effect: "slide"
+            limit: "3"
 
 # Github
 github: "mabogunje"

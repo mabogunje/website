@@ -5,7 +5,7 @@
 
       //Change this to your own feed
       '{{ theme_config.yql.feeds.anime_feed.url }}',
-      '{{ theme_config.yql.feeds.anime_feed.list }}',
+      '{{ theme_config.yql.feeds.anime_feed.list|default('*') }}',
       {
           input: 'xml',
           params: {
@@ -13,7 +13,15 @@
               status: 1,
               type: 'anime',
           },
+          {% if theme_config.yql.feeds.anime_feed.sort %}
           sort: '{{ theme_config.yql.feeds.anime_feed.sort }}',
+          {% endif %}
+          {% if theme_config.yql.feeds.anime_feed.offset %}
+          offset: '{{ theme_config.yql.feeds.anime_feed.offset }}',
+          {% endif %}
+          {% if theme_config.yql.feeds.anime_feed.limit %}
+          limit: '{{ theme_config.yql.feeds.anime_feed.limit }}',
+          {% endif %}
           layoutTemplate: "<ul class='list-unstyled'>{entries}</ul>",
           entryTemplate: [
               "<li class='item'>",
@@ -30,7 +38,9 @@
                   ); 
               },
           },
+          {% if theme_config.yql.feeds.anime_feed.effect %}
           effect: "{{ theme_config.yql.feeds.anime_feed.effect }}",
+          {% endif %}
       },
     );
   });

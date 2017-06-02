@@ -1,19 +1,4 @@
-{% set collection = page.collection() %}
-
-{% if collection | length %}
-  <ul class="list-unstyled">
-    {% for item in collection %}
-      <li class="item">
-        <i class="fa fa-bookmark text-primary"></i>
-        <a href="{{ item.header.link }}" target="_blank">{{ item.title }}</a><br />
-        <small>{{ array(item.header.authors)|join(', ') }}</small>
-      </li>
-    {% endfor %}
-  </ul>
-  <p>
-  <a class="more-link" href="{{ theme_config.bookdb }}" target="_blank">
-    <i class="fa fa-external-link"></i>
-    More on Goodreads
-  </a>
-  </p>
+{% if theme_config.yql.feeds.books_feed %}
+    <div id="books_feed"></div>
 {% endif %}
+{{ page.content }}

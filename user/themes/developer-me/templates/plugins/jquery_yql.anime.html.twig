@@ -1,0 +1,37 @@
+<script>
+  jQuery(document).ready(function($) {
+    /* jQuery YQL - https://github.com/mabogunje/jquery-yql */
+    $("#anime_feed").yql(
+
+      //Change this to your own feed
+      '{{ theme_config.yql.feeds.anime_feed.url }}',
+      '{{ theme_config.yql.feeds.anime_feed.list }}',
+      {
+          input: 'xml',
+          params: {
+              u: 'd4mola',
+              status: 1,
+              type: 'anime',
+          },
+          sort: '{{ theme_config.yql.feeds.anime_feed.sort }}',
+          layoutTemplate: "<ul class='list-unstyled'>{entries}</ul>",
+          entryTemplate: [
+              "<li class='item'>",
+              "<i class='fa fa-tv'></i>",
+              "<a href='{anime.url}' target='blank'>{anime.series_title}</a> ",
+              "<span class='badge' style='background:#479cf8;'>Ep {anime.my_watched_episodes}</span>",
+              "</li>",
+          ].join(''),
+          tokens: {
+              'anime.url' : function(entry, tokens) { 
+                  return 'http://myanimelist.net/anime/{0}/{1}'.format(
+                    entry['anime.series_animedb_id'], 
+                    entry['anime.series_title'],
+                  ); 
+              },
+          },
+          effect: "{{ theme_config.yql.feeds.anime_feed.effect }}",
+      },
+    );
+  });
+</script>

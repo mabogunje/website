@@ -1,0 +1,35 @@
+<script>
+  jQuery(document).ready(function($) {
+    /* jQuery YQL - https://github.com/mabogunje/jquery-yql */
+    $("#books_feed").yql(
+
+      //Change this to your own feed
+      '{{ theme_config.yql.feeds.books_feed.url }}',
+      '{{ theme_config.yql.feeds.books_feed.list }}',
+      {
+          input: 'xml',
+          params: {
+              key: 'M15FipoFYVCIwLylLqznPw',
+              shelf: 'to-read',
+              sort: '{{ theme_config.yql.feeds.books_feed.sort }}',
+              per_page: '{{ theme_config.yql.feeds.books_feed.limit }}' ,
+              v: '2',
+          },
+          layoutTemplate: "<ul class='list-unstyled'>{entries}</ul>",
+          entryTemplate: [
+              "<li class='item'>",
+              "<i class='fa fa-bookmark text-primary'></i>",
+              "<a href='{book.link}' target='blank'>{book.title}</a><br />",
+              "<small>{book.author}</small>",
+              "</li>",
+          ].join(''),
+          tokens: {
+              'book.title': function(entry, tokens) { return entry['reviews.review.book.title']; },
+              'book.link' : function(entry, tokens) { return entry['reviews.review.book.link']; },
+              'book.author': function(entry, tokens) { return entry['reviews.review.book.authors.author.name']; },
+          },
+          effect: "{{ theme_config.yql.feeds.books_feed.effect }}",
+      },
+    );
+  });
+</script>

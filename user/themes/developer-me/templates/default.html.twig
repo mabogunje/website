@@ -109,7 +109,11 @@
         {% do assets.add('theme://assets/plugins/jquery-rss/dist/jquery.rss.min.js', 103) %}
       {% endif %}
 
-      {% if theme_config.anime_feed.feed %}
+      {% if theme_config.yql %}
+        {% do assets.add('theme://assets/plugins/jquery-yql/libs/crypto-js/core.min.js', 103) %}
+        {% do assets.add('theme://assets/plugins/jquery-yql/libs/crypto-js/sha1.min.js', 103) %}
+        {% do assets.add('theme://assets/plugins/jquery-yql/libs/crypto-js/hmac.min.js', 103) %}
+        {% do assets.add('theme://assets/plugins/jquery-yql/libs/oauth-1.0a.js', 103) %}
         {% do assets.add('theme://assets/plugins/jquery-yql/dist/jquery.yql.min.js', 103) %}
       {% endif %}
 

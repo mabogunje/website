@@ -23,6 +23,9 @@
           {% if item.header.link.buy.url %}
             <a class="btn btn-success" href="{{ item.header.link.buy.url }}" target="_blank"><i class="fa fa-shopping-cart"></i> {{ item.header.link.buy.title|defined("Buy") }}</a>
           {% endif %}
+          {% if item.header.link.review.url %}
+            <a class="btn btn-info" href="{{ item.header.link.review.url }}" target="_blank"><i class="fa fa-file-text"></i> {{ item.header.link.review.title|defined("Review") }}</a>
+          {% endif %}
           </p>
           <p>
           {% if item.header.link.pub.url %}

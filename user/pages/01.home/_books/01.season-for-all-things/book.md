@@ -9,6 +9,8 @@ link:
     url: "https://web.facebook.com/season4all/"
   buy:
     url: "http://www.konga.com/a-season-for-all-things-1558420"
+  review:
+    url: "https://www.goodreads.com/book/show/35378116-a-season-for-all-things#other_reviews"
   pub:
    url: "http://kachifo.com/home/book/a-season-for-all-things/"
 

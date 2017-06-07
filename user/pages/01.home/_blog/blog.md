@@ -1,5 +1,5 @@
 ---
-title: "Latest Blog Posts"
+title: "Latest Blog Post"
 
 section_position: "sidebar"
 section_class: "blog"

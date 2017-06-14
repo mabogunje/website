@@ -44,7 +44,7 @@ yql:
             url: "https://www.goodreads.com/review/list/64620959.xml"
             list: "reviews.review.book.title,reviews.review.book.link,reviews.review.book.authors.author.name"
             sort: "position"
-            limit: "3"
+            limit: "5"
             effect: "slideFast"
 
 # Github

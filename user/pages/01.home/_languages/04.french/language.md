@@ -8,7 +8,7 @@ title: "French"
 # 4 = Proficient
 # 5 = Expert 
 level:
-  comprehension: 2
-  literacy: 2
+  comprehension: 1
+  literacy: 1
 
 ---

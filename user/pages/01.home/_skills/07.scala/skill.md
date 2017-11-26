@@ -6,6 +6,6 @@ applications:
   - Standalone
 
 level:
-  value: 40
-
+  value: 25
+ 
 ---

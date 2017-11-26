@@ -9,6 +9,6 @@ applications:
   - Windows Forms
 
 level:
-  value: 55
+  value: 25
 
 ---

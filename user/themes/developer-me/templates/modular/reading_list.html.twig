@@ -1,4 +1,11 @@
-{% if theme_config.yql.feeds.books_feed %}
-    <div id="books_feed"></div>
+{% set collection = page.collection() %}
+
+{% if collection | length %}
+{% set featured = collection|first %}
+<div>
+    <a href="{{ featured.header.link }}" title="{{ featured.header.title }}" target="_blank"> 
+        <img src="{{ featured.header.image }}" alt="{{ featured.header.title }}" />
+    </a>
+</div>
 {% endif %}
 {{ page.content }}

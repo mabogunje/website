@@ -1,5 +1,13 @@
-{% if theme_config.yql.feeds.anime_feed %}
-    <div id="anime_feed"></div>
+{% set collection = page.collection() %}
+
+{% if collection | length %}
+<ul class='list-unstyled'>
+    {% for item in collection %}
+    <li class='item'>
+    <i class='fa fa-tv'></i>
+    <a href='{{ item.header.link }}' target='_blank'>{{ item.header.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
 {% endif %}
 {{ page.content }}
-

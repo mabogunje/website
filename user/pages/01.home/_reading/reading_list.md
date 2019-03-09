@@ -1,6 +1,6 @@
 ---
 
-title: "Reading List"
+title: "Currently Reading"
 
 section_position: "sidebar"
 section_class: "list reading"

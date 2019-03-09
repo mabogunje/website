@@ -8,11 +8,11 @@ link:
   follow: 
     url: "https://web.facebook.com/season4all/"
   buy:
-    url: "http://www.konga.com/a-season-for-all-things-1558420"
+    url: "https://spineandlabel.com/poem-Nigeria-poerty-africa-poet"
   review:
     url: "https://www.goodreads.com/book/show/35378116-a-season-for-all-things#other_reviews"
   pub:
-   url: "http://kachifo.com/home/book/a-season-for-all-things/"
+   url: "https://www.prestige.ng/"
 
 ---
 In my second collection of poetry, I examine the peaks and valleys of life’s journey

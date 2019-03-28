@@ -2,7 +2,7 @@
 /**
  * @package    Grav.Common.Markdown
  *
- * @copyright  Copyright (C) 2014 - 2016 RocketTheme, LLC. All rights reserved.
+ * @copyright  Copyright (C) 2015 - 2018 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -10,6 +10,7 @@ namespace Grav\Common\Markdown;
 
 use Grav\Common\Grav;
 use Grav\Common\Helpers\Excerpts;
+use Grav\Common\Page\Page;
 use RocketTheme\Toolbox\Event\Event;
 
 trait ParsedownGravTrait
@@ -34,7 +35,7 @@ trait ParsedownGravTrait
         $grav = Grav::instance();
 
         $this->page = $page;
-        $this->BlockTypes['{'] [] = "TwigTag";
+        $this->BlockTypes['{'] [] = 'TwigTag';
         $this->special_chars = ['>' => 'gt', '<' => 'lt', '"' => 'quot'];
 
         if ($defaults === null) {
@@ -55,6 +56,9 @@ trait ParsedownGravTrait
      *
      * @param $type
      * @param $tag
+     * @param bool $continuable
+     * @param bool $completable
+     * @param $index
      */
     public function addBlockType($type, $tag, $continuable = false, $completable = false, $index = null)
     {
@@ -66,7 +70,7 @@ trait ParsedownGravTrait
             $block = &$this->BlockTypes[$type];
         }
 
-        if (!isset($index)) {
+        if (null === $index) {
             $block[] = $tag;
         } else {
             array_splice($block, $index, 0, [$tag]);
@@ -85,10 +89,11 @@ trait ParsedownGravTrait
      *
      * @param $type
      * @param $tag
+     * @param $index
      */
     public function addInlineType($type, $tag, $index = null)
     {
-        if (!isset($index) || !isset($this->InlineTypes[$type])) {
+        if (null === $index || !isset($this->InlineTypes[$type])) {
             $this->InlineTypes[$type] [] = $tag;
         } else {
             array_splice($this->InlineTypes[$type], $index, 0, [$tag]);
@@ -108,7 +113,7 @@ trait ParsedownGravTrait
      */
     protected function isBlockContinuable($Type)
     {
-        $continuable = in_array($Type, $this->continuable_blocks) || method_exists($this, 'block' . $Type . 'Continue');
+        $continuable = \in_array($Type, $this->continuable_blocks) || method_exists($this, 'block' . $Type . 'Continue');
 
         return $continuable;
     }
@@ -122,7 +127,7 @@ trait ParsedownGravTrait
      */
     protected function isBlockCompletable($Type)
     {
-        $completable = in_array($Type, $this->completable_blocks) || method_exists($this, 'block' . $Type . 'Complete');
+        $completable = \in_array($Type, $this->completable_blocks) || method_exists($this, 'block' . $Type . 'Complete');
 
         return $completable;
     }
@@ -156,33 +161,36 @@ trait ParsedownGravTrait
 
     /**
      * Ensure Twig tags are treated as block level items with no <p></p> tags
+     *
+     * @param array $line
+     * @return array|null
      */
-    protected function blockTwigTag($Line)
+    protected function blockTwigTag($line)
     {
-        if (preg_match('/(?:{{|{%|{#)(.*)(?:}}|%}|#})/', $Line['body'], $matches)) {
-            $Block = [
-                'markup' => $Line['body'],
-            ];
-
-            return $Block;
+        if (preg_match('/(?:{{|{%|{#)(.*)(?:}}|%}|#})/', $line['body'], $matches)) {
+            return ['markup' => $line['body']];
         }
+
+        return null;
     }
 
-    protected function inlineSpecialCharacter($Excerpt)
+    protected function inlineSpecialCharacter($excerpt)
     {
-        if ($Excerpt['text'][0] === '&' && !preg_match('/^&#?\w+;/', $Excerpt['text'])) {
+        if ($excerpt['text'][0] === '&' && !preg_match('/^&#?\w+;/', $excerpt['text'])) {
             return [
                 'markup' => '&amp;',
                 'extent' => 1,
             ];
         }
 
-        if (isset($this->special_chars[$Excerpt['text'][0]])) {
+        if (isset($this->special_chars[$excerpt['text'][0]])) {
             return [
-                'markup' => '&' . $this->special_chars[$Excerpt['text'][0]] . ';',
+                'markup' => '&' . $this->special_chars[$excerpt['text'][0]] . ';',
                 'extent' => 1,
             ];
         }
+
+        return null;
     }
 
     protected function inlineImage($excerpt)
@@ -194,10 +202,10 @@ trait ParsedownGravTrait
             $excerpt['extent'] = $excerpt['extent'] + strlen($matches[1]) - 1;
 
             return $excerpt;
-        } else {
-            $excerpt['type'] = 'image';
-            $excerpt = parent::inlineImage($excerpt);
         }
+
+        $excerpt['type'] = 'image';
+        $excerpt = parent::inlineImage($excerpt);
 
         // if this is an image process it
         if (isset($excerpt['element']['attributes']['src'])) {
@@ -223,9 +231,9 @@ trait ParsedownGravTrait
             $excerpt['extent'] = $excerpt['extent'] + strlen($matches[1]) - 1;
 
             return $excerpt;
-        } else {
-            $excerpt = parent::inlineLink($excerpt);
         }
+
+        $excerpt = parent::inlineLink($excerpt);
 
         // if this is a link
         if (isset($excerpt['element']['attributes']['href'])) {
@@ -238,10 +246,12 @@ trait ParsedownGravTrait
     // For extending this class via plugins
     public function __call($method, $args)
     {
-        if (isset($this->$method) === true) {
-            $func = $this->$method;
+        if (isset($this->{$method}) === true) {
+            $func = $this->{$method};
 
-            return call_user_func_array($func, $args);
+            return  \call_user_func_array($func, $args);
         }
+
+        return null;
     }
 }

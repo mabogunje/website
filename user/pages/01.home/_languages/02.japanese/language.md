@@ -7,6 +7,6 @@ title: "Japanese"
 # 4 = Proficient
 # 5 = Expert 
 level:
-  comprehension: 4
+  comprehension: 3
   literacy: 1
 ---

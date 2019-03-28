@@ -8,6 +8,6 @@ title: "Mandarin"
 # 5 = Expert 
 level:
   comprehension: 2
-  literacy: 2
+  literacy: 1
 
 ---

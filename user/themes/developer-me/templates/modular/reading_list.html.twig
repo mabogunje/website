@@ -4,7 +4,7 @@
 {% set featured = collection|first %}
 <div>
     <a href="{{ featured.header.link }}" title="{{ featured.header.title }}" target="_blank"> 
-        <img src="{{ featured.header.image }}" alt="{{ featured.header.title }}" />
+        <img class="img-responsive" src="{{ featured.header.image }}" alt="{{ featured.header.title }}" />
     </a>
 </div>
 {% endif %}

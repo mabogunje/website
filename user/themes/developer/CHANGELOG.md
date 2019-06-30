@@ -1,3 +1,25 @@
+# v2.2.0
+## 04/05/2017
+
+2. [](#improved)
+  * Added "github-activity" and "octicons" to theme package
+3. [](#bugfix)
+  * Fixed Github activity page not found error [#7](hhttps://github.com/Sommerregen/grav-theme-developer/issues/7) (Github Activity URL 404)
+
+# v2.1.1
+## 03/20/2017
+
+3. [](#bugfix)
+  * Fixed mixed content issues [#6](https://github.com/Sommerregen/grav-theme-developer/issues/6) (Mixed content)
+
+# v2.1.0
+## 01/10/2017
+
+2. [](#improved)
+  * Update font awesome to v4.7 [#5](https://github.com/Sommerregen/grav-theme-developer/pull/5) (Thanks to [@huy-nguyen](https://github.com/huy-nguyen))
+3. [](#bugfix)
+  * Fix button link [#3](https://github.com/Sommerregen/grav-theme-developer/pull/3)
+
 # v2.0.4
 ## 01/13/2015
 
@@ -8,10 +30,10 @@
 ## 01/09/2015
 
 1. [](#bugfix)
-* Small fix.
+  * Small fix.
 
 1. [](#improved)
-* Update [README](README.md).
+  * Update [README](README.md).
 
 # v2.0.2
 ## 01/04/2015

@@ -3,7 +3,7 @@
 {% if collection | length %}
   {% for item in collection %}
     <div class="item">
-      <h3 class="title">{{ item.title }} - <span class="place"><a href="{{ item.header.link }}">{{ item.header.place }}</a></span> <span class="year">({{ item.header.year }})</span></h3>
+      <h3 class="title">{{ item.title }} - <span class="place"><a href="#">{{ item.header.place }}</a></span> <span class="year">({{ item.header.year }})</span></h3>
       {{ item.content }}
     </div>
   {% endfor %}

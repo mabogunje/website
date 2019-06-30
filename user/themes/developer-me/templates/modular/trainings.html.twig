@@ -5,7 +5,7 @@
     {% for item in collection %}
       <li class="item">
         <h3 class="title"><i class="fa fa-certificate"></i> <a href="{{ item.header.link }}" title="{{ item.title }}" target="_blank">{{ item.title|truncate(23) }}</a></h3>
-        <h4 class="institute">{{ item.header.location }}<br /><span class="date">{{ item.date|date('F Y') }}</span></h4>
+        <h4 class="institute">{{ item.header.location }}<br /><span class="date">{{ item.date|nicetime(false) }}</span></h4>
       </li>
     {% endfor %}
   </ul>

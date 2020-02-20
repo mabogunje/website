@@ -10,9 +10,9 @@ link:
   buy:
     url: "https://www.amazon.com/Duet-Anthology-Poems-Toki-Mabogunje/dp/0976694115"
   review:
-    url: "https://www.goodreads.com/book/show/6764012-the-duet-an-anthology-of-poems#other_reviews"
+    url: "https://www.goodreads.com/book/show/35378037-the-duet-an-anthology-of-poems#other_reviews"
   pub:
-    url: "http://amvpublishingservices.com/pd-the.cfm"
+    url: "https://www.prestige.ng/"
 
 ---
 This is the first collection of poetry in Nigeria, co-authored by a mother & son.

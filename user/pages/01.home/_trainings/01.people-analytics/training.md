@@ -1,8 +1,8 @@
 ---
 
 title: "People Analytics"
-date: "04/27/2020"
-location: "Coursera (Free)"
-link: "https://www.coursera.org/learn/wharton-people-analytics?specialization=business-analytics"
+date: "06/29/2020"
+location: "Coursera"
+link: "https://www.coursera.org/account/accomplishments/certificate/NUW596VX6968"
  
 ---

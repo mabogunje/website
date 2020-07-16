@@ -52,7 +52,7 @@ github: "mabogunje"
 
 # Blog
 rss_feed:
-    url: "http://theredstringblog.com/rss/"
+    url: "https://theredstringblog.com/rss/"
     limit: 1
     date_fmt: "Do MMM[,] YYYY"
     effect: "slideFast"

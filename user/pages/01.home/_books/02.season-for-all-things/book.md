@@ -8,7 +8,7 @@ link:
   follow: 
     url: "https://web.facebook.com/season4all/"
   buy:
-    url: "https://spineandlabel.com/poem-Nigeria-poerty-africa-poet"
+    url: "https://paystack.com/buy/a-season-for-all-things-ygcgzx"
   review:
     url: "https://www.goodreads.com/book/show/35378116-a-season-for-all-things#other_reviews"
   pub:

@@ -8,7 +8,7 @@ link:
   follow:
     url: "https://web.facebook.com/The.Duet/"
   buy:
-    url: "https://www.amazon.com/Duet-Anthology-Poems-Toki-Mabogunje/dp/0976694115"
+    url: "https://paystack.com/buy/the-duet-an-anthology-of-poems-eseizx"
   review:
     url: "https://www.goodreads.com/book/show/35378037-the-duet-an-anthology-of-poems#other_reviews"
   pub:

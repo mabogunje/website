@@ -6,6 +6,6 @@ applications:
   - Mongo
 
 level:
-  value: 75
+  value: 50
 
 ---

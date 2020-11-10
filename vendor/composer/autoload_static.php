@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
+class ComposerStaticInit06355e5e947d009e0a3d96ad1761b0ce
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -17,9 +17,14 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
         'a686abd6bcd0f7067184e090d1174003' => __DIR__ . '/../..' . '/system/defines.php',
+        '4daf90f1654433646e3b7bf46d928469' => __DIR__ . '/../..' . '/system/aliases.php',
     );
 
     public static $prefixLengthsPsr4 = array (
+        'd' => 
+        array (
+            'donatj\\UserAgent\\' => 17,
+        ),
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -104,6 +109,10 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
     );
 
     public static $prefixDirsPsr4 = array (
+        'donatj\\UserAgent\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgent',
+        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
@@ -305,14 +314,6 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
-            ),
-            'ParsedownExtra' => 
-            array (
-                0 => __DIR__ . '/..' . '/erusev/parsedown-extra',
-            ),
-            'Parsedown' => 
-            array (
-                0 => __DIR__ . '/..' . '/erusev/parsedown',
             ),
             'PHPExif' => 
             array (
@@ -594,6 +595,7 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'Grav\\Common\\Taxonomy' => __DIR__ . '/../..' . '/system/src/Grav/Common/Taxonomy.php',
         'Grav\\Common\\Theme' => __DIR__ . '/../..' . '/system/src/Grav/Common/Theme.php',
         'Grav\\Common\\Themes' => __DIR__ . '/../..' . '/system/src/Grav/Common/Themes.php',
+        'Grav\\Common\\Twig\\Node\\TwigNodeCache' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeCache.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeMarkdown' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeMarkdown.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeRender' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeRender.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeScript' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeScript.php',
@@ -601,6 +603,7 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'Grav\\Common\\Twig\\Node\\TwigNodeSwitch' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeSwitch.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeThrow' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeThrow.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeTryCatch' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeTryCatch.php',
+        'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserCache' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserCache.php',
         'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserMarkdown' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserMarkdown.php',
         'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserRender' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserRender.php',
         'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserScript' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserScript.php',
@@ -748,6 +751,8 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'Grav\\Framework\\Pagination\\Interfaces\\PaginationPageInterface' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Pagination/Interfaces/PaginationPageInterface.php',
         'Grav\\Framework\\Pagination\\Pagination' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Pagination/Pagination.php',
         'Grav\\Framework\\Pagination\\PaginationPage' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Pagination/PaginationPage.php',
+        'Grav\\Framework\\Parsedown\\Parsedown' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Parsedown/Parsedown.php',
+        'Grav\\Framework\\Parsedown\\ParsedownExtra' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Parsedown/ParsedownExtra.php',
         'Grav\\Framework\\Psr7\\AbstractUri' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Psr7/AbstractUri.php',
         'Grav\\Framework\\Psr7\\Request' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Psr7/Request.php',
         'Grav\\Framework\\Psr7\\Response' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Psr7/Response.php',
@@ -801,13 +806,17 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'GuzzleHttp\\Psr7\\CachingStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/CachingStream.php',
         'GuzzleHttp\\Psr7\\DroppingStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/DroppingStream.php',
         'GuzzleHttp\\Psr7\\FnStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/FnStream.php',
+        'GuzzleHttp\\Psr7\\Header' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Header.php',
         'GuzzleHttp\\Psr7\\InflateStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/InflateStream.php',
         'GuzzleHttp\\Psr7\\LazyOpenStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/LazyOpenStream.php',
         'GuzzleHttp\\Psr7\\LimitStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/LimitStream.php',
+        'GuzzleHttp\\Psr7\\Message' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Message.php',
         'GuzzleHttp\\Psr7\\MessageTrait' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/MessageTrait.php',
+        'GuzzleHttp\\Psr7\\MimeType' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/MimeType.php',
         'GuzzleHttp\\Psr7\\MultipartStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/MultipartStream.php',
         'GuzzleHttp\\Psr7\\NoSeekStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/NoSeekStream.php',
         'GuzzleHttp\\Psr7\\PumpStream' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/PumpStream.php',
+        'GuzzleHttp\\Psr7\\Query' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Query.php',
         'GuzzleHttp\\Psr7\\Request' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Request.php',
         'GuzzleHttp\\Psr7\\Response' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Response.php',
         'GuzzleHttp\\Psr7\\Rfc7230' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Rfc7230.php',
@@ -819,6 +828,7 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'GuzzleHttp\\Psr7\\Uri' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Uri.php',
         'GuzzleHttp\\Psr7\\UriNormalizer' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/UriNormalizer.php',
         'GuzzleHttp\\Psr7\\UriResolver' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/UriResolver.php',
+        'GuzzleHttp\\Psr7\\Utils' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Utils.php',
         'Http\\Message\\MessageFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/MessageFactory.php',
         'Http\\Message\\RequestFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/RequestFactory.php',
         'Http\\Message\\ResponseFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/ResponseFactory.php',
@@ -1040,6 +1050,7 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'Nyholm\\Psr7Server\\ServerRequestCreatorInterface' => __DIR__ . '/..' . '/kodus/psr7-server/src/ServerRequestCreatorInterface.php',
         'Nyholm\\Psr7\\Factory\\HttplugFactory' => __DIR__ . '/..' . '/nyholm/psr7/src/Factory/HttplugFactory.php',
         'Nyholm\\Psr7\\Factory\\Psr17Factory' => __DIR__ . '/..' . '/nyholm/psr7/src/Factory/Psr17Factory.php',
+        'Nyholm\\Psr7\\LowercaseTrait' => __DIR__ . '/..' . '/nyholm/psr7/src/LowercaseTrait.php',
         'Nyholm\\Psr7\\MessageTrait' => __DIR__ . '/..' . '/nyholm/psr7/src/MessageTrait.php',
         'Nyholm\\Psr7\\Request' => __DIR__ . '/..' . '/nyholm/psr7/src/Request.php',
         'Nyholm\\Psr7\\RequestTrait' => __DIR__ . '/..' . '/nyholm/psr7/src/RequestTrait.php',
@@ -1061,9 +1072,6 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'PHPExif\\Mapper\\Native' => __DIR__ . '/..' . '/miljar/php-exif/lib/PHPExif/Mapper/Native.php',
         'PHPExif\\Reader\\Reader' => __DIR__ . '/..' . '/miljar/php-exif/lib/PHPExif/Reader/Reader.php',
         'PHPExif\\Reader\\ReaderInterface' => __DIR__ . '/..' . '/miljar/php-exif/lib/PHPExif/Reader/ReaderInterface.php',
-        'Parsedown' => __DIR__ . '/..' . '/erusev/parsedown/Parsedown.php',
-        'ParsedownExtra' => __DIR__ . '/..' . '/erusev/parsedown-extra/ParsedownExtra.php',
-        'ParsedownExtraTest' => __DIR__ . '/..' . '/erusev/parsedown-extra/test/ParsedownExtraTest.php',
         'Phive\\Twig\\Extensions\\Deferred\\DeferredBlockNode' => __DIR__ . '/..' . '/phive/twig-extensions-deferred/src/DeferredBlockNode.php',
         'Phive\\Twig\\Extensions\\Deferred\\DeferredExtension' => __DIR__ . '/..' . '/phive/twig-extensions-deferred/src/DeferredExtension.php',
         'Phive\\Twig\\Extensions\\Deferred\\DeferredNode' => __DIR__ . '/..' . '/phive/twig-extensions-deferred/src/DeferredNode.php',
@@ -1117,7 +1125,7 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'Psr\\Log\\LoggerInterface' => __DIR__ . '/..' . '/psr/log/Psr/Log/LoggerInterface.php',
         'Psr\\Log\\LoggerTrait' => __DIR__ . '/..' . '/psr/log/Psr/Log/LoggerTrait.php',
         'Psr\\Log\\NullLogger' => __DIR__ . '/..' . '/psr/log/Psr/Log/NullLogger.php',
-        'Psr\\Log\\Test\\DummyTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
+        'Psr\\Log\\Test\\DummyTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/DummyTest.php',
         'Psr\\Log\\Test\\LoggerInterfaceTest' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/LoggerInterfaceTest.php',
         'Psr\\Log\\Test\\TestLogger' => __DIR__ . '/..' . '/psr/log/Psr/Log/Test/TestLogger.php',
         'Psr\\SimpleCache\\CacheException' => __DIR__ . '/..' . '/psr/simple-cache/src/CacheException.php',
@@ -1779,16 +1787,21 @@ class ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+        'donatj\\UserAgent\\Browsers' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgent/Browsers.php',
+        'donatj\\UserAgent\\Platforms' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgent/Platforms.php',
+        'donatj\\UserAgent\\UserAgent' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgent/UserAgent.php',
+        'donatj\\UserAgent\\UserAgentInterface' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgent/UserAgentInterface.php',
+        'donatj\\UserAgent\\UserAgentParser' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgent/UserAgentParser.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitbfadb17c8b32495d4a707218d16cbd30::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit06355e5e947d009e0a3d96ad1761b0ce::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit06355e5e947d009e0a3d96ad1761b0ce::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit06355e5e947d009e0a3d96ad1761b0ce::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit06355e5e947d009e0a3d96ad1761b0ce::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit06355e5e947d009e0a3d96ad1761b0ce::$classMap;
 
         }, null, ClassLoader::class);
     }

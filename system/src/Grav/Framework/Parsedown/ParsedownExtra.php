@@ -1,17 +1,23 @@
 <?php
 
-#
-#
-# Parsedown Extra
-# https://github.com/erusev/parsedown-extra
-#
-# (c) Emanuil Rusev
-# http://erusev.com
-#
-# For the full license information, view the LICENSE file that was distributed
-# with this source code.
-#
-#
+/**
+ * @package    Grav\Framework\Parsedown
+ *
+ * @copyright  Copyright (C) 2015 - 2019 Trilby Media, LLC. All rights reserved.
+ * @license    MIT License; see LICENSE file for details.
+ */
+
+namespace Grav\Framework\Parsedown;
+
+/*
+ * Parsedown Extra
+ * http://parsedown.org
+ *
+ * (c) Emanuil Rusev
+ * http://erusev.com
+ *
+ * This file ported from officiall ParsedownExtra repo and kept for compatibility.
+ */
 
 class ParsedownExtra extends Parsedown
 {
@@ -206,7 +212,7 @@ class ParsedownExtra extends Parsedown
     {
         $Block = parent::blockHeader($Line);
 
-        if (preg_match('/[ #]*{('.$this->regexAttribute.'+)}[ ]*$/', $Block['element']['text'], $matches, PREG_OFFSET_CAPTURE))
+        if ($Block !== null && preg_match('/[ #]*{('.$this->regexAttribute.'+)}[ ]*$/', $Block['element']['text'], $matches, PREG_OFFSET_CAPTURE))
         {
             $attributeString = $matches[1][0];
 
@@ -238,7 +244,7 @@ class ParsedownExtra extends Parsedown
     {
         $Block = parent::blockSetextHeader($Line, $Block);
 
-        if (preg_match('/[ ]*{('.$this->regexAttribute.'+)}[ ]*$/', $Block['element']['text'], $matches, PREG_OFFSET_CAPTURE))
+        if ($Block !== null && preg_match('/[ ]*{('.$this->regexAttribute.'+)}[ ]*$/', $Block['element']['text'], $matches, PREG_OFFSET_CAPTURE))
         {
             $attributeString = $matches[1][0];
 
@@ -302,7 +308,7 @@ class ParsedownExtra extends Parsedown
     {
         $Link = parent::inlineLink($Excerpt);
 
-        $remainder = substr($Excerpt['text'], $Link['extent']);
+        $remainder = $Link !== null ? substr($Excerpt['text'], $Link['extent']) : '';
 
         if (preg_match('/^[ ]*{('.$this->regexAttribute.'+)}/', $remainder, $matches))
         {
@@ -462,7 +468,7 @@ class ParsedownExtra extends Parsedown
         # http://stackoverflow.com/q/1148928/200145
         libxml_use_internal_errors(true);
 
-        $DOMDocument = new DOMDocument;
+        $DOMDocument = new \DOMDocument;
 
         # http://stackoverflow.com/q/11309194/200145
         $elementMarkup = mb_convert_encoding($elementMarkup, 'HTML-ENTITIES', 'UTF-8');
@@ -491,7 +497,7 @@ class ParsedownExtra extends Parsedown
             {
                 $nodeMarkup = $DOMDocument->saveHTML($Node);
 
-                if ($Node instanceof DOMElement and ! in_array($Node->nodeName, $this->textLevelElements))
+                if ($Node instanceof \DOMElement and ! in_array($Node->nodeName, $this->textLevelElements))
                 {
                     $elementText .= $this->processTag($nodeMarkup);
                 }

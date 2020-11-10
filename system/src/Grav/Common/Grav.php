@@ -261,7 +261,7 @@ class Grav extends Container
         );
 
         $default = function (ServerRequestInterface $request) {
-            return new Response(404);
+            return new Response(404, ['Expires' => 0, 'Cache-Control' => 'no-cache, no-store, must-revalidate'], 'Not Found');
         };
 
         /** @var Debugger $debugger */
@@ -316,7 +316,10 @@ class Grav extends Container
         /** @var Uri $uri */
         $uri = $this['uri'];
 
-        //Check for code in route
+        // Clean route for redirect
+        $route = preg_replace("#^\/[\\\/]+\/#", '/', $route);
+
+         // Check for code in route
         $regex = '/.*(\[(30[1-7])\])$/';
         preg_match($regex, $route, $matches);
         if ($matches) {

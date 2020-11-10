@@ -1,17 +1,23 @@
 <?php
 
-#
-#
-# Parsedown
-# http://parsedown.org
-#
-# (c) Emanuil Rusev
-# http://erusev.com
-#
-# For the full license information, view the LICENSE file that was distributed
-# with this source code.
-#
-#
+/**
+ * @package    Grav\Framework\Parsedown
+ *
+ * @copyright  Copyright (C) 2015 - 2019 Trilby Media, LLC. All rights reserved.
+ * @license    MIT License; see LICENSE file for details.
+ */
+
+namespace Grav\Framework\Parsedown;
+
+/*
+ * Parsedown
+ * http://parsedown.org
+ *
+ * (c) Emanuil Rusev
+ * http://erusev.com
+ *
+ * This file ported from officiall Parsedown repo and kept for compatibility.
+ */
 
 class Parsedown
 {
@@ -515,10 +521,10 @@ class Parsedown
                 ),
             );
 
-            if($name === 'ol') 
+            if($name === 'ol')
             {
                 $listStart = stristr($matches[0], '.', true);
-                
+
                 if($listStart !== '1')
                 {
                     $Block['element']['attributes'] = array('start' => $listStart);
@@ -1541,8 +1547,8 @@ class Parsedown
         'q', 'rt', 'ins', 'font',          'strong',
         's', 'tt', 'kbd', 'mark',
         'u', 'xm', 'sub', 'nobr',
-                   'sup', 'ruby',
-                   'var', 'span',
-                   'wbr', 'time',
+        'sup', 'ruby',
+        'var', 'span',
+        'wbr', 'time',
     );
 }

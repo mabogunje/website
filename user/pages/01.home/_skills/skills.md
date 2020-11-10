@@ -5,7 +5,7 @@ section_position: "sidebar"
 section_class: "skills"
 
 content:
-  items: @self.children
+  items: "@self.children"
 ---
 Almost every job I've ever had, began in an unfamiliar codebase.
 Sometimes I didn't know the stack, at other times I didn't know the tools.

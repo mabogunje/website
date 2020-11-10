@@ -5,5 +5,5 @@ section_position: "sidebar"
 section_class: "education"
 
 content:
-  items: @self.children
+  items: "@self.children"
 ---

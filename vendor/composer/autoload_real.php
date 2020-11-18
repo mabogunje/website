@@ -13,9 +13,6 @@ class ComposerAutoloaderInit06355e5e947d009e0a3d96ad1761b0ce
         }
     }
 
-    /**
-     * @return \Composer\Autoload\ClassLoader
-     */
     public static function getLoader()
     {
         if (null !== self::$loader) {
@@ -48,7 +45,7 @@ class ComposerAutoloaderInit06355e5e947d009e0a3d96ad1761b0ce
             }
         }
 
-        $loader->setApcuPrefix('NQW284tONK/ynuDUXhJZz');
+        $loader->setApcuPrefix('B9MDtm7QYx+irVxXG7vfm');
         $loader->register(true);
 
         if ($useStaticLoader) {

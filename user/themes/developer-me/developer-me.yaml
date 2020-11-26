@@ -31,21 +31,21 @@ contact_url: "mailto:damola@mabogunje.net"
 resume: "user/themes/developer-me/assets/files/resume.pdf"
 
 # Enable YQL Feeds
-yql:
-    feeds:
-        anime_feed: # MyAnimeList
-            url: "https://myanimelist.net/malappinfo.php"
-            list: "anime"
-            sort: "anime.series_title"
-            limit: "5"
-            offset: "4"
-            effect: "slideFast"
-        books_feed: # GoodReads
-            url: "https://www.goodreads.com/review/list/64620959.xml"
-            list: "reviews.review.book.title,reviews.review.book.link,reviews.review.book.authors.author.name"
-            sort: "position"
-            limit: "5"
-            effect: "slideFast"
+# yql:
+#    feeds:
+#       anime_feed: # MyAnimeList
+#           url: "https://myanimelist.net/malappinfo.php"
+#            list: "anime"
+#            sort: "anime.series_title"
+#            limit: "5"
+#            offset: "4"
+#            effect: "slideFast"
+#        books_feed: # GoodReads
+#            url: "https://www.goodreads.com/review/list/64620959.xml"
+#            list: "reviews.review.book.title,reviews.review.book.link,reviews.review.book.authors.author.name"
+#            sort: "position"
+#            limit: "5"
+#            effect: "slideFast"
 
 # Github
 github: "mabogunje"

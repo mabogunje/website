@@ -1,6 +1,6 @@
 ---
 title: "Yorùdí"
-cover: "user/themes/developer-me/assets/images/projects/yoruba-cms-dict"
+cover: "user/themes/developer-me/assets/images/projects/yorudi.png"
 label: "CLI Utility"
 link:
   url: "https://github.com/mabogunje/yorudi"

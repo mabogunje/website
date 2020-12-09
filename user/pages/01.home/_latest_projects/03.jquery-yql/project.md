@@ -1,7 +1,7 @@
 ---
 title: "jQuery - YQL"
-cover: "user/themes/developer-me/assets/images/projects/prototype.png"
-label: "Prototype"
+cover: "user/themes/developer-me/assets/images/projects/plugin.png"
+label: "jQuery Plugin"
 link:
   url: "https://github.com/mabogunje/jquery-yql"
   title: "View it on  GitHub"

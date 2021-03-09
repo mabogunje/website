@@ -21,7 +21,7 @@ Some of what I do includes, but is not limited to:
 
 **Accomplishments**
 
-* Converted Newsletter to Digital, with a following of 4K+ and an open rate consistently 10 - 25% above the industry average.
+* Converted Newsletter to Digital, with over 4000 subscribers
 * More than doubled website traffic *without* paid advertisements.
 * Gained new leads and clients through our new/improved channels.
 * Analyzed &amp; Identified key areas for further growth &amp; improvement.

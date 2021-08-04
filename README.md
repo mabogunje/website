@@ -3,7 +3,7 @@
 [![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpstan/phpstan)
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad/mini.png)](https://insight.sensiolabs.com/projects/cfd20465-d0f8-4a0a-8444-467f5b5f16ad)
 [![Discord](https://img.shields.io/discord/501836936584101899.svg?logo=discord&colorB=728ADA&label=Discord%20Chat)](https://chat.getgrav.org)
- [![Build Status](https://travis-ci.org/getgrav/grav.svg?branch=develop)](https://travis-ci.org/getgrav/grav) [![OpenCollective](https://opencollective.com/grav/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/grav/sponsors/badge.svg)](#sponsors)
+ [![PHP Tests](https://github.com/getgrav/grav/workflows/PHP%20Tests/badge.svg?branch=develop)](https://github.com/getgrav/grav/actions?query=workflow%3A%22PHP+Tests%22) [![OpenCollective](https://opencollective.com/grav/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/grav/sponsors/badge.svg)](#sponsors)
 
 Grav is a **Fast**, **Simple**, and **Flexible**, file-based Web-platform.  There is **Zero** installation required.  Just extract the ZIP archive, and you are already up and running.  It follows similar principles to other flat-file CMS platforms, but has a different design philosophy than most. Grav comes with a powerful **Package Management System** to allow for simple installation and upgrading of plugins and themes, as well as simple updating of Grav itself.
 
@@ -21,8 +21,12 @@ The underlying architecture of Grav is designed to use well-established and _bes
 
 # Requirements
 
-- PHP 7.1.3 or higher. Check the [required modules list](https://learn.getgrav.org/basics/requirements#php-requirements)
+- PHP 7.3.6 or higher. Check the [required modules list](https://learn.getgrav.org/basics/requirements#php-requirements)
 - Check the [Apache](https://learn.getgrav.org/basics/requirements#apache-requirements) or [IIS](https://learn.getgrav.org/basics/requirements#iis-requirements) requirements
+
+# Documentation
+
+The full documentation can be found from [learn.getgrav.org](https://learn.getgrav.org).
 
 # QuickStart
 
@@ -84,6 +88,11 @@ To update plugins and themes:
 $ bin/gpm update
 ```
 
+## Upgrading from older version
+
+* [Upgrading to Grav 1.7](https://learn.getgrav.org/16/advanced/grav-development/grav-17-upgrade-guide)
+* [Upgrading to Grav 1.6](https://learn.getgrav.org/16/advanced/grav-development/grav-16-upgrade-guide)
+* [Upgrading from Grav <1.6](https://learn.getgrav.org/16/advanced/grav-development/grav-15-upgrade-guide)
 
 # Contributing
 We appreciate any contribution to Grav, whether it is related to bugs, grammar, or simply a suggestion or improvement! Please refer to the [Contributing guide](CONTRIBUTING.md) for more guidance on this topic.
@@ -128,7 +137,14 @@ See [LICENSE](LICENSE.txt)
 
 # Running Tests
 
-First install the dev dependencies by running `composer update` from the Grav root.
+First install the dev dependencies by running `composer install` from the Grav root.
+
 Then `composer test` will run the Unit Tests, which should be always executed successfully on any site.
 Windows users should use the `composer test-windows` command.
 You can also run a single unit test file, e.g. `composer test tests/unit/Grav/Common/AssetsTest.php`
+
+To run phpstan tests, you should run:
+
+* `composer phpstan` for global tests
+* `composer phpstan-framework` for more strict tests
+* `composer phpstan-plugins` to test all installed plugins

@@ -56,5 +56,5 @@
           with:
             app-name: 'mabogunje'
             slot-name: 'production'
-            publish-profile: ${{ secrets.AzureAppService_PublishProfile_fd5ff2afed9d4069aa8a0ddcd254a700 }}
+            publish-profile: ${{ secrets.AzureAppService_PublishProfile_6c4d14c6ebab401ca1ff56c8de62e1b1 }}
             package: .

@@ -1,10 +1,10 @@
 ---
-title: "SQL"
+title: "SQL & NoSQL"
 
 applications:
-  - MySQL
-  - Mongo
   - BigQuery
+  - MySQL
+  - Mongo DB
 
 level:
   value: 50

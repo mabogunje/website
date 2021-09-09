@@ -6,6 +6,6 @@ applications:
   - Django
 
 level:
-  value: 70
+  value: 65
 
 ---

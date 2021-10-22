@@ -1,9 +1,9 @@
 ---
 title: "TMC Digital Communications"
-cover: "user/themes/developer-me/assets/images/projects/tmc-digital-communications.jpeg"
+cover: "user/themes/developer-me/assets/images/projects/tmc-website.png"
 ribbon: "Web<br/>Presence"
 link:
-  url: "http://tmc.com.ng/"
+  url: "https://tmc.com.ng/"
   title: "Visit Us Now"
 
 ---

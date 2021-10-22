@@ -7,7 +7,8 @@ link:
   url: "https://github.com/mabogunje/website"
 
 ---
-Every year, I try to make it a point to redesign or re-implement my website.
-It's an opportunity for me to practice new skills and experiment with new technologies.
+This site is built using [Grav](http:/getgrav.org/) - *The Modern Flat-File CMS*.
+I update it frequently, as a live portfolio and example of my work.
 
-This year, I'm playing with [Grav](http:/getgrav.org/) - *The Modern Flat-File CMS*.
+Basically everything you may need or want to know about me is on here or linked to
+from here. So take a good look around. This. is. Damola Mabogunje.

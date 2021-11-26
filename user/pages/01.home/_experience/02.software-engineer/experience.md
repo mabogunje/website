@@ -6,7 +6,7 @@ year: "2013 - 2015"
 link: "http://mathforum.org/"
 
 ---
-My time at the Math Forum was spent creating tools for Pedagogic teaching and learning at the high school level. In particular, my responsibilities revolved around one all-encompasing tool, aptly named [EnComPass](http://mathforum.org/encompass/).
+My time at the Math Forum was spent creating tools for Pedagogic teaching and learning at the high school level. In particular, my responsibilities revolved around one all-encompasing tool, aptly named **EnComPass**.
 
 * JavaScript Front & Backend Development (Node JS, Ember JS)
 * NoSQL Database Design (Mongo DB)

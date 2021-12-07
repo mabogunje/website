@@ -1,6 +1,6 @@
 ---
 
-title: "86"
-link: "https://myanimelist.net/anime/41457/86"
- 
+title: "86 Part 2"
+link: "https://myanimelist.net/anime/48569/86_Part_2"
+  
 ---

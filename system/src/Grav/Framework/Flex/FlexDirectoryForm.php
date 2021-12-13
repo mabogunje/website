@@ -15,6 +15,7 @@ use Grav\Common\Data\Blueprint;
 use Grav\Common\Data\Data;
 use Grav\Common\Grav;
 use Grav\Common\Twig\Twig;
+use Grav\Common\Utils;
 use Grav\Framework\Flex\Interfaces\FlexDirectoryFormInterface;
 use Grav\Framework\Flex\Interfaces\FlexFormInterface;
 use Grav\Framework\Form\Interfaces\FormFlashInterface;
@@ -94,8 +95,13 @@ class FlexDirectoryForm implements FlexDirectoryFormInterface, JsonSerializable
             $uniqueId = md5($directory->getFlexType() . '-directory-' . $this->name);
         }
         $this->setUniqueId($uniqueId);
+
         $this->setFlashLookupFolder($directory->getDirectoryBlueprint()->get('form/flash_folder') ?? 'tmp://forms/[SESSIONID]');
         $this->form = $options['form'] ?? null;
+
+        if (Utils::isPositive($this->form['disabled'] ?? false)) {
+            $this->disable();
+        }
 
         $this->initialize();
     }
@@ -127,6 +133,17 @@ class FlexDirectoryForm implements FlexDirectoryFormInterface, JsonSerializable
         }
 
         return $this;
+    }
+
+    /**
+     * @param string $uniqueId
+     * @return void
+     */
+    public function setUniqueId(string $uniqueId): void
+    {
+        if ($uniqueId !== '') {
+            $this->uniqueid = $uniqueId;
+        }
     }
 
     /**
@@ -318,11 +335,11 @@ class FlexDirectoryForm implements FlexDirectoryFormInterface, JsonSerializable
     }
 
     /**
-     * @param string $field
-     * @param string $filename
+     * @param string|null $field
+     * @param string|null $filename
      * @return Route|null
      */
-    public function getFileDeleteAjaxRoute($field, $filename): ?Route
+    public function getFileDeleteAjaxRoute($field = null, $filename = null): ?Route
     {
         return null;
     }
@@ -453,7 +470,9 @@ class FlexDirectoryForm implements FlexDirectoryFormInterface, JsonSerializable
     protected function doSerialize(): array
     {
         return $this->doTraitSerialize() + [
+                'form' => $this->form,
                 'directory' => $this->directory,
+                'flexName' => $this->flexName
             ];
     }
 
@@ -465,7 +484,9 @@ class FlexDirectoryForm implements FlexDirectoryFormInterface, JsonSerializable
     {
         $this->doTraitUnserialize($data);
 
+        $this->form = $data['form'];
         $this->directory = $data['directory'];
+        $this->flexName = $data['flexName'];
     }
 
     /**

@@ -47,7 +47,7 @@ class Collection extends Iterator implements PageCollectionInterface
         parent::__construct($items);
 
         $this->params = $params;
-        $this->pages = $pages ? $pages : Grav::instance()->offsetGet('pages');
+        $this->pages = $pages ?: Grav::instance()->offsetGet('pages');
     }
 
     /**
@@ -146,6 +146,18 @@ class Collection extends Iterator implements PageCollectionInterface
     }
 
     /**
+     * Set current page.
+     */
+    public function setCurrent(string $path): void
+    {
+        reset($this->items);
+
+        while (($key = key($this->items)) !== null && $key !== $path) {
+            next($this->items);
+        }
+    }
+
+    /**
      * Returns current page.
      *
      * @return PageInterface
@@ -175,6 +187,7 @@ class Collection extends Iterator implements PageCollectionInterface
      * @param string $offset
      * @return PageInterface|null
      */
+    #[\ReturnTypeWillChange]
     public function offsetGet($offset)
     {
         return $this->pages->get($offset) ?: null;

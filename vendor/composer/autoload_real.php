@@ -50,7 +50,7 @@ class ComposerAutoloaderInit78d3cf765b457e2cfb97a53d4d937b10
             }
         }
 
-        $loader->setApcuPrefix('zm23Uzk+YyINbEpW3FdPW');
+        $loader->setApcuPrefix('8gDLfpGwCSXpnzPgmRR7h');
         $loader->register(true);
 
         if ($useStaticLoader) {
@@ -66,11 +66,16 @@ class ComposerAutoloaderInit78d3cf765b457e2cfb97a53d4d937b10
     }
 }
 
+/**
+ * @param string $fileIdentifier
+ * @param string $file
+ * @return void
+ */
 function composerRequire78d3cf765b457e2cfb97a53d4d937b10($fileIdentifier, $file)
 {
     if (empty($GLOBALS['__composer_autoload_files'][$fileIdentifier])) {
-        require $file;
-
         $GLOBALS['__composer_autoload_files'][$fileIdentifier] = true;
+
+        require $file;
     }
 }

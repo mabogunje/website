@@ -8,6 +8,6 @@ applications:
   - Grav
 
 level:
-  value: 85
+  value: 75
 
 ---

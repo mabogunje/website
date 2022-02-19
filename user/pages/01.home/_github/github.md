@@ -1,6 +1,6 @@
 ---
 
 title: "My Github"
-chart: "http://mabogunje.opalstacked.com/random/github_chart.png"
+chart: "https://mabogunje.opalstacked.com/random/github_chart.png"
 
 ---

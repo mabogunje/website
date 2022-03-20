@@ -86,6 +86,14 @@ trait HttpClientTrait
 
         if (isset($options['body'])) {
             $options['body'] = self::normalizeBody($options['body']);
+
+            if (\is_string($options['body'])
+                && (string) \strlen($options['body']) !== substr($h = $options['normalized_headers']['content-length'][0] ?? '', 16)
+                && ('' !== $h || ('' !== $options['body'] && !isset($options['normalized_headers']['transfer-encoding'])))
+            ) {
+                $options['normalized_headers']['content-length'] = [substr_replace($h ?: 'Content-Length: ', \strlen($options['body']), 16)];
+                $options['headers'] = array_merge(...array_values($options['normalized_headers']));
+            }
         }
 
         if (isset($options['peer_fingerprint'])) {
@@ -147,7 +155,10 @@ trait HttpClientTrait
 
         // Finalize normalization of options
         $options['http_version'] = (string) ($options['http_version'] ?? '') ?: null;
-        $options['timeout'] = (float) ($options['timeout'] ?? ini_get('default_socket_timeout'));
+        if (0 > $options['timeout'] = (float) ($options['timeout'] ?? ini_get('default_socket_timeout'))) {
+            $options['timeout'] = 172800.0; // 2 days
+        }
+
         $options['max_duration'] = isset($options['max_duration']) ? (float) $options['max_duration'] : 0;
 
         return [$url, $options];
@@ -176,8 +187,10 @@ trait HttpClientTrait
         // Option "query" is never inherited from defaults
         $options['query'] = $options['query'] ?? [];
 
-        foreach ($defaultOptions as $k => $v) {
-            if ('normalized_headers' !== $k && !isset($options[$k])) {
+        $options += $defaultOptions;
+
+        foreach (isset(self::$emptyDefaults) ? self::$emptyDefaults : [] as $k => $v) {
+            if (!isset($options[$k])) {
                 $options[$k] = $v;
             }
         }
@@ -214,9 +227,9 @@ trait HttpClientTrait
 
             $alternatives = [];
 
-            foreach ($defaultOptions as $key => $v) {
-                if (levenshtein($name, $key) <= \strlen($name) / 3 || str_contains($key, $name)) {
-                    $alternatives[] = $key;
+            foreach ($defaultOptions as $k => $v) {
+                if (levenshtein($name, $k) <= \strlen($name) / 3 || str_contains($k, $name)) {
+                    $alternatives[] = $k;
                 }
             }
 

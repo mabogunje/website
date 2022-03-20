@@ -74,6 +74,8 @@ class Container implements \ArrayAccess
      * @param string $id    The unique identifier for the parameter or object
      * @param mixed  $value The value of the parameter or a closure to define an object
      *
+     * @return void
+     *
      * @throws FrozenServiceException Prevent override of a frozen service
      */
     #[\ReturnTypeWillChange]
@@ -142,6 +144,8 @@ class Container implements \ArrayAccess
      * Unsets a parameter or an object.
      *
      * @param string $id The unique identifier for the parameter or object
+     *
+     * @return void
      */
     #[\ReturnTypeWillChange]
     public function offsetUnset($id)
@@ -284,8 +288,7 @@ class Container implements \ArrayAccess
     /**
      * Registers a service provider.
      *
-     * @param ServiceProviderInterface $provider A ServiceProviderInterface instance
-     * @param array                    $values   An array of values that customizes the provider
+     * @param array $values An array of values that customizes the provider
      *
      * @return static
      */

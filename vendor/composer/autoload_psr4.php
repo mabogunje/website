@@ -36,7 +36,7 @@ return array(
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
     'Psr\\Http\\Server\\' => array($vendorDir . '/psr/http-server-handler/src', $vendorDir . '/psr/http-server-middleware/src'),
-    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-factory/src', $vendorDir . '/psr/http-message/src'),
+    'Psr\\Http\\Message\\' => array($vendorDir . '/psr/http-message/src', $vendorDir . '/psr/http-factory/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
     'Psr\\Cache\\' => array($vendorDir . '/psr/cache/src'),
     'Nyholm\\Psr7\\' => array($vendorDir . '/nyholm/psr7/src'),
@@ -56,5 +56,4 @@ return array(
     'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
     'Composer\\CaBundle\\' => array($vendorDir . '/composer/ca-bundle/src'),
     'Clockwork\\' => array($vendorDir . '/itsgoingd/clockwork/Clockwork'),
-    '' => array($vendorDir . '/antoligy/dom-string-iterators/src'),
 );

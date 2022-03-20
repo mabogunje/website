@@ -3,7 +3,7 @@
 /**
  * @package    Grav\Common
  *
- * @copyright  Copyright (c) 2015 - 2021 Trilby Media, LLC. All rights reserved.
+ * @copyright  Copyright (c) 2015 - 2022 Trilby Media, LLC. All rights reserved.
  * @license    MIT License; see LICENSE file for details.
  */
 
@@ -25,6 +25,22 @@ use function is_string;
  */
 class Security
 {
+    /**
+     * @param string $filepath
+     * @param array|null $options
+     * @return string|null
+     */
+    public static function detectXssFromSvgFile(string $filepath, array $options = null): ?string
+    {
+        if (file_exists($filepath) && Grav::instance()['config']->get('security.sanitize_svg')) {
+            $content = file_get_contents($filepath);
+
+            return static::detectXss($content, $options);
+        }
+
+        return null;
+    }
+
     /**
      * Sanitize SVG string for XSS code
      *
@@ -61,7 +77,7 @@ class Security
             if ($clean_svg !== false ) {
                 file_put_contents($file, $clean_svg);
             } else {
-                $quarantine_file = basename($file);
+                $quarantine_file = Utils::basename($file);
                 $quarantine_dir = 'log://quarantine';
                 Folder::mkdir($quarantine_dir);
                 file_put_contents("$quarantine_dir/$quarantine_file", $original_svg);
@@ -200,7 +216,7 @@ class Security
         }, $string);
 
         // Clean up entities
-        $string = preg_replace('!(&#0+[0-9]+)!u', '$1;', $string);
+        $string = preg_replace('!(&#[0-9]+);?!u', '$1;', $string);
 
         // Decode entities
         $string = html_entity_decode($string, ENT_NOQUOTES | ENT_HTML5, 'UTF-8');
@@ -214,7 +230,7 @@ class Security
             'on_events' => '#(<[^>]+[[a-z\x00-\x20\"\'\/])([\s\/]on|\sxmlns)[a-z].*=>?#iUu',
 
             // Match javascript:, livescript:, vbscript:, mocha:, feed: and data: protocols
-            'invalid_protocols' => '#(' . implode('|', array_map('preg_quote', $invalid_protocols, ['#'])) . '):\S.*?#iUu',
+            'invalid_protocols' => '#(' . implode('|', array_map('preg_quote', $invalid_protocols, ['#'])) . ')(:|\&\#58)\S.*?#iUu',
 
             // Match -moz-bindings
             'moz_binding' => '#-moz-binding[a-z\x00-\x20]*:#u',

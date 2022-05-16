@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '847f09a2ac23c7c9af354a66e10e1ef431fd87fb',
+        'reference' => 'a2413718f3ef99c5e3abea6367ea200ec9a66295',
         'name' => 'getgrav/grav',
         'dev' => false,
     ),
@@ -106,7 +106,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '847f09a2ac23c7c9af354a66e10e1ef431fd87fb',
+            'reference' => 'a2413718f3ef99c5e3abea6367ea200ec9a66295',
             'dev_requirement' => false,
         ),
         'getgrav/image' => array(
@@ -119,21 +119,21 @@
             'dev_requirement' => false,
         ),
         'guzzlehttp/psr7' => array(
-            'pretty_version' => '1.8.3',
-            'version' => '1.8.3.0',
+            'pretty_version' => '1.8.5',
+            'version' => '1.8.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
-            'reference' => '1afdd860a2566ed3c2b0b4a3de6e23434a79ec85',
+            'reference' => '337e3ad8e5716c15f9657bd214d16cc5e69df268',
             'dev_requirement' => false,
         ),
         'itsgoingd/clockwork' => array(
-            'pretty_version' => 'v5.1.5',
-            'version' => '5.1.5.0',
+            'pretty_version' => 'v5.1.6',
+            'version' => '5.1.6.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../itsgoingd/clockwork',
             'aliases' => array(),
-            'reference' => '6a7b3942224fa53cf3704d9adba636e1f3dfeb9a',
+            'reference' => '9df41432da1d8cb39c7fda383ddcc02231c83ff3',
             'dev_requirement' => false,
         ),
         'league/climate' => array(
@@ -146,12 +146,12 @@
             'dev_requirement' => false,
         ),
         'matthiasmullie/minify' => array(
-            'pretty_version' => '1.3.66',
-            'version' => '1.3.66.0',
+            'pretty_version' => '1.3.67',
+            'version' => '1.3.67.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../matthiasmullie/minify',
             'aliases' => array(),
-            'reference' => '45fd3b0f1dfa2c965857c6d4a470bea52adc31a6',
+            'reference' => 'acaee1b7ca3cd67a39d7f98673cacd7e4739a8d9',
             'dev_requirement' => false,
         ),
         'matthiasmullie/path-converter' => array(
@@ -182,12 +182,12 @@
             'dev_requirement' => false,
         ),
         'monolog/monolog' => array(
-            'pretty_version' => '1.26.1',
-            'version' => '1.26.1.0',
+            'pretty_version' => '1.27.0',
+            'version' => '1.27.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../monolog/monolog',
             'aliases' => array(),
-            'reference' => 'c6b00f05152ae2c9b04a448f99c7590beb6042f5',
+            'reference' => '52ebd235c1f7e0d5e1b16464b695a28335f8e44a',
             'dev_requirement' => false,
         ),
         'multiavatar/multiavatar-php' => array(
@@ -389,25 +389,25 @@
         'symfony/cache-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.11',
+                0 => 'v1.1.12',
             ),
         ),
         'symfony/console' => array(
-            'pretty_version' => 'v4.4.38',
-            'version' => '4.4.38.0',
+            'pretty_version' => 'v4.4.40',
+            'version' => '4.4.40.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/console',
             'aliases' => array(),
-            'reference' => '5a50085bf5460f0c0d60a50b58388c1249826b8a',
+            'reference' => 'bdcc66f3140421038f495e5b50e3ca6ffa14c773',
             'dev_requirement' => false,
         ),
         'symfony/contracts' => array(
-            'pretty_version' => 'v1.1.11',
-            'version' => '1.1.11.0',
+            'pretty_version' => 'v1.1.12',
+            'version' => '1.1.12.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/contracts',
             'aliases' => array(),
-            'reference' => 'cf2984f7a99bfae197f9c96f5a16a4041ff6ffb1',
+            'reference' => '5236c15b24aeeecee4b9c6ad4b22f6331f2cbdcb',
             'dev_requirement' => false,
         ),
         'symfony/event-dispatcher' => array(
@@ -422,7 +422,7 @@
         'symfony/event-dispatcher-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.11',
+                0 => 'v1.1.12',
             ),
         ),
         'symfony/event-dispatcher-implementation' => array(
@@ -432,18 +432,18 @@
             ),
         ),
         'symfony/http-client' => array(
-            'pretty_version' => 'v4.4.39',
-            'version' => '4.4.39.0',
+            'pretty_version' => 'v4.4.40',
+            'version' => '4.4.40.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/http-client',
             'aliases' => array(),
-            'reference' => '40342406a975385c5b21e929df46e3fc0278853d',
+            'reference' => 'c66fc3b60900359ea10a7b22921c797446783bb3',
             'dev_requirement' => false,
         ),
         'symfony/http-client-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.11',
+                0 => 'v1.1.12',
             ),
         ),
         'symfony/http-client-implementation' => array(
@@ -519,24 +519,24 @@
             'dev_requirement' => false,
         ),
         'symfony/process' => array(
-            'pretty_version' => 'v4.4.37',
-            'version' => '4.4.37.0',
+            'pretty_version' => 'v4.4.40',
+            'version' => '4.4.40.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/process',
             'aliases' => array(),
-            'reference' => 'b2d924e5a4cb284f293d5092b1dbf0d364cb8b67',
+            'reference' => '54e9d763759268e07eb13b921d8631fc2816206f',
             'dev_requirement' => false,
         ),
         'symfony/service-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.11',
+                0 => 'v1.1.12',
             ),
         ),
         'symfony/translation-contracts' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v1.1.11',
+                0 => 'v1.1.12',
             ),
         ),
         'symfony/var-dumper' => array(

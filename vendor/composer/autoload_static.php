@@ -4,19 +4,19 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc9e379c341a4abfde9832d44129f6989
+class ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'da5f6548f070d3d306f90eee42dd5de6' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgentParser.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'b686b8e46447868025a15ce5d0cb2634' => __DIR__ . '/..' . '/symfony/polyfill-php74/bootstrap.php',
+        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         'a686abd6bcd0f7067184e090d1174003' => __DIR__ . '/../..' . '/system/defines.php',
         '8ef9e3d3ddb4d123a4b13a2dd9c50970' => __DIR__ . '/../..' . '/system/src/DOMLettersIterator.php',
         'f4a9ce07f6028c83d803fa2e9b612d16' => __DIR__ . '/../..' . '/system/src/DOMWordsIterator.php',
@@ -417,6 +417,7 @@ class ComposerStaticInitc9e379c341a4abfde9832d44129f6989
         'Clockwork\\Support\\Laravel\\ClockworkServiceProvider' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/ClockworkServiceProvider.php',
         'Clockwork\\Support\\Laravel\\ClockworkSupport' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/ClockworkSupport.php',
         'Clockwork\\Support\\Laravel\\Console\\CapturingFormatter' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Console/CapturingFormatter.php',
+        'Clockwork\\Support\\Laravel\\Console\\CapturingLegacyFormatter' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Console/CapturingLegacyFormatter.php',
         'Clockwork\\Support\\Laravel\\Eloquent\\ResolveModelLegacyScope' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Eloquent/ResolveModelLegacyScope.php',
         'Clockwork\\Support\\Laravel\\Eloquent\\ResolveModelScope' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Eloquent/ResolveModelScope.php',
         'Clockwork\\Support\\Laravel\\Facade' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Facade.php',
@@ -426,6 +427,8 @@ class ComposerStaticInitc9e379c341a4abfde9832d44129f6989
         'Clockwork\\Support\\Lumen\\ClockworkSupport' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Lumen/ClockworkSupport.php',
         'Clockwork\\Support\\Lumen\\Controller' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Lumen/Controller.php',
         'Clockwork\\Support\\Monolog\\Handler\\ClockworkHandler' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Monolog/Handler/ClockworkHandler.php',
+        'Clockwork\\Support\\Monolog\\Monolog2\\ClockworkHandler' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Monolog/Monolog2/ClockworkHandler.php',
+        'Clockwork\\Support\\Monolog\\Monolog\\ClockworkHandler' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Monolog/Monolog/ClockworkHandler.php',
         'Clockwork\\Support\\Slim\\ClockworkMiddleware' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Slim/ClockworkMiddleware.php',
         'Clockwork\\Support\\Slim\\Legacy\\ClockworkMiddleware' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Slim/Legacy/ClockworkMiddleware.php',
         'Clockwork\\Support\\Slim\\Old\\ClockworkLogWriter' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Slim/Old/ClockworkLogWriter.php',
@@ -2082,10 +2085,10 @@ class ComposerStaticInitc9e379c341a4abfde9832d44129f6989
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$classMap;
 
         }, null, ClassLoader::class);
     }

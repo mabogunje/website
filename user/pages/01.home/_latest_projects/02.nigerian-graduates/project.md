@@ -3,7 +3,7 @@ title: "Nigerian Graduates Analysis"
 cover: "user/themes/developer-me/assets/images/projects/graduates.png"
 label: "Data Analysis"
 link:
-  url: "https://github.com/mabogunje/cyclistic"
+  url: "https://github.com/mabogunje/nigerian-graduates"
   title: "View it on GitHub"
  
 ---

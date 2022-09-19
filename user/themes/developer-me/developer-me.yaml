@@ -1,7 +1,7 @@
 # Profile
 profile:
   name: "Damola Mabogunje"
-  desc: "I Write. I Code. I Share."
+  desc: "More than a software engineer..."
   avatar_url: "https://www.gravatar.com/avatar/f3e9cf7882f1eaa6da23a6553f4e2128?s=180"
   information:
     - icon: "male"
@@ -14,7 +14,13 @@ profile:
       url: "https://en.wikipedia.org/wiki/Lagos"
       text: "Lagos, Nigeria"
 
-    - icon: "envelope-o"
+
+    - icon: "briefcase"
+      label: "Company"
+      url: "https://tmc.com.ng/"
+      text: "Toki Mabogunje & Co."
+
+    - icon: "envelope"
       label: "Email"
       url: "mailto:damola@mabogunje.net"
       text: "damola@mabogunje.net"
@@ -23,6 +29,11 @@ profile:
       label: "Website"
       url: "http://mabogunje.net"
       text: "http://mabogunje.net"
+
+    - icon: "newspaper-o"
+      label: "Newsletter"
+      url: "https://theredstringblog.com/"
+      text: "https://theredstringblog.com/"
 
 # Email
 contact_url: "mailto:damola@mabogunje.net"

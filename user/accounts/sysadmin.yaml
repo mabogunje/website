@@ -1,0 +1,11 @@
+state: enabled
+email: damola@mabogunje.net
+fullname: 'Damola Mabogunje'
+title: 'System Administrator '
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$4uH47EMGVjkubNalIjRIuehNOom4TfknyTSx.diib9tdAhz85Bvem

@@ -3,7 +3,7 @@
         'name' => 'getgrav/grav',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '8be02e44c6b388df1cae891583851054ee3f1e8d',
+        'reference' => '685d76231a057416651ed192a6a2e83720800e61',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -112,7 +112,7 @@
         'getgrav/grav' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '8be02e44c6b388df1cae891583851054ee3f1e8d',
+            'reference' => '685d76231a057416651ed192a6a2e83720800e61',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

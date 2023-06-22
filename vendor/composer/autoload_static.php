@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
+class ComposerStaticInitecf3580117c6243f5549ac579e8a4fef
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -89,10 +89,6 @@ class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
         'L' => 
         array (
             'League\\CLImate\\' => 15,
-        ),
-        'H' => 
-        array (
-            'Http\\Message\\' => 13,
         ),
         'G' => 
         array (
@@ -278,10 +274,6 @@ class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
         'League\\CLImate\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/climate/src',
-        ),
-        'Http\\Message\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/php-http/message-factory/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (
@@ -1085,11 +1077,6 @@ class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
         'GuzzleHttp\\Psr7\\UriNormalizer' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/UriNormalizer.php',
         'GuzzleHttp\\Psr7\\UriResolver' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/UriResolver.php',
         'GuzzleHttp\\Psr7\\Utils' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/Utils.php',
-        'Http\\Message\\MessageFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/MessageFactory.php',
-        'Http\\Message\\RequestFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/RequestFactory.php',
-        'Http\\Message\\ResponseFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/ResponseFactory.php',
-        'Http\\Message\\StreamFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/StreamFactory.php',
-        'Http\\Message\\UriFactory' => __DIR__ . '/..' . '/php-http/message-factory/src/UriFactory.php',
         'League\\CLImate\\Argument\\Argument' => __DIR__ . '/..' . '/league/climate/src/Argument/Argument.php',
         'League\\CLImate\\Argument\\Filter' => __DIR__ . '/..' . '/league/climate/src/Argument/Filter.php',
         'League\\CLImate\\Argument\\Manager' => __DIR__ . '/..' . '/league/climate/src/Argument/Manager.php',
@@ -1312,6 +1299,7 @@ class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
         'Nyholm\\Psr7\\Response' => __DIR__ . '/..' . '/nyholm/psr7/src/Response.php',
         'Nyholm\\Psr7\\ServerRequest' => __DIR__ . '/..' . '/nyholm/psr7/src/ServerRequest.php',
         'Nyholm\\Psr7\\Stream' => __DIR__ . '/..' . '/nyholm/psr7/src/Stream.php',
+        'Nyholm\\Psr7\\StreamTrait' => __DIR__ . '/..' . '/nyholm/psr7/src/StreamTrait.php',
         'Nyholm\\Psr7\\UploadedFile' => __DIR__ . '/..' . '/nyholm/psr7/src/UploadedFile.php',
         'Nyholm\\Psr7\\Uri' => __DIR__ . '/..' . '/nyholm/psr7/src/Uri.php',
         'PHPExif\\Adapter\\AdapterAbstract' => __DIR__ . '/..' . '/miljar/php-exif/lib/PHPExif/Adapter/AdapterAbstract.php',
@@ -1704,11 +1692,13 @@ class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
         'Twig\\Cache\\NullCache' => __DIR__ . '/..' . '/twig/twig/src/Cache/NullCache.php',
         'Twig\\Compiler' => __DIR__ . '/..' . '/twig/twig/src/Compiler.php',
         'Twig\\DeferredExtension\\DeferredBlockNode' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredBlockNode.php',
+        'Twig\\DeferredExtension\\DeferredDeclareNode' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredDeclareNode.php',
         'Twig\\DeferredExtension\\DeferredExtension' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredExtension.php',
-        'Twig\\DeferredExtension\\DeferredExtensionNode' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredExtensionNode.php',
+        'Twig\\DeferredExtension\\DeferredInitializeNode' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredInitializeNode.php',
         'Twig\\DeferredExtension\\DeferredNode' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredNode.php',
         'Twig\\DeferredExtension\\DeferredNodeVisitor' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredNodeVisitor.php',
         'Twig\\DeferredExtension\\DeferredNodeVisitorCompat' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredNodeVisitorCompat.php',
+        'Twig\\DeferredExtension\\DeferredResolveNode' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredResolveNode.php',
         'Twig\\DeferredExtension\\DeferredTokenParser' => __DIR__ . '/../..' . '/system/src/Twig/DeferredExtension/DeferredTokenParser.php',
         'Twig\\Environment' => __DIR__ . '/..' . '/twig/twig/src/Environment.php',
         'Twig\\Error\\Error' => __DIR__ . '/..' . '/twig/twig/src/Error/Error.php',
@@ -2098,6 +2088,9 @@ class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
         'Whoops\\Handler\\PlainTextHandler' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Handler/PlainTextHandler.php',
         'Whoops\\Handler\\PrettyPageHandler' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php',
         'Whoops\\Handler\\XmlResponseHandler' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php',
+        'Whoops\\Inspector\\InspectorFactory' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Inspector/InspectorFactory.php',
+        'Whoops\\Inspector\\InspectorFactoryInterface' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Inspector/InspectorFactoryInterface.php',
+        'Whoops\\Inspector\\InspectorInterface' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Inspector/InspectorInterface.php',
         'Whoops\\Run' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Run.php',
         'Whoops\\RunInterface' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/RunInterface.php',
         'Whoops\\Util\\HtmlDumperOutput' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/HtmlDumperOutput.php',
@@ -2114,10 +2107,10 @@ class ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInite18c9e25f242e87d1779cf0208fc69d2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitecf3580117c6243f5549ac579e8a4fef::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitecf3580117c6243f5549ac579e8a4fef::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitecf3580117c6243f5549ac579e8a4fef::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitecf3580117c6243f5549ac579e8a4fef::$classMap;
 
         }, null, ClassLoader::class);
     }

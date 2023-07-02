@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1683975307,
-    'checksum' => 'a22443161cd54ee39c3d4d77a1c8b74c',
+    'timestamp' => 1688333504,
+    'checksum' => 'abe1f8586b8a14cd4a670a53839e424b',
     'files' => [
         'user/config' => [
             'media' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1683308024
+                'modified' => 1687461573
             ],
             'themes/x-corporation' => [
                 'file' => 'user/config/themes/x-corporation.yaml',
@@ -39,37 +39,37 @@ return [
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
-                'modified' => 1683308024
+                'modified' => 1687461573
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'mime' => [
                 'file' => 'system/config/mime.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'permissions' => [
                 'file' => 'system/config/permissions.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ]
         ],
         'user/plugins' => [
@@ -3864,7 +3864,8 @@ node_modules'
                 'content_fallback' => [
                     
                 ],
-                'pages_fallback_only' => false
+                'pages_fallback_only' => false,
+                'debug' => false
             ],
             'home' => [
                 'alias' => '/home',
@@ -4126,7 +4127,7 @@ node_modules'
         'versions' => [
             'core' => [
                 'grav' => [
-                    'version' => '1.7.40',
+                    'version' => '1.7.42.1',
                     'history' => [
                         0 => [
                             'version' => '1.7.18',
@@ -4163,6 +4164,10 @@ node_modules'
                         8 => [
                             'version' => '1.7.40',
                             'date' => '2023-05-05 17:33:44'
+                        ],
+                        9 => [
+                            'version' => '1.7.42.1',
+                            'date' => '2023-06-22 19:19:33'
                         ]
                     ],
                     'schema' => '1.7.0_2020-11-20_1'

@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1683975307,
-    'checksum' => '227b682d01529326df326294caeb331b',
+    'timestamp' => 1688333504,
+    'checksum' => '9fc05a11d5371a3427579bcb9f776455',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1679502680
+                'modified' => 1687384778
             ]
         ],
         'user/plugins' => [
@@ -1219,6 +1219,20 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'system.languages.override_locale',
+                'validation' => 'loose'
+            ],
+            'system.languages.debug' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.LANGUAGE_DEBUG',
+                'highlight' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'system.languages.debug',
                 'validation' => 'loose'
             ],
             'system.http_headers_section' => [
@@ -3527,7 +3541,8 @@ return [
                     'translations_fallback' => 'system.languages.translations_fallback',
                     'session_store_active' => 'system.languages.session_store_active',
                     'http_accept_language' => 'system.languages.http_accept_language',
-                    'override_locale' => 'system.languages.override_locale'
+                    'override_locale' => 'system.languages.override_locale',
+                    'debug' => 'system.languages.debug'
                 ],
                 'languages-section' => 'system.languages-section',
                 'key' => 'system.key',

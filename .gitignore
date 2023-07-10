@@ -27,7 +27,7 @@ user/themes/*
 user/localhost/config/security.yaml
 
 # OS Generated
-.DS_Store*
+.DS_Store
 ehthumbs.db
 Icon?
 Thumbs.db

@@ -7,7 +7,7 @@ section_class: "blog"
 ---
 <hr />
 <p>
-    <a class="more-link" href="http://theredstringblog.com" target="_blank">
+    <a class="more-link" href="https://theredstringblog.com" target="_blank">
         <i class="fa fa-external-link"></i>
         Go to Blog
     </a>

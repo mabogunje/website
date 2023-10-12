@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/da.yaml',
-    'modified' => 1689702180,
+    'modified' => 1696261370,
     'size' => 1932,
     'data' => [
         'GRAV' => [

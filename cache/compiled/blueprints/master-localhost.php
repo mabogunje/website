@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1693253644,
-    'checksum' => 'bba54e12de75f066ed39ce923c2332e8',
+    'timestamp' => 1697146721,
+    'checksum' => 'eb2798e3925c1afa32ff1f4b3a055982',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1689702180
+                'modified' => 1696261370
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1689702180
+                'modified' => 1696261370
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1689702180
+                'modified' => 1696261370
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1689702180
+                'modified' => 1696261370
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1689702180
+                'modified' => 1696261370
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1689702180
+                'modified' => 1696261370
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1689702180
+                'modified' => 1696261370
             ]
         ],
         'user/plugins' => [

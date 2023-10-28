@@ -35,13 +35,14 @@
         {% if theme_config.github %}
           {% do assets.add('https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css', 104) %}
           {% do assets.add('theme://assets/plugins/github-activity/css/github-activity.css', 103) %}
+          {% do assets.add('theme://assets/plugins/github-calendar/css/github-calendar.css', 102) %}
         {% endif %}
 
-        {% do assets.add('theme://assets/css/styles.css', 102) %}
+        {% do assets.add('theme://assets/css/styles.css', 101) %}
 
         {# Webfonts #}
-        {% do assets.addCss('https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic', 101) %}
-        {% do assets.addCss('https://fonts.googleapis.com/css?family=Montserrat:400,700', 100) %}
+        {% do assets.addCss('https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic', 100) %}
+        {% do assets.addCss('https://fonts.googleapis.com/css?family=Montserrat:400,700', 99) %}
 
         {{ assets.css() }}
       {% endblock %}
@@ -131,9 +132,10 @@
       {% if theme_config.github %}
         {% do assets.add('https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js', 102) %}
         {% do assets.add('theme://assets/plugins/github-activity/js/github-activity.min.js', 101) %}
+        {% do assets.add('theme://assets/plugins/github-calendar/js/github-calendar.min.js', 100) %}
       {% endif %}
 
-      {% do assets.add('theme://assets/js/main.js', 100) %}
+      {% do assets.add('theme://assets/js/main.js', 99) %}
 
       {{ assets.js() }}
     {% endblock %}

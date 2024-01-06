@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/fi.yaml',
-    'modified' => 1696261370,
-    'size' => 3321,
+    'modified' => 1704455172,
+    'size' => 3295,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -65,12 +65,12 @@ Polku: `%2$s`
                 '/(n)ews$/i' => '\\1ews'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
-                0 => 'equipment',
-                1 => 'information',
+                0 => '',
+                1 => '',
                 2 => 'riisi',
                 3 => 'raha',
                 4 => 'lajit',
-                5 => 'series',
+                5 => '',
                 6 => 'kala',
                 7 => 'lammas'
             ],

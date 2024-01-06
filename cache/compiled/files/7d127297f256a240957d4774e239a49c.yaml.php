@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/bg.yaml',
-    'modified' => 1696261370,
-    'size' => 1535,
+    'modified' => 1704455172,
+    'size' => 1860,
     'data' => [
         'GRAV' => [
             'NICETIME' => [
@@ -11,6 +11,7 @@ return [
                 'BAD_DATE' => 'Невалидна дата',
                 'AGO' => 'преди',
                 'FROM_NOW' => 'от сега',
+                'JUST_NOW' => 'току що',
                 'SECOND' => 'секунда',
                 'MINUTE' => 'минута',
                 'HOUR' => 'час',
@@ -69,6 +70,16 @@ return [
                 4 => 'петък',
                 5 => 'събота',
                 6 => 'неделя'
+            ],
+            'YES' => 'Да',
+            'NO' => 'Не',
+            'CRON' => [
+                'EVERY' => 'всеки',
+                'EVERY_HOUR' => 'Всеки час',
+                'EVERY_MINUTE' => 'Всяка минута',
+                'EVERY_DAY_OF_WEEK' => 'Всеки ден от седмицата',
+                'EVERY_DAY_OF_MONTH' => 'Всеки ден от месеца',
+                'EVERY_MONTH' => 'Всеки месец'
             ]
         ]
     ]

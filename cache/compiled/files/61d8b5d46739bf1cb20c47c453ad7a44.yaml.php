@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/et.yaml',
-    'modified' => 1696261370,
-    'size' => 2311,
+    'modified' => 1704455172,
+    'size' => 2421,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -33,12 +33,12 @@ asukoht: `%2$s`
                 '/(hive)s$/i' => '\\1'
             ],
             'INFLECTOR_UNCOUNTABLE' => [
-                0 => 'equipment',
+                0 => '',
                 1 => 'informatsioon',
                 2 => 'riis',
                 3 => 'raha',
-                4 => 'species',
-                5 => 'series',
+                4 => '',
+                5 => '',
                 6 => 'kala',
                 7 => 'lammas'
             ],
@@ -93,7 +93,8 @@ asukoht: `%2$s`
             'FORM' => [
                 'VALIDATION_FAIL' => '<b>Kinnitamine nurjus:</b>',
                 'INVALID_INPUT' => 'Vigane sisend:',
-                'MISSING_REQUIRED_FIELD' => 'Nõutud väli puudub:'
+                'MISSING_REQUIRED_FIELD' => 'Nõutud väli puudub:',
+                'XSS_ISSUES' => 'Tuvastasime \'%s\' väljal võimaliku XSS-riski'
             ],
             'MONTHS_OF_THE_YEAR' => [
                 0 => 'jaanuar',
@@ -118,11 +119,14 @@ asukoht: `%2$s`
                 5 => 'laupäev',
                 6 => 'pühapäev'
             ],
+            'YES' => 'Jah',
+            'NO' => 'Ei',
             'CRON' => [
                 'EVERY' => 'iga',
                 'EVERY_HOUR' => 'iga tund',
                 'EVERY_MINUTE' => 'iga minut',
-                'EVERY_DAY_OF_WEEK' => 'iga nädala päev',
+                'EVERY_DAY_OF_WEEK' => 'nädala igal päeval',
+                'EVERY_DAY_OF_MONTH' => 'kuu igal päeval',
                 'EVERY_MONTH' => 'iga kuu',
                 'TEXT_PERIOD' => 'Iga <b />',
                 'ERROR1' => 'Silt %s pole toetatud!',

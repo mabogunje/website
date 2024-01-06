@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1700339299,
-    'checksum' => 'f8982806d7cc8186d7dce01094181fd0',
+    'timestamp' => 1704502299,
+    'checksum' => '01f03c0f242e32e2f37dd44d8b37e31f',
     'files' => [
         'user/config' => [
             'media' => [
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1697146584
+                'modified' => 1704502291
             ],
             'themes/x-corporation' => [
                 'file' => 'user/config/themes/x-corporation.yaml',
@@ -39,37 +39,37 @@ return [
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
-                'modified' => 1697146584
+                'modified' => 1704502291
             ]
         ],
         'system/config' => [
             'backups' => [
                 'file' => 'system/config/backups.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'mime' => [
                 'file' => 'system/config/mime.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'permissions' => [
                 'file' => 'system/config/permissions.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ]
         ],
         'user/plugins' => [
@@ -707,6 +707,11 @@ node_modules'
                     'type' => 'file',
                     'thumb' => 'media/thumb-json.png',
                     'mime' => 'application/json'
+                ],
+                'vcf' => [
+                    'type' => 'file',
+                    'thumb' => 'media/thumb-vcf.png',
+                    'mime' => 'text/x-vcard'
                 ]
             ]
         ],
@@ -3796,11 +3801,18 @@ node_modules'
             ],
             'uploads_dangerous_extensions' => [
                 0 => 'php',
-                1 => 'phar',
-                2 => 'html',
-                3 => 'htm',
-                4 => 'js',
-                5 => 'exe'
+                1 => 'php2',
+                2 => 'php3',
+                3 => 'php4',
+                4 => 'php5',
+                5 => 'phar',
+                6 => 'phtml',
+                7 => 'html',
+                8 => 'htm',
+                9 => 'shtml',
+                10 => 'shtm',
+                11 => 'js',
+                12 => 'exe'
             ],
             'sanitize_svg' => true,
             'salt' => '059tJKM7b46FNL'
@@ -4128,7 +4140,7 @@ node_modules'
         'versions' => [
             'core' => [
                 'grav' => [
-                    'version' => '1.7.43',
+                    'version' => '1.7.44',
                     'history' => [
                         0 => [
                             'version' => '1.7.18',
@@ -4177,6 +4189,10 @@ node_modules'
                         11 => [
                             'version' => '1.7.43',
                             'date' => '2023-10-12 21:36:24'
+                        ],
+                        12 => [
+                            'version' => '1.7.44',
+                            'date' => '2024-01-06 00:51:31'
                         ]
                     ],
                     'schema' => '1.7.0_2020-11-20_1'

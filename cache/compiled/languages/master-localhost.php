@@ -1,185 +1,201 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1697146815,
-    'checksum' => '4c3f1986ebfab07372f88f361eb4a803',
+    'timestamp' => 1704502416,
+    'checksum' => '0b435afe93f3713a14057a4343ab63f3',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'bg' => [
                 'file' => 'system/languages/bg.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
+            ],
+            'eo' => [
+                'file' => 'system/languages/eo.yaml',
+                'modified' => 1704455172
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'et' => [
                 'file' => 'system/languages/et.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'eu' => [
                 'file' => 'system/languages/eu.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'fa' => [
                 'file' => 'system/languages/fa.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'gl' => [
                 'file' => 'system/languages/gl.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'he' => [
                 'file' => 'system/languages/he.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'id' => [
                 'file' => 'system/languages/id.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'is' => [
                 'file' => 'system/languages/is.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'ko' => [
                 'file' => 'system/languages/ko.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
+            ],
+            'lv' => [
+                'file' => 'system/languages/lv.yaml',
+                'modified' => 1704455172
             ],
             'mn' => [
                 'file' => 'system/languages/mn.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
+            ],
+            'my' => [
+                'file' => 'system/languages/my.yaml',
+                'modified' => 1704455172
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'si' => [
                 'file' => 'system/languages/si.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'sl' => [
                 'file' => 'system/languages/sl.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'sr' => [
                 'file' => 'system/languages/sr.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
+            ],
+            'sw' => [
+                'file' => 'system/languages/sw.yaml',
+                'modified' => 1704455172
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'zh' => [
                 'file' => 'system/languages/zh.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'zh-cn' => [
                 'file' => 'system/languages/zh-cn.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'zh-tw' => [
                 'file' => 'system/languages/zh-tw.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ]
         ],
         'user/plugins' => [
@@ -421,6 +437,18 @@ title: %1$s
 ```
 %4$s
 ```',
+                'INFLECTOR_SINGULAR' => [
+                    '/([octop|vir])i$/i' => '\\1us',
+                    '/(cris|ax|test)es$/i' => '\\1is',
+                    '/(shoe)s$/i' => '\\1',
+                    '/([lr])ves$/i' => '\\1f',
+                    '/(tive)s$/i' => '\\1
+',
+                    '/(hive)s$/i' => '\\1',
+                    '/([^f])ves$/i' => '\\1fe',
+                    '/(^analy)ses$/i' => '\\1sis',
+                    '/((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i' => '\\1\\2sis'
+                ],
                 'INFLECTOR_UNCOUNTABLE' => [
                     0 => 'экипировка',
                     1 => 'информация',
@@ -811,9 +839,22 @@ Pfad: `%2$s`
                 'ERROR_MESSAGE' => 'Uups. Izgleda da ova stranica ne postoji.'
             ],
             'GRAV' => [
+                'FRONTMATTER_ERROR_PAGE' => '---
+naslov: %1$s
+---
+
+# Pogreška: nevažeći frontmatter
+
+Putanja datoteke: `%2$s`
+
+**%3$s**
+
+```
+%4$s
+```',
                 'INFLECTOR_UNCOUNTABLE' => [
                     0 => 'oprema',
-                    1 => 'informacije',
+                    1 => 'informacija',
                     2 => 'riža',
                     3 => 'novac',
                     4 => 'vrsta',
@@ -828,11 +869,18 @@ Pfad: `%2$s`
                     'sex' => 'spolovi',
                     'move' => 'Pomakni'
                 ],
+                'INFLECTOR_ORDINALS' => [
+                    'default' => '.',
+                    'first' => '.',
+                    'second' => '.',
+                    'third' => '.'
+                ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'Datum nije upisan',
                     'BAD_DATE' => 'Pogrešan datum',
                     'AGO' => 'prije',
                     'FROM_NOW' => 'od sada',
+                    'JUST_NOW' => 'upravo sad',
                     'SECOND' => 'sekunda',
                     'MINUTE' => 'minuta',
                     'HOUR' => 'sat',
@@ -842,6 +890,7 @@ Pfad: `%2$s`
                     'YEAR' => 'godina',
                     'DECADE' => 'desetljeće',
                     'SEC' => 'sek',
+                    'MIN' => 'min',
                     'HR' => 'sat',
                     'WK' => 't',
                     'MO' => 'm',
@@ -866,7 +915,8 @@ Pfad: `%2$s`
                 'FORM' => [
                     'VALIDATION_FAIL' => '<b>Validacija nije uspjela:</b>',
                     'INVALID_INPUT' => 'Pogrešan unos u',
-                    'MISSING_REQUIRED_FIELD' => 'Nedostaje obavezno polje:'
+                    'MISSING_REQUIRED_FIELD' => 'Nedostaje obavezno polje:',
+                    'XSS_ISSUES' => 'Potencijalni XSS problemi otkriveni u polju \'%s\''
                 ],
                 'MONTHS_OF_THE_YEAR' => [
                     0 => 'Siječanj',
@@ -890,6 +940,26 @@ Pfad: `%2$s`
                     4 => 'Petak',
                     5 => 'Subota',
                     6 => 'Nedjelja'
+                ],
+                'YES' => 'Da',
+                'NO' => 'Ne',
+                'CRON' => [
+                    'EVERY' => 'svaki',
+                    'EVERY_HOUR' => 'svaki sat',
+                    'EVERY_MINUTE' => 'svake minute',
+                    'EVERY_DAY_OF_WEEK' => 'svaki dan u tjednu',
+                    'EVERY_DAY_OF_MONTH' => 'svaki dan u mjesecu',
+                    'EVERY_MONTH' => 'svaki mjesec',
+                    'TEXT_PERIOD' => 'Svakih <b />',
+                    'TEXT_MINS' => ' u <b /> minut(e) nakon sata',
+                    'TEXT_TIME' => ' u <b />:<b />',
+                    'TEXT_DOW' => ' na <b />',
+                    'TEXT_MONTH' => '  <b />',
+                    'TEXT_DOM' => ' na <b />',
+                    'ERROR1' => 'Oznaka %s nije podržana!',
+                    'ERROR2' => 'Pogrešan broj elemenata.',
+                    'ERROR3' => 'jquery_element treba postaviti u postavke jqCron',
+                    'ERROR4' => 'Izraz nije prepoznat'
                 ]
             ]
         ],
@@ -1053,8 +1123,27 @@ Chemin: `%2$s`
                 ],
                 'INFLECTOR_SINGULAR' => [
                     '/(quiz)zes$/i' => '\\1',
+                    '/(matr)ices$/i' => '\\1ix',
+                    '/(vert|ind)ices$/i' => '\\1ex',
+                    '/^(ox)en/i' => '\\1',
                     '/(alias|status)es$/i' => '\\1',
                     '/([octop|vir])i$/i' => '\\1us',
+                    '/(cris|ax|test)es$/i' => '\\1is',
+                    '/(shoe)s$/i' => '\\1',
+                    '/(o)es$/i' => '\\1',
+                    '/(bus)es$/i' => '\\1',
+                    '/([m|l])ice$/i' => '\\1ouse',
+                    '/(x|ch|ss|sh)es$/i' => '\\1',
+                    '/(m)ovies$/i' => '\\1ovie',
+                    '/(s)eries$/i' => '\\1eries',
+                    '/([^aeiouy]|qu)ies$/i' => '\\1y',
+                    '/([lr])ves$/i' => '\\1f',
+                    '/(tive)s$/i' => '\\1',
+                    '/(hive)s$/i' => '\\1',
+                    '/([^f])ves$/i' => '\\1fe',
+                    '/(^analy)ses$/i' => '\\1sis',
+                    '/((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i' => '\\1\\2sis',
+                    '/([ti])a$/i' => '\\1um',
                     '/(n)ews$/i' => '\\1ouvelles'
                 ],
                 'INFLECTOR_UNCOUNTABLE' => [
@@ -1598,6 +1687,8 @@ Sti: `%2$s`
                     5 => '星期六',
                     6 => '星期日'
                 ],
+                'YES' => '是',
+                'NO' => '否',
                 'CRON' => [
                     'EVERY' => '每隔',
                     'EVERY_HOUR' => '每小时',
@@ -1628,9 +1719,9 @@ Sti: `%2$s`
 title: %1$s
 ---
 
-# Chyba: Chybný frontmatter
+# Chyba: Chybná hlavička
 
-Path: `%2$s`
+Cesta: `%2$s`
 
 **%3$s**
 
@@ -1818,10 +1909,10 @@ Path: `%2$s`
                 'INFLECTOR_UNCOUNTABLE' => [
                     0 => 'wyposażenie',
                     1 => 'informacja',
-                    2 => 'rice',
+                    2 => '',
                     3 => 'pieniądze',
-                    4 => 'species',
-                    5 => 'series',
+                    4 => '',
+                    5 => '',
                     6 => 'ryba',
                     7 => 'owca'
                 ],
@@ -1940,14 +2031,14 @@ Ruta: `%2$s`
 %4$s
 ```',
                 'INFLECTOR_UNCOUNTABLE' => [
-                    0 => 'equipment',
+                    0 => '',
                     1 => 'informació',
-                    2 => 'rice',
-                    3 => 'money',
-                    4 => 'species',
-                    5 => 'series',
-                    6 => 'fish',
-                    7 => 'sheep'
+                    2 => '',
+                    3 => '',
+                    4 => '',
+                    5 => '',
+                    6 => '',
+                    7 => ''
                 ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'No s\'ha proporcionat data',
@@ -2152,6 +2243,7 @@ Ruta: `%2$s`
                     'BAD_DATE' => 'Невалидна дата',
                     'AGO' => 'преди',
                     'FROM_NOW' => 'от сега',
+                    'JUST_NOW' => 'току що',
                     'SECOND' => 'секунда',
                     'MINUTE' => 'минута',
                     'HOUR' => 'час',
@@ -2210,6 +2302,16 @@ Ruta: `%2$s`
                     4 => 'петък',
                     5 => 'събота',
                     6 => 'неделя'
+                ],
+                'YES' => 'Да',
+                'NO' => 'Не',
+                'CRON' => [
+                    'EVERY' => 'всеки',
+                    'EVERY_HOUR' => 'Всеки час',
+                    'EVERY_MINUTE' => 'Всяка минута',
+                    'EVERY_DAY_OF_WEEK' => 'Всеки ден от седмицата',
+                    'EVERY_DAY_OF_MONTH' => 'Всеки ден от месеца',
+                    'EVERY_MONTH' => 'Всеки месец'
                 ]
             ]
         ],
@@ -2381,6 +2483,63 @@ Ruta: `%2$s`
                 ]
             ]
         ],
+        'eo' => [
+            'GRAV' => [
+                'FRONTMATTER_ERROR_PAGE' => '---
+title: %1$s
+---
+
+# Eraro: Nevalida Frontmatter
+
+Vojo: `%2$s`
+
+**%3$s**
+
+```
+%4$s
+```',
+                'INFLECTOR_PLURALS' => [
+                    '/sis$/i' => 'j'
+                ],
+                'NICETIME' => [
+                    'FROM_NOW' => 'ekde nun',
+                    'JUST_NOW' => 'Ĝuste nun',
+                    'SECOND' => 'sekundo',
+                    'MINUTE' => 'minuto',
+                    'HOUR' => 'horo',
+                    'DAY' => 'tago',
+                    'WEEK' => 'semajno',
+                    'MONTH' => 'monato',
+                    'YEAR' => 'jaro',
+                    'DECADE' => 'jardeko',
+                    'SEC' => 'sek.',
+                    'MIN' => 'min.',
+                    'HR' => 'horo',
+                    'SECOND_PLURAL' => 'sekundoj',
+                    'MINUTE_PLURAL' => 'minutoj',
+                    'HOUR_PLURAL' => 'horoj',
+                    'DAY_PLURAL' => 'tagoj',
+                    'WEEK_PLURAL' => 'semajnoj',
+                    'MONTH_PLURAL' => 'monatoj',
+                    'YEAR_PLURAL' => 'jaroj',
+                    'DECADE_PLURAL' => 'jardekoj'
+                ],
+                'MONTHS_OF_THE_YEAR' => [
+                    0 => 'januaro',
+                    1 => 'februaro',
+                    2 => 'marto',
+                    3 => 'aprilo',
+                    4 => '',
+                    5 => '',
+                    6 => '',
+                    7 => '',
+                    8 => '',
+                    9 => '',
+                    10 => '',
+                    11 => ''
+                ]
+            ]
+        ],
         'es' => [
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
@@ -2419,9 +2578,9 @@ Ruta: `%2$s`
                     'move' => 'movido'
                 ],
                 'INFLECTOR_ORDINALS' => [
-                    'first' => 'ro',
-                    'second' => 'do',
-                    'third' => 'ro'
+                    'first' => '.º',
+                    'second' => '.º',
+                    'third' => '.º'
                 ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'No se proporcionó fecha',
@@ -2504,7 +2663,7 @@ Ruta: `%2$s`
                     'TEXT_DOW' => ' en <b />',
                     'TEXT_MONTH' => ' de<b />',
                     'TEXT_DOM' => ' en<b />',
-                    'ERROR1' => '¡La etiqueta %s no está soportada!',
+                    'ERROR1' => 'No se admite la etiqueta %s.',
                     'ERROR2' => 'El número de elementos es erróneo',
                     'ERROR3' => 'El jquery_element debería establecerse en la configuración del jqCron',
                     'ERROR4' => 'Expresión no reconocida'
@@ -2540,12 +2699,12 @@ asukoht: `%2$s`
                     '/(hive)s$/i' => '\\1'
                 ],
                 'INFLECTOR_UNCOUNTABLE' => [
-                    0 => 'equipment',
+                    0 => '',
                     1 => 'informatsioon',
                     2 => 'riis',
                     3 => 'raha',
-                    4 => 'species',
-                    5 => 'series',
+                    4 => '',
+                    5 => '',
                     6 => 'kala',
                     7 => 'lammas'
                 ],
@@ -2600,7 +2759,8 @@ asukoht: `%2$s`
                 'FORM' => [
                     'VALIDATION_FAIL' => '<b>Kinnitamine nurjus:</b>',
                     'INVALID_INPUT' => 'Vigane sisend:',
-                    'MISSING_REQUIRED_FIELD' => 'Nõutud väli puudub:'
+                    'MISSING_REQUIRED_FIELD' => 'Nõutud väli puudub:',
+                    'XSS_ISSUES' => 'Tuvastasime \'%s\' väljal võimaliku XSS-riski'
                 ],
                 'MONTHS_OF_THE_YEAR' => [
                     0 => 'jaanuar',
@@ -2625,11 +2785,14 @@ asukoht: `%2$s`
                     5 => 'laupäev',
                     6 => 'pühapäev'
                 ],
+                'YES' => 'Jah',
+                'NO' => 'Ei',
                 'CRON' => [
                     'EVERY' => 'iga',
                     'EVERY_HOUR' => 'iga tund',
                     'EVERY_MINUTE' => 'iga minut',
-                    'EVERY_DAY_OF_WEEK' => 'iga nädala päev',
+                    'EVERY_DAY_OF_WEEK' => 'nädala igal päeval',
+                    'EVERY_DAY_OF_MONTH' => 'kuu igal päeval',
                     'EVERY_MONTH' => 'iga kuu',
                     'TEXT_PERIOD' => 'Iga <b />',
                     'ERROR1' => 'Silt %s pole toetatud!',
@@ -2848,12 +3011,12 @@ Polku: `%2$s`
                     '/(n)ews$/i' => '\\1ews'
                 ],
                 'INFLECTOR_UNCOUNTABLE' => [
-                    0 => 'equipment',
-                    1 => 'information',
+                    0 => '',
+                    1 => '',
                     2 => 'riisi',
                     3 => 'raha',
                     4 => 'lajit',
-                    5 => 'series',
+                    5 => '',
                     6 => 'kala',
                     7 => 'lammas'
                 ],
@@ -3127,11 +3290,29 @@ Ruta: `%2$s`
 ```
 %4$s
 ```',
+                'INFLECTOR_UNCOUNTABLE' => [
+                    0 => 'ציוד',
+                    1 => 'מידע',
+                    2 => 'אורז',
+                    3 => 'כסף',
+                    4 => 'מינים',
+                    5 => 'סדרה',
+                    6 => 'דג',
+                    7 => 'כבשה'
+                ],
+                'INFLECTOR_IRREGULAR' => [
+                    'person' => 'אנשים',
+                    'man' => 'גברים',
+                    'child' => 'ילדים',
+                    'sex' => 'מינים',
+                    'move' => 'מהלכים'
+                ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'לא סופק תאריך',
                     'BAD_DATE' => 'תאריך פגום',
                     'AGO' => 'לפני',
                     'FROM_NOW' => 'כרגע',
+                    'JUST_NOW' => 'כרגע',
                     'SECOND' => 'שנייה',
                     'MINUTE' => 'דקה',
                     'HOUR' => 'שעה',
@@ -3166,7 +3347,8 @@ Ruta: `%2$s`
                 'FORM' => [
                     'VALIDATION_FAIL' => '<b>האימות נכשל:</b>',
                     'INVALID_INPUT' => 'קלט לא חוקי',
-                    'MISSING_REQUIRED_FIELD' => 'שדות חובה חסרים:'
+                    'MISSING_REQUIRED_FIELD' => 'שדות חובה חסרים:',
+                    'XSS_ISSUES' => 'בעיות XSS פוטנציאליות זוהו בשדה \'%s\''
                 ],
                 'MONTHS_OF_THE_YEAR' => [
                     0 => 'ינואר',
@@ -3190,6 +3372,26 @@ Ruta: `%2$s`
                     4 => 'שישי',
                     5 => 'שבת',
                     6 => 'ראשון'
+                ],
+                'YES' => 'כן',
+                'NO' => 'לא',
+                'CRON' => [
+                    'EVERY' => 'בכל',
+                    'EVERY_HOUR' => 'בכל שעה',
+                    'EVERY_MINUTE' => 'כל דקה',
+                    'EVERY_DAY_OF_WEEK' => 'כל יום בשבוע',
+                    'EVERY_DAY_OF_MONTH' => 'בכל יום בחודש',
+                    'EVERY_MONTH' => 'כל חודש',
+                    'TEXT_PERIOD' => 'כל  <b />',
+                    'TEXT_MINS' => 'ב <b /> דקות אחרי השעה',
+                    'TEXT_TIME' => 'ב  <b />:<b />',
+                    'TEXT_DOW' => 'ב  <b />',
+                    'TEXT_MONTH' => 'של  <b />',
+                    'TEXT_DOM' => 'ב  <b />',
+                    'ERROR1' => 'התגית %s אינו נתמכת',
+                    'ERROR2' => 'מספר לא חוקי של משתנים.',
+                    'ERROR3' => 'יש להגדיר את ה-jquery_element להגדרות jqCron',
+                    'ERROR4' => 'ביטוי לא מזוהה'
                 ]
             ]
         ],
@@ -3499,14 +3701,14 @@ Slóð: `%2$s`
 %4$s
 ```',
                 'INFLECTOR_UNCOUNTABLE' => [
-                    0 => 'equipment',
+                    0 => '',
                     1 => 'upplýsingar',
-                    2 => 'rice',
-                    3 => 'money',
-                    4 => 'species',
-                    5 => 'series',
-                    6 => 'fish',
-                    7 => 'sheep'
+                    2 => '',
+                    3 => '',
+                    4 => '',
+                    5 => '',
+                    6 => '',
+                    7 => ''
                 ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'Engin dagsetning gefin',
@@ -3586,12 +3788,12 @@ Slóð: `%2$s`
         'ja' => [
             'GRAV' => [
                 'INFLECTOR_UNCOUNTABLE' => [
-                    0 => 'equipment',
+                    0 => '',
                     1 => '情報',
-                    2 => 'rice',
+                    2 => '',
                     3 => 'お金',
-                    4 => 'species',
-                    5 => 'series',
+                    4 => '',
+                    5 => '',
                     6 => '魚',
                     7 => 'ヒツジ'
                 ],
@@ -3689,11 +3891,25 @@ title: %1$s
 ```
 %4$s
 ```',
+                'INFLECTOR_UNCOUNTABLE' => [
+                    0 => '장비',
+                    1 => '정보',
+                    2 => '',
+                    3 => '',
+                    4 => '',
+                    5 => '시리즈',
+                    6 => '물고기',
+                    7 => ''
+                ],
+                'INFLECTOR_IRREGULAR' => [
+                    'person' => '사람들'
+                ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => '제공된 날짜가 없습니다',
                     'BAD_DATE' => '잘못된 날짜',
                     'AGO' => '전',
                     'FROM_NOW' => '후',
+                    'JUST_NOW' => '방금',
                     'SECOND' => '초',
                     'MINUTE' => '분',
                     'HOUR' => '시간',
@@ -3728,7 +3944,8 @@ title: %1$s
                 'FORM' => [
                     'VALIDATION_FAIL' => '<b>유효성 검사 실패:</b>',
                     'INVALID_INPUT' => '잘못된 입력',
-                    'MISSING_REQUIRED_FIELD' => '누락 된 필수 필드:'
+                    'MISSING_REQUIRED_FIELD' => '누락 된 필수 필드:',
+                    'XSS_ISSUES' => '\'%s\' 필드에서 잠재적인 XSS 문제가 감지되었습니다.'
                 ],
                 'MONTHS_OF_THE_YEAR' => [
                     0 => '일월',
@@ -3752,6 +3969,21 @@ title: %1$s
                     4 => '금요일',
                     5 => '토요일',
                     6 => '일요일'
+                ],
+                'YES' => '네',
+                'NO' => '아니요',
+                'CRON' => [
+                    'EVERY' => '모두',
+                    'EVERY_HOUR' => '매 시간',
+                    'EVERY_MINUTE' => '매 분',
+                    'EVERY_DAY_OF_WEEK' => '일주일간 매일',
+                    'EVERY_DAY_OF_MONTH' => '일개월간 매일',
+                    'EVERY_MONTH' => '매달',
+                    'TEXT_PERIOD' => '모든 <b />',
+                    'ERROR1' => '%s 태그는 지원되지 않습니다. ',
+                    'ERROR2' => '잘못된 요소 수',
+                    'ERROR3' => 'jquery_element는 jqCron 설정에서 설정할 수 있습니다.',
+                    'ERROR4' => '인식할 수 없는 표현'
                 ]
             ]
         ],
@@ -3771,8 +4003,8 @@ Path: `%2$s`
  %4$s
 ```',
                 'INFLECTOR_UNCOUNTABLE' => [
-                    0 => 'equipment',
-                    1 => 'information',
+                    0 => '',
+                    1 => '',
                     2 => 'ryžiai',
                     3 => 'pinigai',
                     4 => 'prieskoniai',
@@ -3850,6 +4082,110 @@ Path: `%2$s`
                     4 => 'Penktadienis',
                     5 => 'Šeštadienis',
                     6 => 'Sekmadienis'
+                ]
+            ]
+        ],
+        'lv' => [
+            'GRAV' => [
+                'FRONTMATTER_ERROR_PAGE' => '---
+Nosaukums: %1$s
+---
+
+# Kļūda: Nederīgs Frontmatter
+
+Ceļš: `%2$s`
+
+**%3$s**
+
+```
+%4$s
+```',
+                'INFLECTOR_ORDINALS' => [
+                    'default' => '.',
+                    'first' => '.',
+                    'second' => '.',
+                    'third' => '.'
+                ],
+                'NICETIME' => [
+                    'NO_DATE_PROVIDED' => 'Nav norādīts datums',
+                    'BAD_DATE' => 'Nederīgs datums',
+                    'AGO' => 'iepriekš',
+                    'FROM_NOW' => 'no šī brīža',
+                    'JUST_NOW' => 'tikko',
+                    'SECOND' => 'sekundes',
+                    'MINUTE' => 'minūte',
+                    'HOUR' => 'stunda',
+                    'DAY' => 'diena',
+                    'WEEK' => 'nedēļa',
+                    'MONTH' => 'mēnesis',
+                    'YEAR' => 'gads',
+                    'DECADE' => 'dekāde',
+                    'SEC' => 's',
+                    'MIN' => 'm',
+                    'HR' => 'st',
+                    'WK' => 'ned',
+                    'MO' => 'mēn.',
+                    'YR' => 'g.',
+                    'DEC' => 'dec',
+                    'SECOND_PLURAL' => 'sekundes',
+                    'MINUTE_PLURAL' => 'minūtes',
+                    'HOUR_PLURAL' => 'stundas',
+                    'DAY_PLURAL' => 'dienas',
+                    'WEEK_PLURAL' => 'nedēļas',
+                    'MONTH_PLURAL' => 'mēneši',
+                    'YEAR_PLURAL' => 'gadi',
+                    'DECADE_PLURAL' => 'desmitgades',
+                    'SEC_PLURAL' => 's',
+                    'MIN_PLURAL' => 'm',
+                    'HR_PLURAL' => 'st.',
+                    'WK_PLURAL' => 'ned.',
+                    'MO_PLURAL' => 'mēn.',
+                    'YR_PLURAL' => 'g.',
+                    'DEC_PLURAL' => 'd'
+                ],
+                'FORM' => [
+                    'VALIDATION_FAIL' => '<b>Validācija neizdevās:</b>',
+                    'INVALID_INPUT' => 'Nederīga ievade',
+                    'MISSING_REQUIRED_FIELD' => 'Laukā trūkst datu',
+                    'XSS_ISSUES' => 'Atrastas iespējamas XSS problēmas laukā \'%s\''
+                ],
+                'MONTHS_OF_THE_YEAR' => [
+                    0 => 'Janvāris',
+                    1 => 'Februāris',
+                    2 => 'Marts',
+                    3 => 'Aprīlis',
+                    4 => 'Maijs',
+                    5 => 'Jūnijs',
+                    6 => 'Jūlijs',
+                    7 => 'Augusts',
+                    8 => 'Septembris',
+                    9 => 'Oktobris',
+                    10 => 'Novembris',
+                    11 => 'Decembris'
+                ],
+                'DAYS_OF_THE_WEEK' => [
+                    0 => 'Pirmdiena',
+                    1 => 'Otrdiena',
+                    2 => 'Trešdiena',
+                    3 => 'Ceturtdiena',
+                    4 => 'Piektdiena',
+                    5 => 'Sestdiena',
+                    6 => 'Svētdiena'
+                ],
+                'YES' => 'Jā',
+                'NO' => 'Nē',
+                'CRON' => [
+                    'EVERY' => 'katru',
+                    'EVERY_HOUR' => 'katru stundu',
+                    'EVERY_MINUTE' => 'katru minūti',
+                    'EVERY_DAY_OF_WEEK' => 'katru nedēļas dienu',
+                    'EVERY_DAY_OF_MONTH' => 'katru mēneša dienu',
+                    'EVERY_MONTH' => 'katru mēnesi',
+                    'TEXT_PERIOD' => 'Katru <b />',
+                    'ERROR1' => 'Marķieris %s nav atbalstīts!',
+                    'ERROR2' => 'Nederīgs elementu skaits',
+                    'ERROR3' => 'jquery_element nevajadzētu definēt jqCron iestatījumos',
+                    'ERROR4' => 'Neatpazīta izteiksme'
                 ]
             ]
         ],
@@ -4024,6 +4360,177 @@ Path: `%2$s`
                 ]
             ]
         ],
+        'my' => [
+            'GRAV' => [
+                'FRONTMATTER_ERROR_PAGE' => '---
+ခေါင်းစဥ်: %1$s
+---
+
+# အမှား - Frontmatter မမှန်ကန်ပါ
+
+လမ်းကြောင်း `%2$s`
+
+**%3$s**
+
+```
+%4$s
+```',
+                'INFLECTOR_PLURALS' => [
+                    '/(quiz)$/i' => '\\1zes',
+                    '/^(ox)$/i' => '\\1en',
+                    '/([m|l])ouse$/i' => '\\1ice',
+                    '/(matr|vert|ind)ix|ex$/i' => '\\1ices',
+                    '/(x|ch|ss|sh)$/i' => '\\1es',
+                    '/([^aeiouy]|qu)ies$/i' => '\\1y',
+                    '/([^aeiouy]|qu)y$/i' => '\\1ies',
+                    '/(hive)$/i' => '\\1s',
+                    '/(?:([^f])fe|([lr])f)$/i' => '\\1\\2ves',
+                    '/sis$/i' => 'ses',
+                    '/([ti])um$/i' => '\\1a',
+                    '/(buffal|tomat)o$/i' => '\\1oes',
+                    '/(bu)s$/i' => '\\1ses',
+                    '/(alias|status)/i' => '\\1es',
+                    '/(octop|vir)us$/i' => '\\1i',
+                    '/(ax|test)is$/i' => '\\1es',
+                    '/s$/i' => 's',
+                    '/$/' => 's'
+                ],
+                'INFLECTOR_SINGULAR' => [
+                    '/(quiz)zes$/i' => '\\1',
+                    '/(matr)ices$/i' => '\\1ix',
+                    '/(vert|ind)ices$/i' => '\\1ex',
+                    '/^(ox)en/i' => '\\1',
+                    '/(alias|status)es$/i' => '\\1',
+                    '/([octop|vir])i$/i' => '\\1us',
+                    '/(cris|ax|test)es$/i' => '\\1is',
+                    '/(shoe)s$/i' => '\\1',
+                    '/(o)es$/i' => '\\1',
+                    '/(bus)es$/i' => '\\1',
+                    '/([m|l])ice$/i' => '\\1ouse',
+                    '/(x|ch|ss|sh)es$/i' => '\\1',
+                    '/(m)ovies$/i' => '\\1ovie',
+                    '/(s)eries$/i' => '\\1eries',
+                    '/([^aeiouy]|qu)ies$/i' => '\\1y',
+                    '/([lr])ves$/i' => '\\1f',
+                    '/(tive)s$/i' => '\\1',
+                    '/(hive)s$/i' => '\\1',
+                    '/([^f])ves$/i' => '\\1fe',
+                    '/(^analy)ses$/i' => '\\1sis',
+                    '/((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i' => '\\1\\2sis',
+                    '/([ti])a$/i' => '\\1um',
+                    '/(n)ews$/i' => '\\1ews'
+                ],
+                'INFLECTOR_UNCOUNTABLE' => [
+                    0 => 'ကိရိယာ',
+                    1 => 'အချက်အလက်',
+                    2 => 'ဆန်',
+                    3 => 'ငွေ',
+                    4 => 'မျိုးစိတ်',
+                    5 => 'အတွဲများ',
+                    6 => 'ငါး',
+                    7 => 'သိုးများ'
+                ],
+                'INFLECTOR_IRREGULAR' => [
+                    'person' => 'လူ',
+                    'man' => 'ယောက်ျား',
+                    'child' => 'ကလေးများ',
+                    'sex' => 'လိင်',
+                    'move' => 'ရွှေ့ခြင်း'
+                ],
+                'INFLECTOR_ORDINALS' => [
+                    'default' => 'th',
+                    'first' => 'st',
+                    'second' => 'nd',
+                    'third' => 'rd'
+                ],
+                'NICETIME' => [
+                    'NO_DATE_PROVIDED' => 'နေ့စွဲ မသတ်မှတ်ထား',
+                    'BAD_DATE' => 'ရက်စွဲမမှန်ပါ',
+                    'AGO' => 'လွန်ခဲ့တဲ့',
+                    'FROM_NOW' => 'ယခုမှ',
+                    'JUST_NOW' => 'အခုပဲ',
+                    'SECOND' => 'ဒုတိယ',
+                    'MINUTE' => 'မိနစ်',
+                    'HOUR' => 'နာရီ',
+                    'DAY' => 'နေ့',
+                    'WEEK' => 'တစ်ပတ်',
+                    'MONTH' => 'လ',
+                    'YEAR' => 'နှစ်',
+                    'DECADE' => 'ဆယ်စုနှစ်',
+                    'SEC' => 'စက္ကန့်',
+                    'MIN' => 'မိနစ်',
+                    'HR' => 'နာရီ',
+                    'WK' => 'တစ်ပတ်',
+                    'MO' => 'လ',
+                    'YR' => 'နှစ်',
+                    'DEC' => 'ဒီဇင်ဘာ',
+                    'SECOND_PLURAL' => 'စက္ကန့်',
+                    'MINUTE_PLURAL' => 'မိနစ်',
+                    'HOUR_PLURAL' => 'နာရီ',
+                    'DAY_PLURAL' => 'နေ့',
+                    'WEEK_PLURAL' => 'ရက်သတ္တပတ်',
+                    'MONTH_PLURAL' => 'လ',
+                    'YEAR_PLURAL' => 'နှစ်',
+                    'DECADE_PLURAL' => 'ဆယ်စုနှစ်များစွ',
+                    'SEC_PLURAL' => 'စက္ကန့်',
+                    'MIN_PLURAL' => 'မိနစ်',
+                    'HR_PLURAL' => 'နာရီ',
+                    'WK_PLURAL' => 'အပတ်',
+                    'MO_PLURAL' => 'လ',
+                    'YR_PLURAL' => 'နှစ်',
+                    'DEC_PLURAL' => 'ဆယ်စုနှစ်'
+                ],
+                'FORM' => [
+                    'VALIDATION_FAIL' => '<b> အတည်ပြုခြင်းမအောင်မြင်ပါ: </b>',
+                    'INVALID_INPUT' => 'ထည့်သွင်းမှုမမှန်ပါ',
+                    'MISSING_REQUIRED_FIELD' => 'လိုအပ်သောအကွက်ပျောက်နေသည်',
+                    'XSS_ISSUES' => 'XSS ပြဿနာ ဖြစ်နိုင်ချေ ကို \'%s\' အကွက်တွင် တွေ့'
+                ],
+                'MONTHS_OF_THE_YEAR' => [
+                    0 => 'ဇန်နဝါရီ',
+                    1 => 'ဖေဖော်ဝါရီ',
+                    2 => 'မတ်',
+                    3 => 'ဧပြီ',
+                    4 => 'မေ',
+                    5 => 'ဇွန်',
+                    6 => 'ဇူလိုင်',
+                    7 => 'သြဂုတ်',
+                    8 => 'စက်တင်ဘာ',
+                    9 => 'အောက်တိုဘာ',
+                    10 => 'နိုဝင်ဘာ',
+                    11 => 'ဒီဇင်ဘာ'
+                ],
+                'DAYS_OF_THE_WEEK' => [
+                    0 => 'တနင်္လာ',
+                    1 => ' အင်္ဂါ',
+                    2 => 'ဗုဒ္ဓဟူး',
+                    3 => 'ကြာသပတေး',
+                    4 => 'သောကြာ',
+                    5 => 'စနေ',
+                    6 => 'တနင်္ဂနွေ'
+                ],
+                'YES' => 'လုပ်',
+                'NO' => 'မလုပ်',
+                'CRON' => [
+                    'EVERY' => 'အမြဲတမ်း',
+                    'EVERY_HOUR' => 'နာရီတိုင်း',
+                    'EVERY_MINUTE' => 'မိနစ်တိုင်း',
+                    'EVERY_DAY_OF_WEEK' => 'တစ်ပတ်လုံး နေ့တိုင်း',
+                    'EVERY_DAY_OF_MONTH' => 'တစ်လလုံး နေ့တိုင်း',
+                    'EVERY_MONTH' => 'လစဉ်လတိုင်း',
+                    'TEXT_PERIOD' => '</b>တိုင်း',
+                    'TEXT_MINS' => 'နာရီ ကျော်ပြီး <b /> မိနစ် တွင်',
+                    'TEXT_TIME' => ' <b />:<b /> တွင် ',
+                    'TEXT_DOW' => '<b /> ပေါ်တွင်  ',
+                    'TEXT_MONTH' => '<b />၏ ',
+                    'TEXT_DOM' => '<b /> တွင် ',
+                    'ERROR1' => 'ဤ %s တက် ကိုပံ့ပိုးမထားပါ။',
+                    'ERROR2' => 'လိုအပ်သောထည့်သွင်း နာပတ် အမှားဖြစ်နေသည်',
+                    'ERROR3' => 'jquery_element ကို jqCron ဆက်တင် တွင်ထားရမည်',
+                    'ERROR4' => 'အသိအမှတ်မပြုသော အသုံးအနှုန်း'
+                ]
+            ]
+        ],
         'nb' => [
             'GRAV' => [
                 'MONTHS_OF_THE_YEAR' => [
@@ -4174,7 +4681,8 @@ Pad: `%2$s`
                 'FORM' => [
                     'VALIDATION_FAIL' => '<b>Validatie mislukt:</b>',
                     'INVALID_INPUT' => 'Ongeldige invoer in',
-                    'MISSING_REQUIRED_FIELD' => 'Ontbrekend verplicht veld:'
+                    'MISSING_REQUIRED_FIELD' => 'Ontbrekend verplicht veld:',
+                    'XSS_ISSUES' => 'Mogelijke XSS-problemen ontdekt in \'%s\' veld'
                 ],
                 'MONTHS_OF_THE_YEAR' => [
                     0 => 'Januari',
@@ -4199,6 +4707,8 @@ Pad: `%2$s`
                     5 => 'Zaterdag',
                     6 => 'Zondag'
                 ],
+                'YES' => 'Ja',
+                'NO' => 'Nee',
                 'CRON' => [
                     'EVERY' => 'elke',
                     'EVERY_HOUR' => 'elk uur',
@@ -4408,7 +4918,7 @@ Localização: `%2$s`
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'Nenhuma data fornecida',
                     'BAD_DATE' => 'Data inválida',
-                    'AGO' => 'atrás',
+                    'AGO' => 'há',
                     'FROM_NOW' => 'a partir de agora',
                     'JUST_NOW' => 'mesmo agora',
                     'SECOND' => 'segundo',
@@ -4495,13 +5005,145 @@ Localização: `%2$s`
         ],
         'si' => [
             'GRAV' => [
+                'FRONTMATTER_ERROR_PAGE' => '---
+මාතෘකාව: %1$s
+---
+
+# දෝෂය: වලංගු නොවන ඉදිරිපස
+
+මාර්ගය: `%2$s`
+
+**%3$s**
+
+```
+%4$s
+```',
+                'INFLECTOR_PLURALS' => [
+                    '/([m|l])ouse$/i' => '\\1අයිස්',
+                    '/(matr|vert|ind)ix|ex$/i' => '\\1අයිස්',
+                    '/(?:([^f])fe|([lr])f)$/i' => '\\1\\2වෙස්',
+                    '/([ti])um$/i' => '\\1අ',
+                    '/(buffal|tomat)o$/i' => '\\1ඕඑස්',
+                    '/(bu)s$/i' => '\\1සෙස්'
+                ],
                 'INFLECTOR_SINGULAR' => [
                     '/(quiz)zes$/i' => '\\1',
                     '/^(ox)en/i' => '\\1',
                     '/(alias|status)es$/i' => '\\1',
+                    '/([octop|vir])i$/i' => '\\1 අප',
+                    '/(cris|ax|test)es$/i' => '\\1 වේ',
                     '/(o)es$/i' => '\\1',
                     '/(bus)es$/i' => '\\1',
-                    '/(x|ch|ss|sh)es$/i' => '\\1'
+                    '/([m|l])ice$/i' => '\\1 භාවිතා කරන්න',
+                    '/(x|ch|ss|sh)es$/i' => '\\1',
+                    '/(m)ovies$/i' => '\\1ඕවී',
+                    '/(s)eries$/i' => '\\1මාලා',
+                    '/(^analy)ses$/i' => '\\1සිස්',
+                    '/((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i' => '\\1\\2සිස්',
+                    '/([ti])a$/i' => '\\1ම්'
+                ],
+                'INFLECTOR_UNCOUNTABLE' => [
+                    0 => 'උපකරණ',
+                    1 => 'විස්තර',
+                    2 => 'සහල්',
+                    3 => 'මුදල',
+                    4 => 'විශේෂ',
+                    5 => 'මාලාවක්',
+                    6 => 'මාළු',
+                    7 => 'බැටළුවන්'
+                ],
+                'INFLECTOR_IRREGULAR' => [
+                    'person' => 'මහජන',
+                    'man' => 'මිනිසුන්',
+                    'child' => 'දරුවන්',
+                    'sex' => 'ලිංගිකත්වය',
+                    'move' => 'චලනය කරයි'
+                ],
+                'INFLECTOR_ORDINALS' => [
+                    'first' => 'ශාන්ත'
+                ],
+                'NICETIME' => [
+                    'NO_DATE_PROVIDED' => 'දිනයක් සපයා නැත',
+                    'BAD_DATE' => 'නරක දිනය',
+                    'AGO' => 'පෙර',
+                    'FROM_NOW' => 'මෙතැන් සිට',
+                    'JUST_NOW' => 'මේ දැන්',
+                    'SECOND' => 'දෙවැනි',
+                    'MINUTE' => 'මිනිත්තුව',
+                    'HOUR' => 'පැය',
+                    'DAY' => 'දින',
+                    'WEEK' => 'සතිය',
+                    'MONTH' => 'මස',
+                    'YEAR' => 'වර්ෂය',
+                    'DECADE' => 'දශකය',
+                    'SEC' => 'තත්පර',
+                    'MIN' => 'මිනි',
+                    'HR' => 'පැය',
+                    'YR' => 'වසර',
+                    'DEC' => 'දෙසැ',
+                    'SECOND_PLURAL' => 'තත්පර',
+                    'MINUTE_PLURAL' => 'මිනිත්තු',
+                    'HOUR_PLURAL' => 'පැය',
+                    'DAY_PLURAL' => 'දින',
+                    'WEEK_PLURAL' => 'සති',
+                    'MONTH_PLURAL' => 'මාස',
+                    'YEAR_PLURAL' => 'වසර',
+                    'DECADE_PLURAL' => 'දශක',
+                    'SEC_PLURAL' => 'තත්පර',
+                    'MIN_PLURAL' => 'මිනිත්තු',
+                    'HR_PLURAL' => 'පැය',
+                    'WK_PLURAL' => 'සති',
+                    'YR_PLURAL' => 'වසර',
+                    'DEC_PLURAL' => 'දෙසැ'
+                ],
+                'FORM' => [
+                    'VALIDATION_FAIL' => '<b>වලංගු කිරීම අසාර්ථක විය:</b>',
+                    'INVALID_INPUT' => 'වලංගු නොවන ආදානය',
+                    'MISSING_REQUIRED_FIELD' => 'අවශ්‍ය ක්ෂේත්‍රය අස්ථානගත වී ඇත:',
+                    'XSS_ISSUES' => 'විභව XSS ගැටළු \'%s\' ක්ෂේත්‍රයේ අනාවරණය විය'
+                ],
+                'MONTHS_OF_THE_YEAR' => [
+                    0 => 'ජනවාරි',
+                    1 => 'පෙබරවාරි',
+                    2 => 'මාර්තු',
+                    3 => 'අප්රේල්',
+                    4 => 'මැයි',
+                    5 => 'ජූනි',
+                    6 => 'ජුලි',
+                    7 => 'අගෝස්තු',
+                    8 => 'සැප්තැම්බර්',
+                    9 => 'ඔක්තෝම්බර්',
+                    10 => 'නොවැම්බර්',
+                    11 => 'දෙසැම්බර්'
+                ],
+                'DAYS_OF_THE_WEEK' => [
+                    0 => 'සඳුදා',
+                    1 => 'අඟහරුවාදා',
+                    2 => 'බදාදා',
+                    3 => 'බ්රහස්පතින්දා',
+                    4 => 'සිකුරාදා',
+                    5 => 'සෙනසුරාදා',
+                    6 => 'ඉරිදා'
+                ],
+                'YES' => 'ඔව්',
+                'NO' => 'නැත',
+                'CRON' => [
+                    'EVERY' => 'සෑම',
+                    'EVERY_HOUR' => 'සෑම පැයකටම',
+                    'EVERY_MINUTE' => 'සෑම විනාඩියකටම',
+                    'EVERY_DAY_OF_WEEK' => 'සතියේ සෑම දිනකම',
+                    'EVERY_DAY_OF_MONTH' => 'මාසයේ සෑම දිනකම',
+                    'EVERY_MONTH' => 'සෑම මාසයකම',
+                    'TEXT_PERIOD' => 'සෑම <b />',
+                    'TEXT_MINS' => ' පැයට පසු විනාඩි <b /> කින්',
+                    'TEXT_TIME' => ' <b />:<b />ට',
+                    'TEXT_DOW' => ' <b />මත',
+                    'TEXT_MONTH' => ' <b />',
+                    'TEXT_DOM' => ' <b />මත',
+                    'ERROR1' => 'ටැගය %s සහාය නොදක්වයි!',
+                    'ERROR2' => 'නරක මූලද්රව්ය සංඛ්යාව',
+                    'ERROR3' => 'jquery_element jqCron සැකසුම් වලට සැකසිය යුතුය',
+                    'ERROR4' => 'හඳුනා නොගත් ප්‍රකාශනය'
                 ]
             ]
         ],
@@ -4688,6 +5330,19 @@ Path: `%2$s`
 ```
 %4$s 
 ```',
+                'INFLECTOR_UNCOUNTABLE' => [
+                    0 => 'oprema',
+                    1 => 'informacija',
+                    2 => 'riž',
+                    3 => 'denar',
+                    4 => 'vrste',
+                    5 => 'serija',
+                    6 => 'riba',
+                    7 => 'ovca'
+                ],
+                'INFLECTOR_IRREGULAR' => [
+                    'person' => 'ljudje'
+                ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'Datum ni na voljo',
                     'BAD_DATE' => 'Neveljaven datum',
@@ -4732,15 +5387,15 @@ Path: `%2$s`
                     0 => 'Januar',
                     1 => 'Februar',
                     2 => 'Marec',
-                    3 => 'April',
+                    3 => 'april',
                     4 => 'Maj',
                     5 => 'Junij',
                     6 => 'Julij',
                     7 => 'Avgust',
-                    8 => 'September',
+                    8 => 'september',
                     9 => 'Oktober',
-                    10 => 'November',
-                    11 => 'December'
+                    10 => 'november',
+                    11 => 'december'
                 ],
                 'DAYS_OF_THE_WEEK' => [
                     0 => 'Ponedeljek',
@@ -4750,6 +5405,19 @@ Path: `%2$s`
                     4 => 'Petek',
                     5 => 'Sobota',
                     6 => 'Nedelja'
+                ],
+                'YES' => 'Da',
+                'NO' => 'Ne',
+                'CRON' => [
+                    'EVERY' => 'vsak',
+                    'EVERY_HOUR' => 'vsako uro',
+                    'EVERY_MINUTE' => 'vsako minuto',
+                    'EVERY_DAY_OF_WEEK' => 'vsak dan v tednu',
+                    'EVERY_DAY_OF_MONTH' => 'vsak dan v mesecu',
+                    'EVERY_MONTH' => 'vsak mesec',
+                    'ERROR1' => 'Oznaka %s ni podprta!',
+                    'ERROR2' => 'Napačno število elementov.',
+                    'ERROR4' => 'Neznan izraz'
                 ]
             ]
         ],
@@ -5031,13 +5699,184 @@ Path: `%2$s`
                 ]
             ]
         ],
+        'sw' => [
+            'GRAV' => [
+                'FRONTMATTER_ERROR_PAGE' => '---
+kichwa: %1$s
+---
+
+# Kosa: Mbele ya Mbele
+
+Njia: `%2$s`
+
+**%3$s**
+
+```
+%4$s
+```',
+                'INFLECTOR_PLURALS' => [
+                    '/(quiz)$/i' => '\\1zes',
+                    '/^(ox)$/i' => '\\1en',
+                    '/([m|l])ouse$/i' => '\\1ice',
+                    '/(matr|vert|ind)ix|ex$/i' => '\\1ices',
+                    '/(x|ch|ss|sh)$/i' => '\\1es',
+                    '/([^aeiouy]|qu)ies$/i' => '\\1y',
+                    '/([^aeiouy]|qu)y$/i' => '\\1ies',
+                    '/(hive)$/i' => '\\1s',
+                    '/(?:([^f])fe|([lr])f)$/i' => '\\1\\2ves',
+                    '/sis$/i' => 'ses',
+                    '/([ti])um$/i' => '\\1a',
+                    '/(buffal|tomat)o$/i' => '\\1oes',
+                    '/(bu)s$/i' => '\\1ses',
+                    '/(alias|status)/i' => '\\1es',
+                    '/(octop|vir)us$/i' => '\\1i',
+                    '/(ax|test)is$/i' => '\\1es',
+                    '/s$/i' => 's',
+                    '/$/' => 's'
+                ],
+                'INFLECTOR_SINGULAR' => [
+                    '/(quiz)zes$/i' => '\\1',
+                    '/(matr)ices$/i' => '\\1ix',
+                    '/(vert|ind)ices$/i' => '\\1ex',
+                    '/^(ox)en/i' => '\\1',
+                    '/(alias|status)es$/i' => '\\1',
+                    '/([octop|vir])i$/i' => '\\1us',
+                    '/(cris|ax|test)es$/i' => '\\1is',
+                    '/(shoe)s$/i' => '\\1',
+                    '/(o)es$/i' => '\\1',
+                    '/(bus)es$/i' => '\\1',
+                    '/([m|l])ice$/i' => '\\1ouse',
+                    '/(x|ch|ss|sh)es$/i' => '\\1',
+                    '/(m)ovies$/i' => '\\1ovie',
+                    '/(s)eries$/i' => '\\1eries',
+                    '/([^aeiouy]|qu)ies$/i' => '\\1y',
+                    '/([lr])ves$/i' => '\\1f',
+                    '/(tive)s$/i' => '\\1',
+                    '/(hive)s$/i' => '\\1',
+                    '/([^f])ves$/i' => '\\1fe',
+                    '/(^analy)ses$/i' => '\\1sis',
+                    '/((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i' => '\\1\\2sis',
+                    '/([ti])a$/i' => '\\1um',
+                    '/(n)ews$/i' => '\\1ews'
+                ],
+                'INFLECTOR_UNCOUNTABLE' => [
+                    0 => 'vifaa',
+                    1 => 'habari',
+                    2 => 'mchele',
+                    3 => 'pesa',
+                    4 => 'spishi',
+                    5 => 'mfululizo',
+                    6 => 'samaki',
+                    7 => 'kondoo'
+                ],
+                'INFLECTOR_IRREGULAR' => [
+                    'person' => 'watu',
+                    'man' => 'wanaume',
+                    'child' => 'watoto',
+                    'sex' => 'jinsia',
+                    'move' => 'songa'
+                ],
+                'INFLECTOR_ORDINALS' => [
+                    'default' => 'th',
+                    'first' => 'st',
+                    'second' => 'nd',
+                    'third' => 'rd'
+                ],
+                'NICETIME' => [
+                    'NO_DATE_PROVIDED' => 'Hakuna tarehe iliyotolewa',
+                    'BAD_DATE' => 'Tarehe mbaya',
+                    'AGO' => 'zilizopita',
+                    'FROM_NOW' => 'kuanzia sasa',
+                    'JUST_NOW' => 'sasa hivi',
+                    'SECOND' => 'pili',
+                    'MINUTE' => 'dakika',
+                    'HOUR' => 'saa',
+                    'DAY' => 'siku',
+                    'WEEK' => 'wiki',
+                    'MONTH' => 'mwezi',
+                    'YEAR' => 'mwaka',
+                    'DECADE' => 'muongo',
+                    'SEC' => 'sec',
+                    'MIN' => 'min',
+                    'HR' => 'hr',
+                    'WK' => 'wk',
+                    'MO' => 'mo',
+                    'YR' => 'yr',
+                    'DEC' => 'dec',
+                    'SECOND_PLURAL' => 'sekunde',
+                    'MINUTE_PLURAL' => 'dakika',
+                    'HOUR_PLURAL' => 'masaa',
+                    'DAY_PLURAL' => 'siku',
+                    'WEEK_PLURAL' => 'wiki',
+                    'MONTH_PLURAL' => 'miezi',
+                    'YEAR_PLURAL' => 'miaka',
+                    'DECADE_PLURAL' => 'miongo',
+                    'SEC_PLURAL' => 'secs',
+                    'MIN_PLURAL' => 'mins',
+                    'HR_PLURAL' => 'hrs',
+                    'WK_PLURAL' => 'wks',
+                    'MO_PLURAL' => 'mos',
+                    'YR_PLURAL' => 'yrs',
+                    'DEC_PLURAL' => 'decs'
+                ],
+                'FORM' => [
+                    'VALIDATION_FAIL' => '<b> Uthibitishaji umeshindwa: </b>',
+                    'INVALID_INPUT' => 'Ingizo batili katika',
+                    'MISSING_REQUIRED_FIELD' => 'Sehemu inayokosekana inahitajika:',
+                    'XSS_ISSUES' => 'Masuala yanayowezekana ya XSS yamegunduliwa katika uwanja wa \'% s'
+                ],
+                'MONTHS_OF_THE_YEAR' => [
+                    0 => 'Januari',
+                    1 => 'Februari',
+                    2 => 'Machi',
+                    3 => 'Aprili',
+                    4 => 'Mei',
+                    5 => 'Juni',
+                    6 => 'Julai',
+                    7 => 'Agosti',
+                    8 => 'Septemba',
+                    9 => 'Oktoba',
+                    10 => 'Novemba',
+                    11 => 'Desemba'
+                ],
+                'DAYS_OF_THE_WEEK' => [
+                    0 => 'Jumatatu',
+                    1 => 'Jumanne',
+                    2 => 'Jumatano',
+                    3 => 'Alhamisi',
+                    4 => 'Ijumaa',
+                    5 => 'Jumamosi',
+                    6 => 'Jumapili'
+                ],
+                'YES' => 'Ndiyo',
+                'NO' => 'Hapana',
+                'CRON' => [
+                    'EVERY' => 'kila',
+                    'EVERY_HOUR' => 'kila saa',
+                    'EVERY_MINUTE' => 'kila dakika',
+                    'EVERY_DAY_OF_WEEK' => 'kila siku ya juma',
+                    'EVERY_DAY_OF_MONTH' => 'kila siku ya mwezi',
+                    'EVERY_MONTH' => 'kila mwezi',
+                    'TEXT_PERIOD' => 'Kila <b />',
+                    'TEXT_MINS' => ' saa <b /> dakika (saa) zilizopita saa',
+                    'TEXT_TIME' => ' saa <b />: <b />',
+                    'TEXT_DOW' => ' kwenye <b />',
+                    'TEXT_MONTH' => ' ya <b />',
+                    'TEXT_DOM' => ' kwenye <b />',
+                    'ERROR1' => 'Lebo% s haitumiki!',
+                    'ERROR2' => 'Idadi mbaya ya vitu',
+                    'ERROR3' => 'Jquery_element inapaswa kuwekwa kwenye mipangilio ya jqCron',
+                    'ERROR4' => 'Maneno yasiyotambulika'
+                ]
+            ]
+        ],
         'th' => [
             'GRAV' => [
                 'FRONTMATTER_ERROR_PAGE' => '---
-ชื่อเรื่อง: %1$s
+title: %1$s
 ---
 
-# ข้อผิดพลาด: Invalid Frontmatter
+# Error: Invalid Frontmatter
 
 Path: `%2$s`
 
@@ -5046,11 +5885,80 @@ Path: `%2$s`
 ```
 %4$s
 ```',
+                'INFLECTOR_PLURALS' => [
+                    '/(quiz)$/i' => '\\1zes',
+                    '/^(ox)$/i' => '\\1en',
+                    '/([m|l])ouse$/i' => '\\1ice',
+                    '/(matr|vert|ind)ix|ex$/i' => '\\1ices',
+                    '/(x|ch|ss|sh)$/i' => '\\1es',
+                    '/([^aeiouy]|qu)ies$/i' => '\\1y',
+                    '/([^aeiouy]|qu)y$/i' => '\\1ies',
+                    '/(hive)$/i' => '\\1s',
+                    '/(?:([^f])fe|([lr])f)$/i' => '\\1\\2ves',
+                    '/sis$/i' => 'ses',
+                    '/([ti])um$/i' => '\\1a',
+                    '/(buffal|tomat)o$/i' => '\\1oes',
+                    '/(bu)s$/i' => '\\1ses',
+                    '/(alias|status)/i' => '\\1es',
+                    '/(octop|vir)us$/i' => '\\1i',
+                    '/(ax|test)is$/i' => '\\1es',
+                    '/s$/i' => 's',
+                    '/$/' => 's'
+                ],
+                'INFLECTOR_SINGULAR' => [
+                    '/(quiz)zes$/i' => '\\1',
+                    '/(matr)ices$/i' => '\\1ix',
+                    '/(vert|ind)ices$/i' => '\\1ex',
+                    '/^(ox)en/i' => '\\1',
+                    '/(alias|status)es$/i' => '\\1',
+                    '/([octop|vir])i$/i' => '\\1us',
+                    '/(cris|ax|test)es$/i' => '\\1is',
+                    '/(shoe)s$/i' => '\\1',
+                    '/(o)es$/i' => '\\1',
+                    '/(bus)es$/i' => '\\1',
+                    '/([m|l])ice$/i' => '\\1ouse',
+                    '/(x|ch|ss|sh)es$/i' => '\\1',
+                    '/(m)ovies$/i' => '\\1ovie',
+                    '/(s)eries$/i' => '\\1eries',
+                    '/([^aeiouy]|qu)ies$/i' => '\\1y',
+                    '/([lr])ves$/i' => '\\1f',
+                    '/(tive)s$/i' => '\\1',
+                    '/(hive)s$/i' => '\\1',
+                    '/([^f])ves$/i' => '\\1fe',
+                    '/(^analy)ses$/i' => '\\1sis',
+                    '/((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i' => '\\1\\2sis',
+                    '/([ti])a$/i' => '\\1um',
+                    '/(n)ews$/i' => '\\1ews'
+                ],
+                'INFLECTOR_UNCOUNTABLE' => [
+                    0 => 'อุปกรณ์',
+                    1 => 'ข้อมูล',
+                    2 => 'ข้าว',
+                    3 => 'เงิน',
+                    4 => 'สายพันธุ์',
+                    5 => 'ซีรีส์',
+                    6 => 'ปลา',
+                    7 => 'แกะ'
+                ],
+                'INFLECTOR_IRREGULAR' => [
+                    'person' => 'คน',
+                    'man' => 'ผู้ชาย',
+                    'child' => 'เด็กเด็ก',
+                    'sex' => 'เพศ',
+                    'move' => 'ย้าย'
+                ],
+                'INFLECTOR_ORDINALS' => [
+                    'default' => 'th',
+                    'first' => 'st',
+                    'second' => 'nd',
+                    'third' => 'rd'
+                ],
                 'NICETIME' => [
                     'NO_DATE_PROVIDED' => 'ไม่มีวันที่ให้',
                     'BAD_DATE' => 'รูปแบบวันที่ผิด',
                     'AGO' => 'ที่ผ่านมา',
                     'FROM_NOW' => 'จากตอนนี้',
+                    'JUST_NOW' => 'เมื่อกี้',
                     'SECOND' => 'วินาที',
                     'MINUTE' => 'นาที',
                     'HOUR' => 'ชั่วโมง',
@@ -5062,6 +5970,10 @@ Path: `%2$s`
                     'SEC' => 'วิ',
                     'MIN' => 'นาที',
                     'HR' => 'ชม.',
+                    'WK' => 'wk',
+                    'MO' => 'mo',
+                    'YR' => 'yr',
+                    'DEC' => 'dec',
                     'SECOND_PLURAL' => 'วินาที',
                     'MINUTE_PLURAL' => 'นาที',
                     'HOUR_PLURAL' => 'ชั่วโมง',
@@ -5073,12 +5985,16 @@ Path: `%2$s`
                     'SEC_PLURAL' => 'วินาที',
                     'MIN_PLURAL' => 'นาที',
                     'HR_PLURAL' => 'ชั่วโมง',
-                    'YR_PLURAL' => 'ปี'
+                    'WK_PLURAL' => 'wks',
+                    'MO_PLURAL' => 'mos',
+                    'YR_PLURAL' => 'ปี',
+                    'DEC_PLURAL' => 'decs'
                 ],
                 'FORM' => [
                     'VALIDATION_FAIL' => '<b>ตรวจสอบล้มเหลว: </b>',
                     'INVALID_INPUT' => 'ป้อนข้อมูลไม่ถูกต้องใน',
-                    'MISSING_REQUIRED_FIELD' => 'ขาดข้อมูลที่จำเป็น:'
+                    'MISSING_REQUIRED_FIELD' => 'ขาดข้อมูลที่จำเป็น:',
+                    'XSS_ISSUES' => 'ตรวจพบปัญหา XSS ที่เป็นไปได้ในฟิลด์ \'%s\''
                 ],
                 'MONTHS_OF_THE_YEAR' => [
                     0 => 'มกราคม',
@@ -5102,6 +6018,26 @@ Path: `%2$s`
                     4 => 'ศุกร์',
                     5 => 'เสาร์',
                     6 => 'อาทิตย์'
+                ],
+                'YES' => 'ใช่',
+                'NO' => 'ไม่',
+                'CRON' => [
+                    'EVERY' => 'ทุก ๆ',
+                    'EVERY_HOUR' => 'ทุกชั่วโมง',
+                    'EVERY_MINUTE' => 'ทุกนาที',
+                    'EVERY_DAY_OF_WEEK' => 'ทุกวันในสัปดาห์',
+                    'EVERY_DAY_OF_MONTH' => 'ทุกวันของเดือน',
+                    'EVERY_MONTH' => 'ทุกเดือน',
+                    'TEXT_PERIOD' => 'ทุก ๆ <b />',
+                    'TEXT_MINS' => ' ที่ <b /> นาทีที่ผ่านไปแล้ว',
+                    'TEXT_TIME' => ' เวลา <b />:<b />',
+                    'TEXT_DOW' => ' บน <b />',
+                    'TEXT_MONTH' => ' จาก <b />',
+                    'TEXT_DOM' => ' บน <b />',
+                    'ERROR1' => 'ไม่รองรับแท็ก %s!',
+                    'ERROR2' => 'จำนวนองค์ประกอบไม่ดี',
+                    'ERROR3' => 'ควรตั้งค่า jquery_element เป็นการตั้งค่า jqCron',
+                    'ERROR4' => 'นิพจน์ที่ไม่รู้จัก'
                 ]
             ]
         ],
@@ -5456,6 +6392,8 @@ tiêu đề: %1$s
                     5 => '星期六',
                     6 => '星期日'
                 ],
+                'YES' => '是',
+                'NO' => '否',
                 'CRON' => [
                     'EVERY' => '每隔',
                     'EVERY_HOUR' => '每小时',
@@ -5556,6 +6494,8 @@ title: %1$s
                     5 => '星期六',
                     6 => '星期日'
                 ],
+                'YES' => '是',
+                'NO' => '否',
                 'CRON' => [
                     'EVERY' => '每',
                     'EVERY_HOUR' => '每小時',

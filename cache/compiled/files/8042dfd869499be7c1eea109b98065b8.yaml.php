@@ -2,12 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/user/config/versions.yaml',
-    'modified' => 1697146584,
-    'size' => 770,
+    'modified' => 1704502291,
+    'size' => 827,
     'data' => [
         'core' => [
             'grav' => [
-                'version' => '1.7.43',
+                'version' => '1.7.44',
                 'history' => [
                     0 => [
                         'version' => '1.7.18',
@@ -56,6 +56,10 @@ return [
                     11 => [
                         'version' => '1.7.43',
                         'date' => '2023-10-12 21:36:24'
+                    ],
+                    12 => [
+                        'version' => '1.7.44',
+                        'date' => '2024-01-06 00:51:31'
                     ]
                 ],
                 'schema' => '1.7.0_2020-11-20_1'

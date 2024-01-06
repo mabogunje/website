@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/config/media.yaml',
-    'modified' => 1696261370,
-    'size' => 4359,
+    'modified' => 1704455172,
+    'size' => 4436,
     'data' => [
         'types' => [
             'defaults' => [
@@ -277,6 +277,11 @@ return [
                 'type' => 'file',
                 'thumb' => 'media/thumb-json.png',
                 'mime' => 'application/json'
+            ],
+            'vcf' => [
+                'type' => 'file',
+                'thumb' => 'media/thumb-vcf.png',
+                'mime' => 'text/x-vcard'
             ]
         ]
     ]

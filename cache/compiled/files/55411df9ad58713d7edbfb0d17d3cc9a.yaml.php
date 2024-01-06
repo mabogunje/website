@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/he.yaml',
-    'modified' => 1696261370,
-    'size' => 1470,
+    'modified' => 1704455172,
+    'size' => 2530,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -15,11 +15,29 @@ return [
 ```
 %4$s
 ```',
+            'INFLECTOR_UNCOUNTABLE' => [
+                0 => 'ציוד',
+                1 => 'מידע',
+                2 => 'אורז',
+                3 => 'כסף',
+                4 => 'מינים',
+                5 => 'סדרה',
+                6 => 'דג',
+                7 => 'כבשה'
+            ],
+            'INFLECTOR_IRREGULAR' => [
+                'person' => 'אנשים',
+                'man' => 'גברים',
+                'child' => 'ילדים',
+                'sex' => 'מינים',
+                'move' => 'מהלכים'
+            ],
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => 'לא סופק תאריך',
                 'BAD_DATE' => 'תאריך פגום',
                 'AGO' => 'לפני',
                 'FROM_NOW' => 'כרגע',
+                'JUST_NOW' => 'כרגע',
                 'SECOND' => 'שנייה',
                 'MINUTE' => 'דקה',
                 'HOUR' => 'שעה',
@@ -54,7 +72,8 @@ return [
             'FORM' => [
                 'VALIDATION_FAIL' => '<b>האימות נכשל:</b>',
                 'INVALID_INPUT' => 'קלט לא חוקי',
-                'MISSING_REQUIRED_FIELD' => 'שדות חובה חסרים:'
+                'MISSING_REQUIRED_FIELD' => 'שדות חובה חסרים:',
+                'XSS_ISSUES' => 'בעיות XSS פוטנציאליות זוהו בשדה \'%s\''
             ],
             'MONTHS_OF_THE_YEAR' => [
                 0 => 'ינואר',
@@ -78,6 +97,26 @@ return [
                 4 => 'שישי',
                 5 => 'שבת',
                 6 => 'ראשון'
+            ],
+            'YES' => 'כן',
+            'NO' => 'לא',
+            'CRON' => [
+                'EVERY' => 'בכל',
+                'EVERY_HOUR' => 'בכל שעה',
+                'EVERY_MINUTE' => 'כל דקה',
+                'EVERY_DAY_OF_WEEK' => 'כל יום בשבוע',
+                'EVERY_DAY_OF_MONTH' => 'בכל יום בחודש',
+                'EVERY_MONTH' => 'כל חודש',
+                'TEXT_PERIOD' => 'כל  <b />',
+                'TEXT_MINS' => 'ב <b /> דקות אחרי השעה',
+                'TEXT_TIME' => 'ב  <b />:<b />',
+                'TEXT_DOW' => 'ב  <b />',
+                'TEXT_MONTH' => 'של  <b />',
+                'TEXT_DOM' => 'ב  <b />',
+                'ERROR1' => 'התגית %s אינו נתמכת',
+                'ERROR2' => 'מספר לא חוקי של משתנים.',
+                'ERROR3' => 'יש להגדיר את ה-jquery_element להגדרות jqCron',
+                'ERROR4' => 'ביטוי לא מזוהה'
             ]
         ]
     ]

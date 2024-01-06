@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/config/security.yaml',
-    'modified' => 1696261370,
-    'size' => 670,
+    'modified' => 1704455172,
+    'size' => 749,
     'data' => [
         'xss_whitelist' => [
             0 => 'admin.super'
@@ -44,11 +44,18 @@ return [
         ],
         'uploads_dangerous_extensions' => [
             0 => 'php',
-            1 => 'phar',
-            2 => 'html',
-            3 => 'htm',
-            4 => 'js',
-            5 => 'exe'
+            1 => 'php2',
+            2 => 'php3',
+            3 => 'php4',
+            4 => 'php5',
+            5 => 'phar',
+            6 => 'phtml',
+            7 => 'html',
+            8 => 'htm',
+            9 => 'shtml',
+            10 => 'shtm',
+            11 => 'js',
+            12 => 'exe'
         ],
         'sanitize_svg' => true
     ]

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/zh.yaml',
-    'modified' => 1696261370,
-    'size' => 3453,
+    'modified' => 1704455172,
+    'size' => 3478,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -152,6 +152,8 @@ return [
                 5 => '星期六',
                 6 => '星期日'
             ],
+            'YES' => '是',
+            'NO' => '否',
             'CRON' => [
                 'EVERY' => '每隔',
                 'EVERY_HOUR' => '每小时',

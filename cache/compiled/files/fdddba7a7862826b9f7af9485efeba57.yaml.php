@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/nl.yaml',
-    'modified' => 1696261370,
-    'size' => 3590,
+    'modified' => 1704455172,
+    'size' => 3677,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -127,7 +127,8 @@ Pad: `%2$s`
             'FORM' => [
                 'VALIDATION_FAIL' => '<b>Validatie mislukt:</b>',
                 'INVALID_INPUT' => 'Ongeldige invoer in',
-                'MISSING_REQUIRED_FIELD' => 'Ontbrekend verplicht veld:'
+                'MISSING_REQUIRED_FIELD' => 'Ontbrekend verplicht veld:',
+                'XSS_ISSUES' => 'Mogelijke XSS-problemen ontdekt in \'%s\' veld'
             ],
             'MONTHS_OF_THE_YEAR' => [
                 0 => 'Januari',
@@ -152,6 +153,8 @@ Pad: `%2$s`
                 5 => 'Zaterdag',
                 6 => 'Zondag'
             ],
+            'YES' => 'Ja',
+            'NO' => 'Nee',
             'CRON' => [
                 'EVERY' => 'elke',
                 'EVERY_HOUR' => 'elk uur',

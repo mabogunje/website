@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/is.yaml',
-    'modified' => 1696261370,
-    'size' => 1810,
+    'modified' => 1704455172,
+    'size' => 1770,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -20,14 +20,14 @@ Slóð: `%2$s`
 %4$s
 ```',
             'INFLECTOR_UNCOUNTABLE' => [
-                0 => 'equipment',
+                0 => '',
                 1 => 'upplýsingar',
-                2 => 'rice',
-                3 => 'money',
-                4 => 'species',
-                5 => 'series',
-                6 => 'fish',
-                7 => 'sheep'
+                2 => '',
+                3 => '',
+                4 => '',
+                5 => '',
+                6 => '',
+                7 => ''
             ],
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => 'Engin dagsetning gefin',

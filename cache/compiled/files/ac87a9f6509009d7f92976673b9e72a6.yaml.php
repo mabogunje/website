@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/ko.yaml',
-    'modified' => 1696261370,
-    'size' => 1334,
+    'modified' => 1704455172,
+    'size' => 2075,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -19,11 +19,25 @@ title: %1$s
 ```
 %4$s
 ```',
+            'INFLECTOR_UNCOUNTABLE' => [
+                0 => '장비',
+                1 => '정보',
+                2 => '',
+                3 => '',
+                4 => '',
+                5 => '시리즈',
+                6 => '물고기',
+                7 => ''
+            ],
+            'INFLECTOR_IRREGULAR' => [
+                'person' => '사람들'
+            ],
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => '제공된 날짜가 없습니다',
                 'BAD_DATE' => '잘못된 날짜',
                 'AGO' => '전',
                 'FROM_NOW' => '후',
+                'JUST_NOW' => '방금',
                 'SECOND' => '초',
                 'MINUTE' => '분',
                 'HOUR' => '시간',
@@ -58,7 +72,8 @@ title: %1$s
             'FORM' => [
                 'VALIDATION_FAIL' => '<b>유효성 검사 실패:</b>',
                 'INVALID_INPUT' => '잘못된 입력',
-                'MISSING_REQUIRED_FIELD' => '누락 된 필수 필드:'
+                'MISSING_REQUIRED_FIELD' => '누락 된 필수 필드:',
+                'XSS_ISSUES' => '\'%s\' 필드에서 잠재적인 XSS 문제가 감지되었습니다.'
             ],
             'MONTHS_OF_THE_YEAR' => [
                 0 => '일월',
@@ -82,6 +97,21 @@ title: %1$s
                 4 => '금요일',
                 5 => '토요일',
                 6 => '일요일'
+            ],
+            'YES' => '네',
+            'NO' => '아니요',
+            'CRON' => [
+                'EVERY' => '모두',
+                'EVERY_HOUR' => '매 시간',
+                'EVERY_MINUTE' => '매 분',
+                'EVERY_DAY_OF_WEEK' => '일주일간 매일',
+                'EVERY_DAY_OF_MONTH' => '일개월간 매일',
+                'EVERY_MONTH' => '매달',
+                'TEXT_PERIOD' => '모든 <b />',
+                'ERROR1' => '%s 태그는 지원되지 않습니다. ',
+                'ERROR2' => '잘못된 요소 수',
+                'ERROR3' => 'jquery_element는 jqCron 설정에서 설정할 수 있습니다.',
+                'ERROR4' => '인식할 수 없는 표현'
             ]
         ]
     ]

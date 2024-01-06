@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/config/site.yaml',
-    'modified' => 1696261370,
-    'size' => 1511,
+    'modified' => 1704455172,
+    'size' => 1509,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',

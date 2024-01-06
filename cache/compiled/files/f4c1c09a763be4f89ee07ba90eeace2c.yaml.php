@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/blueprints/config/system.yaml',
-    'modified' => 1696261370,
-    'size' => 57761,
+    'modified' => 1704455172,
+    'size' => 57833,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -126,7 +126,8 @@ return [
                                         'l jS \\of F g:i A' => 'Date2',
                                         'D, d M Y G:i:s' => 'Date3',
                                         'd-m-y G:i' => 'Date4',
-                                        'jS M Y' => 'Date5'
+                                        'jS M Y' => 'Date5',
+                                        'Y-m-d G:i' => 'Date6'
                                     ]
                                 ],
                                 'pages.dateformat.long' => [
@@ -140,7 +141,8 @@ return [
                                         'l jS \\of F g:i A' => 'Date2',
                                         'D, d M Y G:i:s' => 'Date3',
                                         'd-m-y G:i' => 'Date4',
-                                        'jS M Y' => 'Date5'
+                                        'jS M Y' => 'Date5',
+                                        'Y-m-d G:i:s' => 'Date6'
                                     ]
                                 ],
                                 'pages.order.by' => [

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/ru.yaml',
-    'modified' => 1696261370,
-    'size' => 2996,
+    'modified' => 1704455172,
+    'size' => 3329,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -19,6 +19,18 @@ title: %1$s
 ```
 %4$s
 ```',
+            'INFLECTOR_SINGULAR' => [
+                '/([octop|vir])i$/i' => '\\1us',
+                '/(cris|ax|test)es$/i' => '\\1is',
+                '/(shoe)s$/i' => '\\1',
+                '/([lr])ves$/i' => '\\1f',
+                '/(tive)s$/i' => '\\1
+',
+                '/(hive)s$/i' => '\\1',
+                '/([^f])ves$/i' => '\\1fe',
+                '/(^analy)ses$/i' => '\\1sis',
+                '/((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$/i' => '\\1\\2sis'
+            ],
             'INFLECTOR_UNCOUNTABLE' => [
                 0 => 'экипировка',
                 1 => 'информация',

@@ -1,37 +1,37 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1697146721,
-    'checksum' => 'eb2798e3925c1afa32ff1f4b3a055982',
+    'timestamp' => 1704502299,
+    'checksum' => '7087fba22ae68cc63a03140c200f8936',
     'files' => [
         'system/blueprints/config' => [
             'backups' => [
                 'file' => 'system/blueprints/config/backups.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'scheduler' => [
                 'file' => 'system/blueprints/config/scheduler.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'security' => [
                 'file' => 'system/blueprints/config/security.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1696261370
+                'modified' => 1704455172
             ]
         ],
         'user/plugins' => [
@@ -775,7 +775,8 @@ return [
                     'l jS \\of F g:i A' => 'Date2',
                     'D, d M Y G:i:s' => 'Date3',
                     'd-m-y G:i' => 'Date4',
-                    'jS M Y' => 'Date5'
+                    'jS M Y' => 'Date5',
+                    'Y-m-d G:i' => 'Date6'
                 ],
                 'name' => 'system.pages.dateformat.short',
                 'validation' => 'loose'
@@ -790,7 +791,8 @@ return [
                     'l jS \\of F g:i A' => 'Date2',
                     'D, d M Y G:i:s' => 'Date3',
                     'd-m-y G:i' => 'Date4',
-                    'jS M Y' => 'Date5'
+                    'jS M Y' => 'Date5',
+                    'Y-m-d G:i:s' => 'Date6'
                 ],
                 'name' => 'system.pages.dateformat.long',
                 'validation' => 'loose'

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/pt.yaml',
-    'modified' => 1696261370,
-    'size' => 3777,
+    'modified' => 1704455172,
+    'size' => 3774,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -90,7 +90,7 @@ Localização: `%2$s`
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => 'Nenhuma data fornecida',
                 'BAD_DATE' => 'Data inválida',
-                'AGO' => 'atrás',
+                'AGO' => 'há',
                 'FROM_NOW' => 'a partir de agora',
                 'JUST_NOW' => 'mesmo agora',
                 'SECOND' => 'segundo',

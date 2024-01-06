@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/es.yaml',
-    'modified' => 1696261370,
-    'size' => 2515,
+    'modified' => 1704455172,
+    'size' => 2508,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
@@ -42,9 +42,9 @@ Ruta: `%2$s`
                 'move' => 'movido'
             ],
             'INFLECTOR_ORDINALS' => [
-                'first' => 'ro',
-                'second' => 'do',
-                'third' => 'ro'
+                'first' => '.º',
+                'second' => '.º',
+                'third' => '.º'
             ],
             'NICETIME' => [
                 'NO_DATE_PROVIDED' => 'No se proporcionó fecha',
@@ -127,7 +127,7 @@ Ruta: `%2$s`
                 'TEXT_DOW' => ' en <b />',
                 'TEXT_MONTH' => ' de<b />',
                 'TEXT_DOM' => ' en<b />',
-                'ERROR1' => '¡La etiqueta %s no está soportada!',
+                'ERROR1' => 'No se admite la etiqueta %s.',
                 'ERROR2' => 'El número de elementos es erróneo',
                 'ERROR3' => 'El jquery_element debería establecerse en la configuración del jqCron',
                 'ERROR4' => 'Expresión no reconocida'

@@ -2,17 +2,17 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/ja.yaml',
-    'modified' => 1696261370,
-    'size' => 1534,
+    'modified' => 1704455172,
+    'size' => 1508,
     'data' => [
         'GRAV' => [
             'INFLECTOR_UNCOUNTABLE' => [
-                0 => 'equipment',
+                0 => '',
                 1 => '情報',
-                2 => 'rice',
+                2 => '',
                 3 => 'お金',
-                4 => 'species',
-                5 => 'series',
+                4 => '',
+                5 => '',
                 6 => '魚',
                 7 => 'ヒツジ'
             ],

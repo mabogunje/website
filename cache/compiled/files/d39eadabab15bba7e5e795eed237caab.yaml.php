@@ -2,17 +2,17 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/system/languages/cs.yaml',
-    'modified' => 1696261370,
-    'size' => 3651,
+    'modified' => 1704455172,
+    'size' => 3650,
     'data' => [
         'GRAV' => [
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
 ---
 
-# Chyba: Chybný frontmatter
+# Chyba: Chybná hlavička
 
-Path: `%2$s`
+Cesta: `%2$s`
 
 **%3$s**
 

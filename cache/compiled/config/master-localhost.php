@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1704502299,
-    'checksum' => '01f03c0f242e32e2f37dd44d8b37e31f',
+    'timestamp' => 1710365190,
+    'checksum' => '086dac424827734c30f0b9dfdae8b346',
     'files' => [
         'user/config' => [
             'media' => [
@@ -93,7 +93,7 @@ return [
             ],
             'themes/developer-me' => [
                 'file' => 'user/themes/developer-me/developer-me.yaml',
-                'modified' => 1699568635
+                'modified' => 1710365180
             ],
             'themes/quark' => [
                 'file' => 'user/themes/quark/quark.yaml',
@@ -181,7 +181,7 @@ return [
             'developer-me' => [
                 'profile' => [
                     'name' => 'Damola Mabogunje',
-                    'desc' => 'More than a software engineer...',
+                    'desc' => 'Writer. Coder. Analyst.',
                     'avatar_url' => 'https://www.gravatar.com/avatar/f3e9cf7882f1eaa6da23a6553f4e2128?s=180',
                     'information' => [
                         0 => [

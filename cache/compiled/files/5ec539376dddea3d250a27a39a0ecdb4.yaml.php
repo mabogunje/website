@@ -2,12 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/damola/Sites/www/user/themes/developer-me/developer-me.yaml',
-    'modified' => 1699568635,
-    'size' => 2481,
+    'modified' => 1710365180,
+    'size' => 2472,
     'data' => [
         'profile' => [
             'name' => 'Damola Mabogunje',
-            'desc' => 'More than a software engineer...',
+            'desc' => 'Writer. Coder. Analyst.',
             'avatar_url' => 'https://www.gravatar.com/avatar/f3e9cf7882f1eaa6da23a6553f4e2128?s=180',
             'information' => [
                 0 => [

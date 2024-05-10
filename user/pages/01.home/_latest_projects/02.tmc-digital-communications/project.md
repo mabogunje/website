@@ -1,6 +1,7 @@
 ---
 title: "TMC Digital Communications"
 cover: "user/themes/developer-me/assets/images/projects/tmc-website.png"
+label: Web Presence
 link:
   url: "https://tmc.com.ng/"
   title: "Visit Us"

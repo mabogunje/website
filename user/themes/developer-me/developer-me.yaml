@@ -31,8 +31,8 @@ profile:
 
     - icon: "link"
       label: "Website"
-      url: "http://mabogunje.net"
-      text: "http://mabogunje.net"
+      url: "https://mabogunje.net"
+      text: "https://mabogunje.net"
 
     - icon: "newspaper-o"
       label: "Newsletter"

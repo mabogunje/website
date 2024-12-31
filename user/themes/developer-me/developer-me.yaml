@@ -70,6 +70,7 @@ rss_feed:
     url: 
       - 'https://theredstringblog.com/rss/'
       - 'https://insightlabs.ng/blog.rss/'
+      - 'https://tmc.com.ng/blog/feed'
     limit: 1
     date_fmt: "Do MMM[,] YYYY"
     effect: "slideFast"

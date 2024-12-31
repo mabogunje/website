@@ -4,7 +4,7 @@
     $("#rss-feeds").rss(
 
       //Change this to your own rss feeds
-      "{{ theme_config.rss_feed.url }}",
+      "{{ theme_config.rss_feed.url|join(', ') }}",
 
       {
         // how many entries do you want?

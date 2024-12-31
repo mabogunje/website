@@ -67,7 +67,9 @@ github: "mabogunje"
 
 # Blog
 rss_feed:
-    url: "https://theredstringblog.com/rss/"
+    url: 
+      - 'https://theredstringblog.com/rss/'
+      - 'https://insightlabs.ng/blog.rss/'
     limit: 1
     date_fmt: "Do MMM[,] YYYY"
     effect: "slideFast"

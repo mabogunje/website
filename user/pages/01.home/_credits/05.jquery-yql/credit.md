@@ -1,3 +1,0 @@
----
-title: "jQuery YQL (Alpha)"
----

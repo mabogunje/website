@@ -10,7 +10,7 @@
       <div class="primary col-md-8 col-sm-12 col-xs-12">
         {% for module in collection if module.header.section_position != 'sidebar' %}
           <section class="{{ module.header.section_class | default(_self.pageLinkName(module.menu)) }} section">
-            <div class="section-inner">
+            <div class="section-inner shadow-sm rounded">
               <h2 class="heading">{{ module.title }}</h2>
               <div class="content">{{ module.content }}</div>
             </div>

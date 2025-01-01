@@ -7,7 +7,7 @@
         <p class="spinner-text monospace">Crunching <a href="https://github.com/{{ theme_config.github }}">@{{ theme_config.github }}</a>'s contributions just for you.</p>
     </div>
     {% else %}
-    <p><a href="https://github.com/{{ theme_config.github }}?tab=repositories"><img class="img-responsive" src="{{ page.header.chart }}" alt="GitHub Contributions Chart" /></a></p>
+    <p><a href="https://github.com/{{ theme_config.github }}?tab=repositories"><img class="img-fluid" src="{{ page.header.chart }}" alt="GitHub Contributions Chart" /></a></p>
     {% endif %}
 {% else %}
   <p>This theme uses <a href="https://github.com/Bloggify/github-calendar/">this plugin</a> to generate a Github calendar of commits. Just like on the GitHub website.</p>

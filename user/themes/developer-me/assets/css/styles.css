@@ -10,7 +10,7 @@
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #434343;
-  background: #acbae1;
+  background: #acbae1 !important;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -89,6 +89,8 @@ a.btn-cta-secondary:hover,
 .label-theme {
   background: #3AAA64;
   font-size: 12px;
+  color: #fff;
+  padding: 5px;
 }
 a.dotted-link {
   border-bottom: 1px dotted #778492;
@@ -195,6 +197,8 @@ iframe {
 .latest .item .title .label {
   margin-left: 5px;
   font-size: 12px;
+  padding: 5px;
+  color: #fff;
 }
 .latest .item .title a {
   color: #778492;
@@ -226,6 +230,7 @@ iframe {
 }
 .latest .featured .desc {
   margin-bottom: 30px;
+  text-align: justify;
 }
 .latest .featured-image {
   position: relative;

@@ -3,9 +3,9 @@
 {% if collection %}
   {% for item in collection %}
       <div class="item row">
-        <a class="col-md-4 col-sm-4 col-xs-12" {% if item.header.link.buy.url %}href="{{ item.header.link.buy.url }}"{% endif %}>
+        <a class="col-md-4 col-12" {% if item.header.link.buy.url %}href="{{ item.header.link.buy.url }}"{% endif %}>
           {% if item.header.cover %}
-            <img class="img-responsive book-image" src="{{ item.header.cover }}" alt="{{ item.slug }} book" />
+            <img class="img-fluid book-image rounded shadow-sm" src="{{ item.header.cover }}" alt="{{ item.slug }} book" />
           {% endif %}
         </a>
         <div class="desc col-md-8 col-sm-8 col-xs-12">
@@ -24,7 +24,7 @@
             <a class="btn btn-success" href="{{ item.header.link.buy.url }}" target="_blank"><i class="fa fa-shopping-cart"></i> {{ item.header.link.buy.title|defined("Buy") }}</a>
           {% endif %}
           {% if item.header.link.review.url %}
-            <a class="btn btn-info" href="{{ item.header.link.review.url }}" target="_blank"><i class="fa fa-file-text"></i> {{ item.header.link.review.title|defined("Review") }}</a>
+            <a class="btn btn-danger" href="{{ item.header.link.review.url }}" target="_blank"><i class="fa fa-file-text"></i> {{ item.header.link.review.title|defined("Review") }}</a>
           {% endif %}
           </p>
           <p>

@@ -1,6 +1,6 @@
 ---
 
-title: "Ao no Exorcist: Shimane Illuminati-hen"
-link: "https://myanimelist.net/anime/53889/Ao_no_Exorcist__Shimane_Illuminati-hen"
+title: "Ao no Exorcist: Yuki no Hate-hen"
+link: "https://myanimelist.net/anime/58516/Ao_no_Exorcist__Yuki_no_Hate-hen"
   
 ---

@@ -227,34 +227,40 @@ td.ContributionCalendar-day {
     min-width: 10px;
 }
 
-td.ContributionCalendar-day[data-level='0'] {
+td.ContributionCalendar-day[data-level='0'], div.ContributionCalendar-day[data-level='0'] {
     background-color: var(--color-calendar-graph-day-bg);
 }
 
-td.ContributionCalendar-day[data-level='1'] {
+td.ContributionCalendar-day[data-level='1'], div.ContributionCalendar-day[data-level='1'] {
     background-color: var(--color-calendar-graph-day-L1-bg);
 }
 
-td.ContributionCalendar-day[data-level='2'] {
+td.ContributionCalendar-day[data-level='2'], div.ContributionCalendar-day[data-level='2'] {
     background-color: var(--color-calendar-graph-day-L2-bg);
 }
 
-td.ContributionCalendar-day[data-level='3'] {
+td.ContributionCalendar-day[data-level='3'], div.ContributionCalendar-day[data-level='3']{
     background-color: var(--color-calendar-graph-day-L3-bg);
 }
 
-td.ContributionCalendar-day[data-level='4'] {
+td.ContributionCalendar-day[data-level='4'], div.ContributionCalendar-day[data-level='4'] {
     background-color: var(--color-calendar-graph-day-L4-bg);
 }
 
 /* Dark Mode */
-body[data-theme="dark"] td.ContributionCalendar-day {
-    border: 3px solid rgba(27, 31, 35);
+body[data-theme="dark"] td.ContributionCalendar-day { 
+    border: 3px solid #161b22;
     border-radius: 3px;
     min-width: 10px;
 }
 
-body[data-theme="dark"] td.ContributionCalendar-day[data-level='0'] {
-    background-color: var(--color-calendar-graph-day-bg-dark);
+body[data-theme="dark"] div.ContributionCalendar-day {
+    border: 1px solid #161b22;
+    border-radius: 3px;
+    min-width: 10px;
+}
+
+body[data-theme="dark"] td.ContributionCalendar-day[data-level='0'], body[data-theme="dark"] div.ContributionCalendar-day[data-level='0'] {
+    background-color: var(--color-calendar-graph-day-bg-dark); 
 }
 

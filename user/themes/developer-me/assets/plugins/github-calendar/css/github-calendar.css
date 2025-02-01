@@ -249,13 +249,13 @@ td.ContributionCalendar-day[data-level='4'], div.ContributionCalendar-day[data-l
 
 /* Dark Mode */
 body[data-theme="dark"] td.ContributionCalendar-day { 
-    border: 3px solid #161b22;
+    border: 3px solid #1e2124;
     border-radius: 3px;
     min-width: 10px;
 }
 
 body[data-theme="dark"] div.ContributionCalendar-day {
-    border: 1px solid #161b22;
+    border: 1px solid #1e2124;
     border-radius: 3px;
     min-width: 10px;
 }

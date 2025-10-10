@@ -1,16 +1,20 @@
 ---
 title: "Yorùdí"
 cover: "user/themes/developer-me/assets/images/projects/dictionary.png"
-label: "CLI Utility"
+label: "Web App"
 link:
-  url: "https://github.com/mabogunje/yorudi"
-  title: "View it on GitHub"
-
+  url: "https://mabogunje.github.io/yorudi/"
+  title: "Use it on GitHub Pages"
+ 
 ---
-Yorùdí is a command-line Yoruba to English dictionary that I
-developed for myself to help me learn 2 languages at once: Scala,
+Yorùdí started life as a command-line Yoruba to English dictionary that
+I developed for myself to help me learn 2 languages at once: **Scala**,
 and **Yoruba**.
 
-The tool is constantly in development as I add new
-words to my dictionary all the time! (and once in a blue moon
-some new features too :) )
+However in 2025, spurred on by the interest of some users, I decided to
+expand the project into a live REST API and simple home page for easy use
+of the dictionary. Now it lives on as a Web App hosted on Azure and GitHub
+Pages.
+
+I periodically update this app as I add new words to my dictionary all the
+time! (and once in a blue moon some new features too :) )

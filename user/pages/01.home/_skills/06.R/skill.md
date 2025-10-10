@@ -6,6 +6,6 @@ applications:
   - R Studio
 
 level:
-  value: 40
+  value: 30
  
 ---

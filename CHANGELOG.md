@@ -1,3 +1,27 @@
+# v1.7.53.3
+## 08/31/2026
+
+1. [](#improved)
+    * The debugger's Clockwork data endpoint now answers only requests coming from the server itself, or requests presenting the secret set in the new `debugger.token` option. Cookies and API tokens are no longer recorded in profiler data whatever the `censored` option is set to
+    * A field that is rejected only for being too long or too short now says so, and gives both the length submitted and the limit, instead of the same "Invalid input" any other bad value gets
+    * Multiline fields no longer carry a length limit low enough to affect real writing. Set `max: 0` on a field to remove the limit altogether
+1. [](#bugfix)
+    * [security] Form security tokens are now compared with a routine that takes the same amount of time whichever characters differ, so the check can no longer hint at how much of a guess was right ([GHSA-38p6-h87p-r4cg](https://github.com/getgrav/grav/security/advisories/GHSA-38p6-h87p-r4cg)).
+    * A long page can be saved from the admin again. Page content was capped at 65,536 characters, so anything longer than roughly twenty pages of text was refused, and the only way to edit it was to write the file directly [#3643](https://github.com/getgrav/grav/issues/3643)
+
+# v1.7.53.2
+## 06/30/2026
+
+1. [](#bugfix)
+    * [security] Flex user avatars stored under `user/accounts/<username>/` (folder storage) are now served too; the 1.7.53.1 avatar carve-out only covered the flatfile `user/accounts/avatars/` layout, so folder-storage avatars kept returning a 403. Existing sites self-heal on upgrade. Fixes [getgrav/grav#4185](https://github.com/getgrav/grav/issues/4185).
+
+# v1.7.53.1
+## 06/30/2026
+
+1. [](#bugfix)
+    * The `user/data` block added in 1.7.53 now makes an exception for public media uploads, such as Flex Object images, so they keep displaying instead of returning a 403, while data files, databases and keys stay blocked. Fixes [getgrav/grav#4129](https://github.com/getgrav/grav/issues/4129).
+    * [security] Profile avatars display again instead of returning a 403; the folder hardening that locked down `user/accounts` now makes a narrow exception for avatar images while account data such as password hashes stays blocked, and existing sites self-heal on upgrade. Fixes [getgrav/grav#4185](https://github.com/getgrav/grav/issues/4185).
+
 # v1.7.53
 ## 06/16/2026
 

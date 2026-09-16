@@ -1,6 +1,6 @@
 ---
 title: "Yorùdí"
-cover: "user/themes/developer-me/assets/images/projects/dictionary.png"
+cover: "user/themes/developer-me/assets/images/projects/yorudi.png"
 label: "Web App"
 link:
   url: "https://mabogunje.github.io/yorudi/"

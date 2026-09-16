@@ -1,3 +1,17 @@
+# v2.1.5
+## 08/04/2026
+
+1. [](#bugfix)
+    * The theme no longer ships a rule that kept custom logos out of your site's git repository
+
+# v2.1.4
+## 07/17/2026
+
+1. [](#new)
+    * Tag lists now respect an optional `filterend` limit so you can cap how many tags are shown ([#219](https://github.com/getgrav/grav-theme-quark/issues/219))
+2. [](#bugfix)
+    * Removed a development template that was inadvertently packaged in 2.1.3
+
 # v2.1.2
 ## 8/25/2025
 

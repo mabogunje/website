@@ -1,3 +1,21 @@
+# v2.0.4
+## 08/28/2026
+
+1. [](#improved)
+    * The Spanish translation now covers every string, and trailing whitespace was cleaned out of the German and Romanian entries. Thanks to @pmoreno-rodriguez
+
+# v2.0.3
+## 08/24/2026
+
+1. [](#bugfix)
+    * Fixed a blank page being served instead of the error page when the site has an `error` folder that contains no actual page file. The empty folder was being treated as a usable page, and was returned with a success status rather than a 404 [#49](https://github.com/getgrav/grav-plugin-error/issues/49).
+
+# v2.0.2
+## 07/25/2026
+
+1. [](#new)
+    * Added a Spanish translation for the error page ([#48](https://github.com/getgrav/grav-plugin-error/pull/48)).
+
 # v2.0.1
 ## 06/17/2026
 

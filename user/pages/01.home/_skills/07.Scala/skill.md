@@ -1,11 +1,11 @@
 ---
-title: "Python"
+title: "Scala"
 
 applications:
+  - SBT
   - Standalone
-  - Django
 
 level:
-  value: 65
-
+  value: 40
+  
 ---

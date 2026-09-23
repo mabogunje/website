@@ -2,10 +2,10 @@
 title: "PHP"
 
 applications:
-  - Standalone
-  - WordPress
   - Drupal
   - Grav
+  - Standalone
+  - WordPress
 
 level:
   value: 75

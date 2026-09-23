@@ -1,11 +1,10 @@
 ---
-title: "Scala"
+title: "Tableau"
 
 applications:
   - Standalone
-  - SBT
 
 level:
-  value: 40
-  
+  value: 50
+
 ---

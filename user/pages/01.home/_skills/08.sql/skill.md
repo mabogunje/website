@@ -3,8 +3,8 @@ title: "SQL & NoSQL"
 
 applications:
   - BigQuery
-  - MySQL
   - Mongo DB
+  - MySQL
 
 level:
   value: 50

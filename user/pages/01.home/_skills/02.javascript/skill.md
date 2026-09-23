@@ -2,10 +2,10 @@
 title: "JavaScript"
 
 applications:
-  - Standalone
-  - jQuery
   - Ember JS
-  - Node
+  - jQuery
+  - Node JS
+  - Standalone
 
 level:
   value: 75
